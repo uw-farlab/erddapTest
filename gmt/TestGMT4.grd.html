@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>C:\backup\data\TestGMT4.grd</title>
+</head>
+<body bgcolor="white" text="black">
+  <img src="file://C:\backup\data\TestGMT4.png">
+<p><pre>
+netcdf C:\backup\data\TestGMT4.grd {
+ dimensions:
+   x = 4001;   // (has coord.var)
+   y = 2321;   // (has coord.var)
+ variables:
+   double x(x=4001);
+     :long_name = "x";
+     :actual_range = 205.0, 255.0; // double
+   float y(y=2321);
+     :long_name = "y";
+     :actual_range = 22.0, 51.0; // double
+   float z(y=2321, x=4001);
+     :long_name = "z";
+     :_FillValue = NaNf; // float
+     :actual_range = 0.0010000000474974513, 183.41700744628906; // double
+     :coordinates = "x y";
+
+ :Conventions = "COARDS, CF-1.0";
+ :title = "/u00/modisgf/data/2007/1day/MW2007339_2007339_chla.grd";
+ :history = "nearneighbor -V -R205/255/22/51 -I0.0125/0.0125 -S2k -G/u00/modisgf/data/2007/1day/MW2007339_2007339_chla.grd -N1";
+ :GMT_version = "4.2.1";
+ :node_offset = 0; // int
+}
+
+</pre>
+</body>
+</html>

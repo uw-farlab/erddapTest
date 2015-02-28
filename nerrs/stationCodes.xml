@@ -1,0 +1,4254 @@
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <ns1:exportStationCodesXMLResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://cdmo.baruch.sc.edu/webservices/xmldatarequest.cfc?wsdl">
+   <exportStationCodesXMLReturn xsi:type="ns2:Document" xmlns:ns2="http://xml.apache.org/xml-soap">
+    <nds>
+     <data>
+      <r>
+       <c v="NERR_Site_ID"/>
+       <c v="Station_Code"/>
+       <c v="Station_Name"/>
+       <c v="Lat_Long"/>
+       <c v="Latitude"/>
+       <c v="Longitude"/>
+       <c v="Status"/>
+       <c v="Active_Dates"/>
+       <c v="State"/>
+       <c v="Reserve_Name"/>
+       <c v="Params_Reported"/>
+       <c v="Real_Time"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acebbnut  "/>
+       <c v="Big Bay                                 "/>
+       <c v="32&#xB0; 29' 38.76 N, 80&#xB0; 19' 26.76 W"/>
+       <c v="32.4941"/>
+       <c v="80.3241"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acebbwq   "/>
+       <c v="Big Bay                                 "/>
+       <c v="32&#xB0; 29' 38.76 N, 80&#xB0; 19' 26.76 W"/>
+       <c v="32.4941"/>
+       <c v="80.3241"/>
+       <c v="Active    "/>
+       <c v="Mar 1995-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acebpmet  "/>
+       <c v="Bennett's Point                         "/>
+       <c v="32&#xB0; 33' 31.32 N, 80&#xB0; 27' 13.32 W"/>
+       <c v="32.5587"/>
+       <c v="80.4537"/>
+       <c v="Active    "/>
+       <c v="Mar 2001-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acefcnut  "/>
+       <c v="Fishing Creek                           "/>
+       <c v="32&#xB0; 38' 8.88 N, 80&#xB0; 21' 55.80 W"/>
+       <c v="32.6358"/>
+       <c v="80.3655"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acefcwq   "/>
+       <c v="Fishing Creek                           "/>
+       <c v="32&#xB0; 38' 8.88 N, 80&#xB0; 21' 55.80 W"/>
+       <c v="32.6358"/>
+       <c v="80.3655"/>
+       <c v="Active    "/>
+       <c v="Oct 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acemcnut  "/>
+       <c v="Mosquito Creek                          "/>
+       <c v="32&#xB0; 33' 20.88 N, 80&#xB0; 26' 16.80 W"/>
+       <c v="32.5558"/>
+       <c v="80.438"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acemcwq   "/>
+       <c v="Mosquito Creek                          "/>
+       <c v="32&#xB0; 33' 20.88 N, 80&#xB0; 26' 16.80 W"/>
+       <c v="32.5558"/>
+       <c v="80.438"/>
+       <c v="Active    "/>
+       <c v="Oct 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acercwq   "/>
+       <c v="Rock Creek                              "/>
+       <c v="32&#xB0; 32' 54.60 N, 80&#xB0; 30' 12.96 W"/>
+       <c v="32.5485"/>
+       <c v="80.5036"/>
+       <c v="Inactive  "/>
+       <c v="Mar 1996-May 1996"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acespnut  "/>
+       <c v="St. Pierre                              "/>
+       <c v="32&#xB0; 31' 23.88 N, 80&#xB0; 21' 24.48 W"/>
+       <c v="32.5233"/>
+       <c v="80.3568"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="ace                                               "/>
+       <c v="acespwq   "/>
+       <c v="St. Pierre                              "/>
+       <c v="32&#xB0; 31' 23.88 N, 80&#xB0; 21' 24.48 W"/>
+       <c v="32.5233"/>
+       <c v="80.3568"/>
+       <c v="Active    "/>
+       <c v="Mar 1995-"/>
+       <c v="sc        "/>
+       <c v="Ashepoo Combahee Edisto Basin                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apacpnut  "/>
+       <c v="Cat Point                               "/>
+       <c v="29&#xB0; 42' 7.68 N, 84&#xB0; 52' 48.72 W"/>
+       <c v="29.7021"/>
+       <c v="84.8802"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apacpwq   "/>
+       <c v="Cat Point                               "/>
+       <c v="29&#xB0; 42' 7.68 N, 84&#xB0; 52' 48.72 W"/>
+       <c v="29.7021"/>
+       <c v="84.8802"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apadbnut  "/>
+       <c v="Dry Bar                                 "/>
+       <c v="29&#xB0; 40' 28.92 N, 85&#xB0; 3' 29.88 W"/>
+       <c v="29.6747"/>
+       <c v="85.0583"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apadbwq   "/>
+       <c v="Dry Bar                                 "/>
+       <c v="29&#xB0; 40' 28.92 N, 85&#xB0; 3' 29.88 W"/>
+       <c v="29.6747"/>
+       <c v="85.0583"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaebmet  "/>
+       <c v="East Bay                                "/>
+       <c v="29&#xB0; 47' 27.24 N, 84&#xB0; 53' 0.24 W"/>
+       <c v="29.7909"/>
+       <c v="84.8834"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaebnut  "/>
+       <c v="East Bay Bottom                         "/>
+       <c v="29&#xB0; 47' 8.88 N, 84&#xB0; 52' 30.72 W"/>
+       <c v="29.7858"/>
+       <c v="84.8752"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaebwq   "/>
+       <c v="East Bay Bottom                         "/>
+       <c v="29&#xB0; 47' 8.88 N, 84&#xB0; 52' 30.72 W"/>
+       <c v="29.7858"/>
+       <c v="84.8752"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaegnut  "/>
+       <c v="East Bay Bridge                         "/>
+       <c v="29&#xB0; 43' 50.88 N, 84&#xB0; 56' 42.72 W"/>
+       <c v="29.7308"/>
+       <c v="84.9452"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaesnut  "/>
+       <c v="East Bay Surface                        "/>
+       <c v="29&#xB0; 47' 8.88 N, 84&#xB0; 52' 30.72 W"/>
+       <c v="29.7858"/>
+       <c v="84.8752"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apaeswq   "/>
+       <c v="East Bay Surface                        "/>
+       <c v="29&#xB0; 47' 8.88 N, 84&#xB0; 52' 30.72 W"/>
+       <c v="29.7858"/>
+       <c v="84.8752"/>
+       <c v="Active    "/>
+       <c v="Apr 1995-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apambnut  "/>
+       <c v="Mid Bay                                 "/>
+       <c v="29&#xB0; 40' 3.72 N, 84&#xB0; 59' 38.40 W"/>
+       <c v="29.6677"/>
+       <c v="84.994"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apanhnut  "/>
+       <c v="Nicks Hole                              "/>
+       <c v="29&#xB0; 39' 1.44 N, 84&#xB0; 55' 44.04 W"/>
+       <c v="29.6504"/>
+       <c v="84.9289"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apapcnut  "/>
+       <c v="Pilots Cove                             "/>
+       <c v="29&#xB0; 36' 28.44 N, 85&#xB0; 1' 10.56 W"/>
+       <c v="29.6079"/>
+       <c v="85.0196"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="aparvnut  "/>
+       <c v="River                                   "/>
+       <c v="29&#xB0; 46' 44.76 N, 85&#xB0; 2' 36.24 W"/>
+       <c v="29.7791"/>
+       <c v="85.0434"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apascnut  "/>
+       <c v="Sikes Cut                               "/>
+       <c v="29&#xB0; 36' 24.12 N, 84&#xB0; 56' 48.12 W"/>
+       <c v="29.6067"/>
+       <c v="84.9467"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="apa                                               "/>
+       <c v="apawpnut  "/>
+       <c v="West Pass                               "/>
+       <c v="29&#xB0; 38' 16.44 N, 85&#xB0; 5' 20.40 W"/>
+       <c v="29.6379"/>
+       <c v="85.089"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="fl        "/>
+       <c v="Apalachicola Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SALT_N,DO_N,DO_S_N,TURB_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmipnut  "/>
+       <c v="Iron Pot Landing                        "/>
+       <c v="38&#xB0; 47' 45.60 N, 76&#xB0; 43' 14.88 W"/>
+       <c v="38.796"/>
+       <c v="76.7208"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,PO4F,TDP,TDN,PON,CHLA_N,TVS,NO3F,NO2F,POC,TP,NH4F,SiO4F,TN,PHOSP,PHEA,TSS"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmipwq   "/>
+       <c v="Iron Pot Landing                        "/>
+       <c v="38&#xB0; 47' 45.60 N, 76&#xB0; 43' 14.88 W"/>
+       <c v="38.796"/>
+       <c v="76.7208"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmjbmet  "/>
+       <c v="Jug Bay                                 "/>
+       <c v="38&#xB0; 46' 50.52 N, 76&#xB0; 42' 29.16 W"/>
+       <c v="38.7807"/>
+       <c v="76.7081"/>
+       <c v="Active    "/>
+       <c v="Jul 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmjbwq   "/>
+       <c v="Jug Bay                                 "/>
+       <c v="38&#xB0; 46' 45.12 N, 76&#xB0; 42' 27.72 W"/>
+       <c v="38.7792"/>
+       <c v="76.7077"/>
+       <c v="Inactive  "/>
+       <c v="Jul 1995-Dec 2002"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmmcnut  "/>
+       <c v="Mataponi Creek                          "/>
+       <c v="38&#xB0; 44' 35.88 N, 76&#xB0; 42' 26.64 W"/>
+       <c v="38.7433"/>
+       <c v="76.7074"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,PO4F,TDP,TDN,PON,CHLA_N,TVS,NO3F,NO2F,POC,TP,NH4F,SiO4F,TN,PHOSP,PHEA,TSS"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmmcwq   "/>
+       <c v="Mataponi Creek                          "/>
+       <c v="38&#xB0; 44' 35.88 N, 76&#xB0; 42' 26.64 W"/>
+       <c v="38.7433"/>
+       <c v="76.7074"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmocnut  "/>
+       <c v="Otter Point Creek                       "/>
+       <c v="39&#xB0; 27' 2.52 N, 76&#xB0; 16' 28.56 W"/>
+       <c v="39.4507"/>
+       <c v="76.2746"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,PO4F,TDP,TDN,PON,CHLA_N,TVS,NO3F,NO2F,POC,TP,NH4F,SiO4F,TN,PHOSP,PHEA,TSS"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmocwq   "/>
+       <c v="Otter Point Creek                       "/>
+       <c v="39&#xB0; 27' 2.52 N, 76&#xB0; 16' 28.56 W"/>
+       <c v="39.4507"/>
+       <c v="76.2746"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmprwq   "/>
+       <c v="Patuxent River                          "/>
+       <c v="38&#xB0; 46' 23.52 N, 76&#xB0; 42' 32.76 W"/>
+       <c v="38.7732"/>
+       <c v="76.7091"/>
+       <c v="Inactive  "/>
+       <c v="Jul 1995-Dec 2002"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmrrnut  "/>
+       <c v="Railroad                                "/>
+       <c v="38&#xB0; 46' 52.68 N, 76&#xB0; 42' 49.32 W"/>
+       <c v="38.7813"/>
+       <c v="76.7137"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,PO4F,TDP,TDN,PON,CHLA_N,TVS,NO3F,NO2F,POC,TP,NH4F,SiO4F,TN,PHOSP,PHEA,TSS"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbm                                               "/>
+       <c v="cbmrrwq   "/>
+       <c v="Railroad                                "/>
+       <c v="38&#xB0; 46' 52.68 N, 76&#xB0; 42' 49.32 W"/>
+       <c v="38.7813"/>
+       <c v="76.7137"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="md        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvcbnut  "/>
+       <c v="Claybank                                "/>
+       <c v="37&#xB0; 20' 54.78 N, 76&#xB0; 36' 40.43 W"/>
+       <c v="37.34855"/>
+       <c v="76.61123"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvcbwq   "/>
+       <c v="Claybank                                "/>
+       <c v="37&#xB0; 12' 28.80 N, 76&#xB0; 22' 0.23 W"/>
+       <c v="37.20800"/>
+       <c v="76.36673"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvcinut  "/>
+       <c v="Catlett Islands                         "/>
+       <c v="37&#xB0; 17' 60.00 N, 76&#xB0; 32' 60.00 W"/>
+       <c v="37.30000"/>
+       <c v="76.55000"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvginut  "/>
+       <c v="Goodwin Islands                         "/>
+       <c v="37&#xB0; 13' 2.60 N, 76&#xB0; 23' 43.44 W"/>
+       <c v="37.21739"/>
+       <c v="76.3954"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvgiwq   "/>
+       <c v="Goodwin Islands                         "/>
+       <c v="37&#xB0; 13' 2.60 N, 76&#xB0; 23' 43.44 W"/>
+       <c v="37.21739"/>
+       <c v="76.3954"/>
+       <c v="Active    "/>
+       <c v="Oct 1997-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvshnut  "/>
+       <c v="Sweethall                               "/>
+       <c v="37&#xB0; 34' 16.97 N, 76&#xB0; 53' 3.26 W"/>
+       <c v="37.57138"/>
+       <c v="76.88424"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvshwq   "/>
+       <c v="Sweethall                               "/>
+       <c v="37&#xB0; 34' 16.97 N, 76&#xB0; 53' 3.26 W"/>
+       <c v="37.57138"/>
+       <c v="76.88424"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvtcmet  "/>
+       <c v="Taskinas Creek                          "/>
+       <c v="37&#xB0; 24' 50.76 N, 76&#xB0; 42' 44.53 W"/>
+       <c v="37.4141"/>
+       <c v="76.71237"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvtcnut  "/>
+       <c v="Taskinas Creek                          "/>
+       <c v="37&#xB0; 24' 53.89 N, 76&#xB0; 42' 51.88 W"/>
+       <c v="37.41497"/>
+       <c v="76.71441"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvtcwq   "/>
+       <c v="Taskinas Creek                          "/>
+       <c v="37&#xB0; 24' 53.89 N, 76&#xB0; 42' 51.88 W"/>
+       <c v="37.41497"/>
+       <c v="76.71441"/>
+       <c v="Active    "/>
+       <c v="Sep 1995-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="cbv                                               "/>
+       <c v="cbvybnut  "/>
+       <c v="York River Bridge                       "/>
+       <c v="37&#xB0; 14' 41.64 N, 76&#xB0; 30' 18.72 W"/>
+       <c v="37.2449"/>
+       <c v="76.5052"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="va        "/>
+       <c v="Chesapeake Bay                                    "/>
+       <c v="NO23F,SALT_N,PO4F,DON,TDP,DO_N,TDN,DO_S_N,CHLA_N,NO3F,NO2F,WTEM_N,DIN,NH4F,PHEA,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delbbnut  "/>
+       <c v="Beaver Branch                           "/>
+       <c v="39&#xB0; 24' 8.64 N, 75&#xB0; 37' 40.80 W"/>
+       <c v="39.4024"/>
+       <c v="75.628"/>
+       <c v="Active    "/>
+       <c v="Feb-2002"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delblnut  "/>
+       <c v="Blackbird Landing                       "/>
+       <c v="39&#xB0; 23' 19.54 N, 75&#xB0; 38' 9.60 W"/>
+       <c v="39.38876"/>
+       <c v="75.63600"/>
+       <c v="Active    "/>
+       <c v="Jan-2002"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delblwq   "/>
+       <c v="Blackbird Landing                       "/>
+       <c v="39&#xB0; 23' 19.54 N, 75&#xB0; 38' 9.60 W"/>
+       <c v="39.38876"/>
+       <c v="75.63600"/>
+       <c v="Active    "/>
+       <c v="Aug 1995-"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,Level,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="deldsnut  "/>
+       <c v="Division Street                         "/>
+       <c v="39&#xB0; 9' 49.32 N, 75&#xB0; 31' 8.76 W"/>
+       <c v="39.1637"/>
+       <c v="75.5191"/>
+       <c v="Active    "/>
+       <c v="Jan-2002"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="deldswq   "/>
+       <c v="Division Street                         "/>
+       <c v="39&#xB0; 9' 49.32 N, 75&#xB0; 31' 8.76 W"/>
+       <c v="39.1637"/>
+       <c v="75.5191"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,Level,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delllnut  "/>
+       <c v="Lebanon Landing                         "/>
+       <c v="39&#xB0; 6' 51.84 N, 75&#xB0; 29' 57.12 W"/>
+       <c v="39.1144"/>
+       <c v="75.4992"/>
+       <c v="Active    "/>
+       <c v="Jan-2002"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delllwq   "/>
+       <c v="Lebanon Landing                         "/>
+       <c v="39&#xB0; 6' 51.84 N, 75&#xB0; 29' 57.12 W"/>
+       <c v="39.1144"/>
+       <c v="75.4992"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,Level,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delpbwq   "/>
+       <c v="Penrose Branch                          "/>
+       <c v="39&#xB0; 9' 52.92 N, 75&#xB0; 39' 1.44 W"/>
+       <c v="39.1647"/>
+       <c v="75.6504"/>
+       <c v="Inactive  "/>
+       <c v="Jun 1996-Dec 2001"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delsjmet  "/>
+       <c v="Saint Jones River                       "/>
+       <c v="39&#xB0; 5' 20.04 N, 75&#xB0; 26' 12.48 W"/>
+       <c v="39.0889"/>
+       <c v="75.4368"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delslnut  "/>
+       <c v="Scotton Landing                         "/>
+       <c v="39&#xB0; 5' 5.93 N, 75&#xB0; 27' 38.09 W"/>
+       <c v="39.08498"/>
+       <c v="75.46058"/>
+       <c v="Active    "/>
+       <c v="Jan-2002"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="del                                               "/>
+       <c v="delslwq   "/>
+       <c v="Scotton Landing                         "/>
+       <c v="39&#xB0; 5' 5.93 N, 75&#xB0; 27' 38.09 W"/>
+       <c v="39.08498"/>
+       <c v="75.46058"/>
+       <c v="Active    "/>
+       <c v="Jul 1995-"/>
+       <c v="de        "/>
+       <c v="Delaware                                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,Level,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elkapnut  "/>
+       <c v="Azevedo Pond                            "/>
+       <c v="36&#xB0; 50' 44.52 N, 121&#xB0; 45' 13.68 W"/>
+       <c v="36.8457"/>
+       <c v="121.7538"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elkapwq   "/>
+       <c v="Azevedo Pond                            "/>
+       <c v="36&#xB0; 50' 44.52 N, 121&#xB0; 45' 13.68 W"/>
+       <c v="36.8457"/>
+       <c v="121.7538"/>
+       <c v="Active    "/>
+       <c v="Jun 1995-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elkcwmet  "/>
+       <c v="Caspian Weather Station                 "/>
+       <c v="36&#xB0; 49' 5.00 N, 121&#xB0; 44' 21.82 W"/>
+       <c v="36.818056"/>
+       <c v="121.739394"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elknmnut  "/>
+       <c v="North Marsh                             "/>
+       <c v="36&#xB0; 50' 4.56 N, 121&#xB0; 44' 18.24 W"/>
+       <c v="36.8346"/>
+       <c v="121.7384"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elknmwq   "/>
+       <c v="North Marsh                             "/>
+       <c v="36&#xB0; 50' 4.56 N, 121&#xB0; 44' 18.24 W"/>
+       <c v="36.8346"/>
+       <c v="121.7384"/>
+       <c v="Active    "/>
+       <c v="Apr 1999-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elksmnut  "/>
+       <c v="South Marsh                             "/>
+       <c v="36&#xB0; 49' 4.44 N, 121&#xB0; 44' 21.84 W"/>
+       <c v="36.8179"/>
+       <c v="121.7394"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elksmwq   "/>
+       <c v="South Marsh                             "/>
+       <c v="36&#xB0; 49' 4.44 N, 121&#xB0; 44' 21.84 W"/>
+       <c v="36.8179"/>
+       <c v="121.7394"/>
+       <c v="Active    "/>
+       <c v="Jun 1995-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elkvmnut  "/>
+       <c v="Vierra Mouth                            "/>
+       <c v="36&#xB0; 48' 39.96 N, 121&#xB0; 46' 45.22 W"/>
+       <c v="36.8111"/>
+       <c v="121.7792"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="elk                                               "/>
+       <c v="elkvmwq   "/>
+       <c v="Vierra Mouth                            "/>
+       <c v="36&#xB0; 48' 39.96 N, 121&#xB0; 46' 45.22 W"/>
+       <c v="36.8111"/>
+       <c v="121.7792"/>
+       <c v="Active    "/>
+       <c v="Mar 2001-"/>
+       <c v="ca        "/>
+       <c v="Elkhorn Slough                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndbcnut  "/>
+       <c v="Bayou Cumbest                           "/>
+       <c v="30&#xB0; 23' 0.96 N, 88&#xB0; 26' 11.04 W"/>
+       <c v="30.3836"/>
+       <c v="88.4364"/>
+       <c v="Active    "/>
+       <c v="Feb 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,NO3F,NO2F,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndbcwq   "/>
+       <c v="Bayou Cumbest                           "/>
+       <c v="30&#xB0; 23' 0.96 N, 88&#xB0; 26' 11.04 W"/>
+       <c v="30.3836"/>
+       <c v="88.4364"/>
+       <c v="Active    "/>
+       <c v="Mar 2004-"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndbhnut  "/>
+       <c v="Bayou Heron                             "/>
+       <c v="30&#xB0; 25' 4.08 N, 88&#xB0; 24' 19.44 W"/>
+       <c v="30.4178"/>
+       <c v="88.4054"/>
+       <c v="Active    "/>
+       <c v="Feb 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,NO2F,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndbhwq   "/>
+       <c v="Bayou Heron                             "/>
+       <c v="30&#xB0; 25' 4.08 N, 88&#xB0; 24' 19.44 W"/>
+       <c v="30.4178"/>
+       <c v="88.4054"/>
+       <c v="Active    "/>
+       <c v="Jan 2004-"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndblnut  "/>
+       <c v="Bangs Lake                              "/>
+       <c v="30&#xB0; 21' 25.56 N, 88&#xB0; 27' 46.44 W"/>
+       <c v="30.3571"/>
+       <c v="88.4629"/>
+       <c v="Active    "/>
+       <c v="Feb 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,NO3F,NO2F,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndblwq   "/>
+       <c v="Bangs Lake                              "/>
+       <c v="30&#xB0; 21' 25.56 N, 88&#xB0; 27' 46.44 W"/>
+       <c v="30.3571"/>
+       <c v="88.4629"/>
+       <c v="Active    "/>
+       <c v="Mar 2004-"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndbnnut  "/>
+       <c v="Bangs Lake North                        "/>
+       <c v="30&#xB0; 22' 0.84 N, 88&#xB0; 28' 15.60 W"/>
+       <c v="30.3669"/>
+       <c v="88.471"/>
+       <c v="Active    "/>
+       <c v="Feb 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndcrmet  "/>
+       <c v="Crooked Bayou                           "/>
+       <c v="30&#xB0; 21' 33.12 N, 88&#xB0; 25' 12.00 W"/>
+       <c v="30.3592"/>
+       <c v="88.4200"/>
+       <c v="Active    "/>
+       <c v="Aug 2004-"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndcrnut  "/>
+       <c v="Crooked Bayou                           "/>
+       <c v="30&#xB0; 21' 32.76 N, 88&#xB0; 25' 12.00 W"/>
+       <c v="30.3591"/>
+       <c v="88.4200"/>
+       <c v="Inactive  "/>
+       <c v="Feb 2005 - July 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,NO2F,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndcrwq   "/>
+       <c v="Crooked Bayou                           "/>
+       <c v="30&#xB0; 21' 35.64 N, 88&#xB0; 25' 8.40 W"/>
+       <c v="30.3599"/>
+       <c v="88.419"/>
+       <c v="Inactive  "/>
+       <c v="Jan 04-May 04; Aug 04-Aug 05"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndpcnut  "/>
+       <c v="Point Aux Chenes                        "/>
+       <c v="30&#xB0; 20' 54.96 N, 88&#xB0; 25' 6.60 W"/>
+       <c v="30.3486"/>
+       <c v="88.4185"/>
+       <c v="Active    "/>
+       <c v="Feb 2005"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="NO23F,PO4F,TDP,CHLA_N,TVS,TFS,DIN,NH4F,PHEA,TSS,DOP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gnd                                               "/>
+       <c v="gndpcwq   "/>
+       <c v="Point Aux Chenes Bay                    "/>
+       <c v="30&#xB0; 20' 54.96 N, 88&#xB0; 25' 6.60 W"/>
+       <c v="30.3486"/>
+       <c v="88.4185"/>
+       <c v="Active    "/>
+       <c v="Aug 2005-"/>
+       <c v="ms        "/>
+       <c v="Grand Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbgbmet  "/>
+       <c v="Great Bay                               "/>
+       <c v="43&#xB0; 5' 31.56 N, 70&#xB0; 51' 51.12 W"/>
+       <c v="43.0921"/>
+       <c v="70.8642"/>
+       <c v="Inactive  "/>
+       <c v="Jul 2001-Oct 2005"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbgbnut  "/>
+       <c v="Great Bay                               "/>
+       <c v="43&#xB0; 4' 19.92 N, 70&#xB0; 52' 9.84 W"/>
+       <c v="43.0722"/>
+       <c v="70.8694"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,DON,TDN,PON,CHLA_N,POC,TSS,WTEM_N,SALT_N,DO_N,DO_S_N,TDEP_N,Ke_N,CLOUD,PRECIP,TIDE,WAVHGT,WINDIR,WINSPD,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbgbwq   "/>
+       <c v="Great Bay                               "/>
+       <c v="43&#xB0; 4' 19.92 N, 70&#xB0; 52' 9.84 W"/>
+       <c v="43.0722"/>
+       <c v="70.8694"/>
+       <c v="Active    "/>
+       <c v="Jul 1995-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbglmet  "/>
+       <c v="Greenland                               "/>
+       <c v="43&#xB0; 3' 55.09 N, 70&#xB0; 49' 58.32 W"/>
+       <c v="43.065303"/>
+       <c v="70.832867"/>
+       <c v="Active    "/>
+       <c v="Oct 2005-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grblrnut  "/>
+       <c v="Lamprey River                           "/>
+       <c v="43&#xB0; 4' 48.00 N, 70&#xB0; 56' 3.84 W"/>
+       <c v="43.08"/>
+       <c v="70.9344"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,DON,TDN,PON,CHLA_N,POC,TSS,WTEM_N,SALT_N,DO_N,DO_S_N,TDEP_N,Ke_N,CLOUD,PRECIP,TIDE,WAVHGT,WINDIR,WINSPD,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grblrwq   "/>
+       <c v="Lamprey River                           "/>
+       <c v="43&#xB0; 4' 48.00 N, 70&#xB0; 56' 3.84 W"/>
+       <c v="43.08"/>
+       <c v="70.9344"/>
+       <c v="Active    "/>
+       <c v="Oct 1998-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbornut  "/>
+       <c v="Oyster River                            "/>
+       <c v="43&#xB0; 8' 2.40 N, 70&#xB0; 54' 39.60 W"/>
+       <c v="43.134"/>
+       <c v="70.911"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,DON,TDN,PON,CHLA_N,POC,TSS,WTEM_N,SALT_N,DO_N,DO_S_N,TDEP_N,Ke_N,CLOUD,PRECIP,TIDE,WAVHGT,WINDIR,WINSPD,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grborwq   "/>
+       <c v="Oyster River                            "/>
+       <c v="43&#xB0; 8' 2.40 N, 70&#xB0; 54' 39.60 W"/>
+       <c v="43.134"/>
+       <c v="70.911"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbsqnut  "/>
+       <c v="Squamscott River                        "/>
+       <c v="43&#xB0; 2' 29.76 N, 70&#xB0; 55' 19.20 W"/>
+       <c v="43.0416"/>
+       <c v="70.922"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,DON,TDN,PON,CHLA_N,POC,TSS,WTEM_N,SALT_N,DO_N,DO_S_N,TDEP_N,Ke_N,CLOUD,PRECIP,TIDE,WAVHGT,WINDIR,WINSPD,PHEA,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="grb                                               "/>
+       <c v="grbsqwq   "/>
+       <c v="Squamscott River                        "/>
+       <c v="43&#xB0; 2' 29.76 N, 70&#xB0; 55' 19.20 W"/>
+       <c v="43.0416"/>
+       <c v="70.922"/>
+       <c v="Active    "/>
+       <c v="Jul 1997-"/>
+       <c v="nh        "/>
+       <c v="Great Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmfmnut  "/>
+       <c v="Fort Matanzas                           "/>
+       <c v="29&#xB0; 44' 13.20 N, 81&#xB0; 14' 45.60 W"/>
+       <c v="29.737041"/>
+       <c v="81.245953"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="NO23F,SALT_N,PO4F,TDP,DO_N,TDN,IRR0_N,IRR1_N,PH_N,CHLA_N,SECCHI,NO3F,NO2F,WTEM_N,POC,COLOR,TP,DIN,NH4F,Ke_N,SiO4F,TN,PHOSP,PHEA,TSS,PN,TURB_N,UncCHLa_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmfmwq   "/>
+       <c v="Fort Matanzas                           "/>
+       <c v="29&#xB0; 44' 13.20 N, 81&#xB0; 14' 45.60 W"/>
+       <c v="29.737041"/>
+       <c v="81.245953"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmpcmet  "/>
+       <c v="Pellicer Creek                          "/>
+       <c v="29&#xB0; 39' 28.08 N, 81&#xB0; 13' 58 W"/>
+       <c v="29.657702"/>
+       <c v="81.232743"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmpcnut  "/>
+       <c v="Pellicer Creek                          "/>
+       <c v="29&#xB0; 40' 01 N, 81&#xB0; 15' 27 W"/>
+       <c v="29.667071"/>
+       <c v="81.257403"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="NO23F,SALT_N,PO4F,TDP,DO_N,TDN,IRR0_N,IRR1_N,PH_N,CHLA_N,SECCHI,NO3F,NO2F,WTEM_N,POC,COLOR,TP,DIN,NH4F,Ke_N,SiO4F,TN,PHOSP,PHEA,TSS,PN,TURB_N,UncCHLa_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmpcwq   "/>
+       <c v="Pellicer Creek                          "/>
+       <c v="29&#xB0; 40' 01 N, 81&#xB0; 15' 27 W"/>
+       <c v="29.667071"/>
+       <c v="81.257403"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmpinut  "/>
+       <c v="Pine Island                             "/>
+       <c v="30&#xB0; 3' 2.88 N, 81&#xB0; 22' 3.00 W"/>
+       <c v="30.050857"/>
+       <c v="81.367465"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="NO23F,SALT_N,PO4F,TDP,DO_N,TDN,IRR0_N,IRR1_N,PH_N,CHLA_N,SECCHI,NO3F,NO2F,WTEM_N,POC,COLOR,TP,DIN,NH4F,Ke_N,SiO4F,TN,PHOSP,PHEA,TSS,PN,TURB_N,UncCHLa_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmpiwq   "/>
+       <c v="Pine Island                             "/>
+       <c v="30&#xB0; 3' 2.88 N, 81&#xB0; 22' 3.00 W"/>
+       <c v="30.050857"/>
+       <c v="81.367465"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmssnut  "/>
+       <c v="San Sebastian                           "/>
+       <c v="29&#xB0; 52' 08 N, 81&#xB0; 18' 27 W"/>
+       <c v="29.868851"/>
+       <c v="81.307428"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="NO23F,SALT_N,PO4F,TDP,DO_N,TDN,IRR0_N,IRR1_N,PH_N,CHLA_N,SECCHI,NO3F,NO2F,WTEM_N,POC,COLOR,TP,DIN,NH4F,Ke_N,SiO4F,TN,PHOSP,PHEA,TSS,PN,TURB_N,UncCHLa_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="gtm                                               "/>
+       <c v="gtmsswq   "/>
+       <c v="San Sebastian                           "/>
+       <c v="29&#xB0; 52' 08 N, 81&#xB0; 18' 27 W"/>
+       <c v="29.868851"/>
+       <c v="81.307428"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="fl        "/>
+       <c v="Guana Tolomato Mantanzas                          "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudfsmet  "/>
+       <c v="Field Station                           "/>
+       <c v="42&#xB0; 1' 5.52 N, 73&#xB0; 55' 1.20 W"/>
+       <c v="42.0182"/>
+       <c v="73.917"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudscnut  "/>
+       <c v="Stony Creek                             "/>
+       <c v="42&#xB0; 2' 46.68 N, 73&#xB0; 54' 38.88 W"/>
+       <c v="42.0463"/>
+       <c v="73.9108"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="PO4F,NH4F,NO3F,CHLA_N,TSS,WTEM_N,SCON_N,SALT_N,DO_N,DO_S_N,CLOUD,PRECIP,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudscwq   "/>
+       <c v="Stony Creek                             "/>
+       <c v="42&#xB0; 2' 46.68 N, 73&#xB0; 54' 38.88 W"/>
+       <c v="42.0463"/>
+       <c v="73.9108"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudsknut  "/>
+       <c v="Saw Kill                                "/>
+       <c v="42&#xB0; 1' 1.56 N, 73&#xB0; 54' 53.28 W"/>
+       <c v="42.0171"/>
+       <c v="73.9148"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="PO4F,NH4F,NO3F,CHLA_N,TSS,WTEM_N,SCON_N,SALT_N,DO_N,DO_S_N,CLOUD,PRECIP,TIDE,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudskwq   "/>
+       <c v="Saw Kill                                "/>
+       <c v="42&#xB0; 1' 1.56 N, 73&#xB0; 54' 53.28 W"/>
+       <c v="42.0171"/>
+       <c v="73.9148"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudtnnut  "/>
+       <c v="Tivoli North Bay                        "/>
+       <c v="42&#xB0; 2' 11.40 N, 73&#xB0; 55' 31.08 W"/>
+       <c v="42.0365"/>
+       <c v="73.9253"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="PO4F,NH4F,NO3F,CHLA_N,TSS,WTEM_N,SCON_N,SALT_N,DO_N,DO_S_N,CLOUD,PRECIP,TIDE,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudtnwq   "/>
+       <c v="Tivoli North Bay                        "/>
+       <c v="42&#xB0; 2' 11.40 N, 73&#xB0; 55' 31.08 W"/>
+       <c v="42.0365"/>
+       <c v="73.9253"/>
+       <c v="Active    "/>
+       <c v="Jul 1996-Dec 1996; Jul 1999-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudtsnut  "/>
+       <c v="Tivoli South Bay                        "/>
+       <c v="42&#xB0; 1' 37.20 N, 73&#xB0; 55' 33.24 W"/>
+       <c v="42.027"/>
+       <c v="73.9259"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="PO4F,NH4F,NO3F,CHLA_N,TSS,WTEM_N,SCON_N,SALT_N,DO_N,DO_S_N,CLOUD,PRECIP,TIDE,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="hud                                               "/>
+       <c v="hudtswq   "/>
+       <c v="Tivoli South Bay                        "/>
+       <c v="42&#xB0; 1' 37.20 N, 73&#xB0; 55' 33.24 W"/>
+       <c v="42.027"/>
+       <c v="73.9259"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="ny        "/>
+       <c v="Hudson River                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacb5nut  "/>
+       <c v="Buoy 115                                "/>
+       <c v="39&#xB0; 31' 7.68 N, 74&#xB0; 17' 13.92 W"/>
+       <c v="39.5188"/>
+       <c v="74.2872"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacb6nut  "/>
+       <c v="Buoy 126                                "/>
+       <c v="39&#xB0; 30' 28.44 N, 74&#xB0; 20' 18.67 W"/>
+       <c v="39.5079"/>
+       <c v="74.3385"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacb6wq   "/>
+       <c v="Buoy 126                                "/>
+       <c v="39&#xB0; 30' 28.44 N, 74&#xB0; 20' 18.67 W"/>
+       <c v="39.5079"/>
+       <c v="74.3385"/>
+       <c v="Active    "/>
+       <c v="Aug 1996-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacb9nut  "/>
+       <c v="Buoy 139                                "/>
+       <c v="39&#xB0; 29' 24.65 N, 74&#xB0; 22' 53.83 W"/>
+       <c v="39.4902"/>
+       <c v="74.3816"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacb9wq   "/>
+       <c v="Buoy 139                                "/>
+       <c v="39&#xB0; 29' 24.65 N, 74&#xB0; 22' 53.83 W"/>
+       <c v="39.4902"/>
+       <c v="74.3816"/>
+       <c v="Active    "/>
+       <c v="Aug 1996-Dec 1998; May 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacbanut  "/>
+       <c v="Lower Bank                              "/>
+       <c v="39&#xB0; 35' 37.18 N, 74&#xB0; 33' 5.44 W"/>
+       <c v="39.5937"/>
+       <c v="74.5515"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacbawq   "/>
+       <c v="Lower Bank                              "/>
+       <c v="39&#xB0; 35' 37.18 N, 74&#xB0; 33' 5.44 W"/>
+       <c v="39.5937"/>
+       <c v="74.5515"/>
+       <c v="Active    "/>
+       <c v="Oct 1996-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacncmet  "/>
+       <c v="Nacote Creek                            "/>
+       <c v="39&#xB0; 32' 6.00 N, 74&#xB0; 27' 48.96 W"/>
+       <c v="39.535"/>
+       <c v="74.4636"/>
+       <c v="Active    "/>
+       <c v="Oct 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacnenut  "/>
+       <c v="Chestnut Neck                           "/>
+       <c v="39&#xB0; 32' 52.37 N, 74&#xB0; 27' 38.77 W"/>
+       <c v="39.5479"/>
+       <c v="74.4608"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="jac                                               "/>
+       <c v="jacnewq   "/>
+       <c v="Chestnut Neck                           "/>
+       <c v="39&#xB0; 32' 52.37 N, 74&#xB0; 27' 38.77 W"/>
+       <c v="39.5479"/>
+       <c v="74.4608"/>
+       <c v="Active    "/>
+       <c v="Aug 1996-"/>
+       <c v="nj        "/>
+       <c v="Jacques Cousteau                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job06wq   "/>
+       <c v="Station 6                               "/>
+       <c v="17&#xB0; 56'5.95 N, 66&#xB0; 13' 40.56 W"/>
+       <c v="17.934986"/>
+       <c v="66.227933"/>
+       <c v="Inactive  "/>
+       <c v="Dec 1996-Dec 1998"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job09nut  "/>
+       <c v="Station 9                               "/>
+       <c v="17&#xB0; 56' 37.21 N, 66&#xB0; 14' 18.55 W"/>
+       <c v="17.943669"/>
+       <c v="66.238486"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job09wq   "/>
+       <c v="Station 9                               "/>
+       <c v="17&#xB0; 56' 37.21 N, 66&#xB0; 14' 18.55 W"/>
+       <c v="17.943669"/>
+       <c v="66.238486"/>
+       <c v="Active    "/>
+       <c v="Dec 1995-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job10nut  "/>
+       <c v="Station 10                              "/>
+       <c v="17&#xB0; 56' 19.00 N, 66&#xB0; 15' 27.85 W"/>
+       <c v="17.938611"/>
+       <c v="66.257736"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job10wq   "/>
+       <c v="Station 10                              "/>
+       <c v="17&#xB0; 56' 19.00 N, 66&#xB0; 15' 27.85 W"/>
+       <c v="17.938611"/>
+       <c v="66.257736"/>
+       <c v="Active    "/>
+       <c v="Feb 1996-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job11wq   "/>
+       <c v="Station 11                              "/>
+       <c v="17&#xB0; 56' 40.59 N, 66&#xB0; 15' 43.30 W"/>
+       <c v="17.944608"/>
+       <c v="66.262028"/>
+       <c v="Inactive  "/>
+       <c v="Mar 1996-Dec 1998"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job18wq   "/>
+       <c v="Station 18                              "/>
+       <c v="17&#xB0; 56' 39.96 N, 66&#xB0; 13' 54.77 W"/>
+       <c v="17.944433"/>
+       <c v="66.231881"/>
+       <c v="Inactive  "/>
+       <c v="Oct 1998- Nov 1998"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job19nut  "/>
+       <c v="Station 19                              "/>
+       <c v="17&#xB0; 56' 34.49 N, 66&#xB0; 13' 43.77 W"/>
+       <c v="17.942914"/>
+       <c v="66.228825"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job19wq   "/>
+       <c v="Station 19                              "/>
+       <c v="17&#xB0; 56' 34.49 N, 66&#xB0; 13' 43.77 W"/>
+       <c v="17.942914"/>
+       <c v="66.228825"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job20nut  "/>
+       <c v="Station 20                              "/>
+       <c v="17&#xB0; 55' 49.14 N, 66&#xB0; 12' 41.30 W"/>
+       <c v="17.930317"/>
+       <c v="66.211472"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="job20wq   "/>
+       <c v="Station 20                              "/>
+       <c v="17&#xB0; 55' 49.14 N, 66&#xB0; 12' 41.30 W"/>
+       <c v="17.930317"/>
+       <c v="66.211472"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="job                                               "/>
+       <c v="jobjbmet  "/>
+       <c v="Jobos Bay Weather                       "/>
+       <c v="17&#xB0; 57' 23.71 N, 66&#xB0; 13' 22.69 W"/>
+       <c v="17.956586"/>
+       <c v="66.222969"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="pr        "/>
+       <c v="Jobos Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacbcwq   "/>
+       <c v="Bear Cove                               "/>
+       <c v="59&#xB0; 40' 59.88 N, 151&#xB0; 7' 30.00 W"/>
+       <c v="59.6833"/>
+       <c v="151.125"/>
+       <c v="Inactive  "/>
+       <c v="Jun 2002-Dec 2003"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacdlwq   "/>
+       <c v="Homer Dolphin                           "/>
+       <c v="59&#xB0; 36' 10.08 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6028"/>
+       <c v="151.4081"/>
+       <c v="Inactive  "/>
+       <c v="Oct 2002-Dec 2002"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachdnut  "/>
+       <c v="Homer Deep                              "/>
+       <c v="59&#xB0; 36' 10.44 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6029"/>
+       <c v="151.4081"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="NO23F,PO4F,DON,TOC,TDN,PON,CHLA_N,NO3F,NO2F,POC,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachdwq   "/>
+       <c v="Homer Dolphin Deep                      "/>
+       <c v="59&#xB0; 36' 10.44 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6029"/>
+       <c v="151.4081"/>
+       <c v="Active    "/>
+       <c v="Jan 2003-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachhnut  "/>
+       <c v="Homer Harbor                            "/>
+       <c v="59&#xB0; 36' 11.09 N, 151&#xB0; 25' 5.34 W"/>
+       <c v="59.60308"/>
+       <c v="151.41815"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="NO23F,PO4F,DON,TOC,TDN,PON,CHLA_N,NO3F,NO2F,POC,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachomet  "/>
+       <c v="Homer                                   "/>
+       <c v="59&#xB0; 36' 3.28 N, 151&#xB0; 24' 34.60 W"/>
+       <c v="59.60091"/>
+       <c v="151.40961"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp,TotSoRad"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachowq   "/>
+       <c v="Homer                                   "/>
+       <c v="59&#xB0; 36' 10.08 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6028"/>
+       <c v="151.4081"/>
+       <c v="Inactive  "/>
+       <c v="Jul 2001-Nov 2002"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachsnut  "/>
+       <c v="Homer Shallow                           "/>
+       <c v="59&#xB0; 36' 10.44 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6029"/>
+       <c v="151.4081"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="NO23F,PO4F,DON,TOC,TDN,PON,CHLA_N,NO3F,NO2F,POC,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kachswq   "/>
+       <c v="Homer Dolphin Surface                   "/>
+       <c v="59&#xB0; 36' 10.44 N, 151&#xB0; 24' 29.16 W"/>
+       <c v="59.6029"/>
+       <c v="151.4081"/>
+       <c v="Active    "/>
+       <c v="Feb 2004-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacpgwq   "/>
+       <c v="Port Graham                             "/>
+       <c v="59&#xB0; 20' 17.88 N, 151&#xB0; 53' 30.12 W"/>
+       <c v="59.3383"/>
+       <c v="151.8917"/>
+       <c v="Inactive  "/>
+       <c v="Jun 2002-Sep 2003"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacsdnut  "/>
+       <c v="Seldovia Deep                           "/>
+       <c v="59&#xB0; 26' 28.68 N, 151&#xB0; 43' 6.96 W"/>
+       <c v="59.4413"/>
+       <c v="151.7186"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="NO23F,PO4F,DON,TOC,TDN,PON,CHLA_N,NO3F,NO2F,POC,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacsdwq   "/>
+       <c v="Seldovia Deep                           "/>
+       <c v="59&#xB0; 26' 28.68 N, 151&#xB0; 43' 6.96 W"/>
+       <c v="59.4413"/>
+       <c v="151.7186"/>
+       <c v="Active    "/>
+       <c v="Jan 2004-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacsewq   "/>
+       <c v="Seldovia                                "/>
+       <c v="59&#xB0; 26' 28.68 N, 151&#xB0; 43' 6.96 W"/>
+       <c v="59.4413"/>
+       <c v="151.7186"/>
+       <c v="Inactive  "/>
+       <c v="Aug 2001-Dec 2003"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacssnut  "/>
+       <c v="Seldovia Shallow                        "/>
+       <c v="59&#xB0; 26' 28.68 N, 151&#xB0; 43' 6.96 W"/>
+       <c v="59.4413"/>
+       <c v="151.7186"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="NO23F,PO4F,DON,TOC,TDN,PON,CHLA_N,NO3F,NO2F,POC,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="kac                                               "/>
+       <c v="kacsswq   "/>
+       <c v="Seldovia Surface                        "/>
+       <c v="59&#xB0; 26' 28.68 N, 151&#xB0; 43' 6.96 W"/>
+       <c v="59.4413"/>
+       <c v="151.7186"/>
+       <c v="Active    "/>
+       <c v="Jan 2004-"/>
+       <c v="ak        "/>
+       <c v="Kachemak Bay                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marabwq   "/>
+       <c v="Aransas Bay                             "/>
+       <c v="27&#xB0; 58' 47.28 N, 97&#xB0; 1' 43.32 W"/>
+       <c v="27.9798"/>
+       <c v="97.0287"/>
+       <c v="Active    "/>
+       <c v="Apr 2007-"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marcemet  "/>
+       <c v="Copano East                             "/>
+       <c v="28&#xB0; 7' 56.28 N, 97&#xB0; 2' 3.84 W"/>
+       <c v="28.1323"/>
+       <c v="97.0344"/>
+       <c v="Active    "/>
+       <c v="11/15/2006"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marcewq   "/>
+       <c v="Copano Bay East                         "/>
+       <c v="28&#xB0; 7' 56.28 N, 97&#xB0; 2' 3.84 W"/>
+       <c v="28.1323"/>
+       <c v="97.0344"/>
+       <c v="Active    "/>
+       <c v="Apr 2007-"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marcwwq   "/>
+       <c v="Copano Bay West                         "/>
+       <c v="28&#xB0; 5' 2.76 N, 97&#xB0; 12' 3.24 W"/>
+       <c v="28.0841"/>
+       <c v="97.2009"/>
+       <c v="Active    "/>
+       <c v="Jul 2007-"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marmbwq   "/>
+       <c v="Mesquite Bay                            "/>
+       <c v="28&#xB0; 8' 18.24 N, 96&#xB0; 49' 42.60 W"/>
+       <c v="28.1384"/>
+       <c v="96.8285"/>
+       <c v="Active    "/>
+       <c v="Jan 2008-"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="mar                                               "/>
+       <c v="marscwq   "/>
+       <c v="Ship Channel                            "/>
+       <c v="27&#xB0; 50' 17.88 N, 97&#xB0; 3' 6.12 W"/>
+       <c v="27.8383"/>
+       <c v="97.0517"/>
+       <c v="Active    "/>
+       <c v="Aug 2007 -"/>
+       <c v="tx        "/>
+       <c v="Mission Aransas                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="narncnut  "/>
+       <c v="Nag Creek                               "/>
+       <c v="41&#xB0; 37' 29.28 N, 71&#xB0; 19' 27.84 W"/>
+       <c v="41.6248"/>
+       <c v="71.3244"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="narncwq   "/>
+       <c v="Nag Creek                               "/>
+       <c v="41&#xB0; 37' 29.28 N, 71&#xB0; 19' 27.84 W"/>
+       <c v="41.6248"/>
+       <c v="71.3244"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="narpcmet  "/>
+       <c v="Potters Cove                            "/>
+       <c v="41&#xB0; 38' 20.04 N, 71&#xB0; 20' 21.84 W"/>
+       <c v="41.6389"/>
+       <c v="71.3394"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="narpcnut  "/>
+       <c v="Potters Cove                            "/>
+       <c v="41&#xB0; 38' 26.16 N, 71&#xB0; 20' 27.96 W"/>
+       <c v="41.6406"/>
+       <c v="71.3411"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="narpcwq   "/>
+       <c v="Potters Cove                            "/>
+       <c v="41&#xB0; 38' 26.16 N, 71&#xB0; 20' 27.96 W"/>
+       <c v="41.6406"/>
+       <c v="71.3411"/>
+       <c v="Active    "/>
+       <c v="Dec 1995-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartbnut  "/>
+       <c v="T-Wharf Bottom                          "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartbwq   "/>
+       <c v="T-Wharf Bottom                          "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartsnut  "/>
+       <c v="T-Wharf Surface                         "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartswq   "/>
+       <c v="T-Wharf Surface                         "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartwnut  "/>
+       <c v="T-Wharf                                 "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Inactive  "/>
+       <c v="Mar 2002-Jun 2002"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="nar                                               "/>
+       <c v="nartwwq   "/>
+       <c v="T-Wharf                                 "/>
+       <c v="41&#xB0; 34' 44.04 N, 71&#xB0; 19' 17.40 W"/>
+       <c v="41.5789"/>
+       <c v="71.3215"/>
+       <c v="Inactive  "/>
+       <c v="Sep 1996- Jul 2002"/>
+       <c v="ri        "/>
+       <c v="Narragansett Bay                                  "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwcawq   "/>
+       <c v="Caledonia                               "/>
+       <c v="33&#xB0; 27' 0.00 N, 79&#xB0; 10' 0.12 W"/>
+       <c v="33.45"/>
+       <c v="79.1667"/>
+       <c v="Inactive  "/>
+       <c v="Jun 1995-Dec 1995"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwcbnut  "/>
+       <c v="Clambank                                "/>
+       <c v="33&#xB0; 20' 1.91 N, 79&#xB0; 11' 34.95 W"/>
+       <c v="33.3338636"/>
+       <c v="79.1930411"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="NO23F,SALT_N,PO4F,CHLA_N,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwcbwq   "/>
+       <c v="Clambank                                "/>
+       <c v="33&#xB0; 20' 1.91 N, 79&#xB0; 11' 34.95 W"/>
+       <c v="33.3338636"/>
+       <c v="79.1930411"/>
+       <c v="Active    "/>
+       <c v="Aug 2001-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwdcnut  "/>
+       <c v="Debidue Creek                           "/>
+       <c v="33&#xB0; 21' 36.53 N, 79&#xB0; 10' 2.85 W"/>
+       <c v="33.3601486"/>
+       <c v="79.1674572"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="NO23F,SALT_N,PO4F,CHLA_N,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwdcwq   "/>
+       <c v="Debidue Creek                           "/>
+       <c v="33&#xB0; 21' 36.53 N, 79&#xB0; 10' 2.85 W"/>
+       <c v="33.3601486"/>
+       <c v="79.1674572"/>
+       <c v="Active    "/>
+       <c v="Mar 1998-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwolmet  "/>
+       <c v="Oyster Landing                          "/>
+       <c v="33&#xB0; 20' 57.66 N, 79&#xB0; 11' 19.97 W"/>
+       <c v="33.3493511"/>
+       <c v="79.1888819"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp,TotSoRad"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwolnut  "/>
+       <c v="Oyster Landing                          "/>
+       <c v="33&#xB0; 20' 57.66 N, 79&#xB0; 11' 19.97 W"/>
+       <c v="33.3493511"/>
+       <c v="79.1888819"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="NO23F,SALT_N,PO4F,CHLA_N,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwolwq   "/>
+       <c v="Oyster Landing                          "/>
+       <c v="33&#xB0; 20' 57.66 N, 79&#xB0; 11' 19.97 W"/>
+       <c v="33.3493511"/>
+       <c v="79.1888819"/>
+       <c v="Active    "/>
+       <c v="Jan 1996-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwtanut  "/>
+       <c v="Thousand Acre                           "/>
+       <c v="33&#xB0; 17' 56.93 N, 79&#xB0; 15' 21.80 W"/>
+       <c v="33.2991461"/>
+       <c v="79.2560564"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="NO23F,SALT_N,PO4F,CHLA_N,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="niw                                               "/>
+       <c v="niwtawq   "/>
+       <c v="Thousand Acre                           "/>
+       <c v="33&#xB0; 17' 56.93 N, 79&#xB0; 15' 21.80 W"/>
+       <c v="33.2991461"/>
+       <c v="79.2560564"/>
+       <c v="Active    "/>
+       <c v="Jan 1995-"/>
+       <c v="sc        "/>
+       <c v="North Inlet-Winyah Bay                            "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocecnut  "/>
+       <c v="East Cribbing                           "/>
+       <c v="33&#xB0; 56' 23.64 N, 77&#xB0; 56' 27.96 W"/>
+       <c v="33.9399"/>
+       <c v="77.9411"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocecwq   "/>
+       <c v="East Cribbing                           "/>
+       <c v="33&#xB0; 56' 23.64 N, 77&#xB0; 56' 27.96 W"/>
+       <c v="33.9399"/>
+       <c v="77.9411"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="noclcnut  "/>
+       <c v="Loosin Creek                            "/>
+       <c v="34&#xB0; 10' 19.92 N, 77&#xB0; 49' 58.08 W"/>
+       <c v="34.1722"/>
+       <c v="77.8328"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="noclcwq   "/>
+       <c v="Loosin Creek                            "/>
+       <c v="34&#xB0; 10' 19.92 N, 77&#xB0; 49' 58.08 W"/>
+       <c v="34.1722"/>
+       <c v="77.8328"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocmswq   "/>
+       <c v="Masonboro Island                        "/>
+       <c v="34&#xB0; 9' 21.60 N, 77&#xB0; 50' 59.64 W"/>
+       <c v="34.156"/>
+       <c v="77.8499"/>
+       <c v="Inactive  "/>
+       <c v="May 1994-Dec 2001"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocrcmet  "/>
+       <c v="Research Creek                          "/>
+       <c v="34&#xB0; 9' 19.80 N, 77&#xB0; 51' 3.24 W"/>
+       <c v="34.1555"/>
+       <c v="77.8509"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocrcnut  "/>
+       <c v="Research Creek                          "/>
+       <c v="34&#xB0; 9' 21.60 N, 77&#xB0; 50' 59.64 W"/>
+       <c v="34.156"/>
+       <c v="77.8499"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocrcwq   "/>
+       <c v="Research Creek                          "/>
+       <c v="34&#xB0; 9' 21.60 N, 77&#xB0; 50' 59.64 W"/>
+       <c v="34.156"/>
+       <c v="77.8499"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="noczbnut  "/>
+       <c v="Zeke's Basin                            "/>
+       <c v="33&#xB0; 57' 16.92 N, 77&#xB0; 56' 6.00 W"/>
+       <c v="33.9547"/>
+       <c v="77.935"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="noczbwq   "/>
+       <c v="Zeke's Basin                            "/>
+       <c v="33&#xB0; 57' 16.92 N, 77&#xB0; 56' 6.00 W"/>
+       <c v="33.9547"/>
+       <c v="77.935"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="noc                                               "/>
+       <c v="nocziwq   "/>
+       <c v="Zeke's Island                           "/>
+       <c v="33&#xB0; 56' 23.64 N, 77&#xB0; 56' 27.96 W"/>
+       <c v="33.9399"/>
+       <c v="77.9411"/>
+       <c v="Inactive  "/>
+       <c v="May 1994-Dec 2001"/>
+       <c v="nc        "/>
+       <c v="North Carolina                                    "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcbrnut  "/>
+       <c v="Berlin Road                             "/>
+       <c v="41&#xB0; 20' 53.88 N, 82&#xB0; 30' 29.88 W"/>
+       <c v="41.3483"/>
+       <c v="82.5083"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SCON_N,DO_N,PH_N,TURB_N,PHEA,SRP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcbrwq   "/>
+       <c v="Berlin Road                             "/>
+       <c v="41&#xB0; 20' 53.88 N, 82&#xB0; 30' 29.88 W"/>
+       <c v="41.3483"/>
+       <c v="82.5083"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcdrwq   "/>
+       <c v="Darrow Road                             "/>
+       <c v="41&#xB0; 21' 53.92 N, 82&#xB0; 30' 17.06 W"/>
+       <c v="41.364978"/>
+       <c v="82.504739"/>
+       <c v="Active    "/>
+       <c v="08/28/2007"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcolnut  "/>
+       <c v="Lower Estuary                           "/>
+       <c v="41&#xB0; 22' 54.84 N, 82&#xB0; 30' 51.12 W"/>
+       <c v="41.3819"/>
+       <c v="82.5142"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SCON_N,DO_N,PH_N,TURB_N,PHEA,SRP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcolwq   "/>
+       <c v="Lower Estuary                           "/>
+       <c v="41&#xB0; 22' 54.84 N, 82&#xB0; 30' 51.12 W"/>
+       <c v="41.3819"/>
+       <c v="82.5142"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcowmet  "/>
+       <c v="Old Woman Creek                         "/>
+       <c v="41&#xB0; 22' 40.01 N, 82&#xB0; 30' 29.00 W"/>
+       <c v="41.37778"/>
+       <c v="82.508056"/>
+       <c v="Active    "/>
+       <c v="May 2001-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcsunut  "/>
+       <c v="State Route 2                           "/>
+       <c v="41&#xB0; 22' 1.92 N, 82&#xB0; 30' 25.92 W"/>
+       <c v="41.3672"/>
+       <c v="82.5072"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SCON_N,DO_N,PH_N,TURB_N,PHEA,SRP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcsuwq   "/>
+       <c v="State Route 2                           "/>
+       <c v="41&#xB0; 22' 1.92 N, 82&#xB0; 30' 25.92 W"/>
+       <c v="41.3672"/>
+       <c v="82.5072"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcwmnut  "/>
+       <c v="State Route 6                           "/>
+       <c v="41&#xB0; 22' 57.00 N, 82&#xB0; 30' 54.00 W"/>
+       <c v="41.3825"/>
+       <c v="82.5150"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="PO4F,NH4F,NO2F,NO3F,NO23F,DIN,CHLA_N,WTEM_N,SCON_N,DO_N,PH_N,TURB_N,PHEA,SRP"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="owc                                               "/>
+       <c v="owcwmwq   "/>
+       <c v="State Route 6                           "/>
+       <c v="41&#xB0; 22' 57.00 N, 82&#xB0; 30' 54.00 W"/>
+       <c v="41.3825"/>
+       <c v="82.5150"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="oh        "/>
+       <c v="Old Woman Creek                                   "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbbpnut  "/>
+       <c v="Ploeg Channel                           "/>
+       <c v="48&#xB0; 33' 23.40 N, 122&#xB0; 31' 46.56 W"/>
+       <c v="48.5565"/>
+       <c v="122.5296"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbbpwq   "/>
+       <c v="Ploeg Channel                           "/>
+       <c v="48&#xB0; 33' 23.40 N, 122&#xB0; 31' 46.56 W"/>
+       <c v="48.5565"/>
+       <c v="122.5296"/>
+       <c v="Active    "/>
+       <c v="Jul 2001-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbbynut  "/>
+       <c v="Bayview Channel                         "/>
+       <c v="48&#xB0; 29' 46.68 N, 122&#xB0; 30' 1.80 W"/>
+       <c v="48.4963"/>
+       <c v="122.5005"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbbywq   "/>
+       <c v="Bayview Channel                         "/>
+       <c v="48&#xB0; 29' 46.68 N, 122&#xB0; 30' 1.80 W"/>
+       <c v="48.4963"/>
+       <c v="122.5005"/>
+       <c v="Active    "/>
+       <c v="Sep 1995-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbgsnut  "/>
+       <c v="Gong Surface                            "/>
+       <c v="48&#xB0; 33' 29.88 N, 122&#xB0; 34' 21.00 W"/>
+       <c v="48.5583"/>
+       <c v="122.5725"/>
+       <c v="Active    "/>
+       <c v="Apr 2003-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbgswq   "/>
+       <c v="Gong Surface                            "/>
+       <c v="48&#xB0; 33' 29.88 N, 122&#xB0; 34' 21.00 W"/>
+       <c v="48.5583"/>
+       <c v="122.5725"/>
+       <c v="Active    "/>
+       <c v="Mar 2003-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbjewq   "/>
+       <c v="Joe Leary Estuary                       "/>
+       <c v="48&#xB0; 31' 8.1 N, 122&#xB0; 28' 29.9 W"/>
+       <c v="48.518917"/>
+       <c v="122.474972"/>
+       <c v="Active    "/>
+       <c v="July 2009 -"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbjlnut  "/>
+       <c v="Joe Leary Slough                        "/>
+       <c v="48&#xB0; 31' 5.16 N, 122&#xB0; 28' 22.80 W"/>
+       <c v="48.5181"/>
+       <c v="122.473"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,TP,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbjlwq   "/>
+       <c v="Joe Leary Slough                        "/>
+       <c v="48&#xB0; 31' 5.16 N, 122&#xB0; 28' 22.80 W"/>
+       <c v="48.5181"/>
+       <c v="122.473"/>
+       <c v="Inactive  "/>
+       <c v="Jun 1995-July 2009"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbnnwq   "/>
+       <c v="No Name Slough                          "/>
+       <c v="48&#xB0; 28' 10.20 N, 122&#xB0; 28' 2.64 W"/>
+       <c v="48.4695"/>
+       <c v="122.4674"/>
+       <c v="Inactive  "/>
+       <c v="Aug 1996-Dec 1997"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="pdb                                               "/>
+       <c v="pdbpfmet  "/>
+       <c v="Padilla Bay Farm                        "/>
+       <c v="48&#xB0; 27' 50.76 N, 122&#xB0; 28' 4.80 W"/>
+       <c v="48.4641"/>
+       <c v="122.468"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="wa        "/>
+       <c v="Padilla Bay                                       "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbbmwq   "/>
+       <c v="Big Marco Pass                          "/>
+       <c v="25&#xB0; 58' 44.40 N, 81&#xB0; 44' 15.00 W"/>
+       <c v="25.979"/>
+       <c v="81.7375"/>
+       <c v="Inactive  "/>
+       <c v="Jan 1997-Feb 1998"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbbrwq   "/>
+       <c v="Blackwater River                        "/>
+       <c v="25&#xB0; 58' 4.08 N, 81&#xB0; 35' 26.88 W"/>
+       <c v="25.9678"/>
+       <c v="81.5908"/>
+       <c v="Inactive  "/>
+       <c v="Feb 1998-Dec 1999"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbfbnut  "/>
+       <c v="Fakahatchee Bay                         "/>
+       <c v="25&#xB0; 53' 31.92 N, 81&#xB0; 28' 37.20 W"/>
+       <c v="25.8922"/>
+       <c v="81.477"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="TON,NO23F,SALT_N,PO4F,TOC,DO_N,SRPF,DO_S_N,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,TP,DIN,NH4F,SiO4F,TN,TURB_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbfbwq   "/>
+       <c v="Fakahatchee Bay                         "/>
+       <c v="25&#xB0; 53' 31.92 N, 81&#xB0; 28' 37.20 W"/>
+       <c v="25.8922"/>
+       <c v="81.477"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,Level,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbfunut  "/>
+       <c v="Faka Union Bay                          "/>
+       <c v="25&#xB0; 54' 1.80 N, 81&#xB0; 30' 57.24 W"/>
+       <c v="25.9005"/>
+       <c v="81.5159"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="TON,NO23F,SALT_N,PO4F,TOC,DO_N,SRPF,DO_S_N,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,TP,DIN,NH4F,SiO4F,TN,TURB_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbfuwq   "/>
+       <c v="Faka Union Bay                          "/>
+       <c v="25&#xB0; 54' 1.80 N, 81&#xB0; 30' 57.24 W"/>
+       <c v="25.9005"/>
+       <c v="81.5159"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbhcmet  "/>
+       <c v="Henderson Creek                         "/>
+       <c v="26&#xB0; 1' 29.64 N, 81&#xB0; 43' 53.76 W"/>
+       <c v="26.0249"/>
+       <c v="81.7316"/>
+       <c v="Inactive  "/>
+       <c v="Sep 2001-Dec 2003"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkblhnut  "/>
+       <c v="Lower Henderson Creek                   "/>
+       <c v="26&#xB0; 1' 32.52 N, 81&#xB0; 43' 59.52 W"/>
+       <c v="26.0257"/>
+       <c v="81.7332"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="TON,NO23F,SALT_N,PO4F,TOC,DO_N,SRPF,DO_S_N,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,TP,DIN,NH4F,SiO4F,TN,TURB_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkblhwq   "/>
+       <c v="Lower Henderson Creek                   "/>
+       <c v="26&#xB0; 1' 32.52 N, 81&#xB0; 43' 59.52 W"/>
+       <c v="26.0257"/>
+       <c v="81.7332"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbmbnut  "/>
+       <c v="Middle Blackwater River                 "/>
+       <c v="25&#xB0; 56' 3.48 N, 81&#xB0; 35' 44.16 W"/>
+       <c v="25.9343"/>
+       <c v="81.5956"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="TON,NO23F,SALT_N,PO4F,TOC,DO_N,SRPF,DO_S_N,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,TP,DIN,NH4F,SiO4F,TN,TURB_N"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbmbwq   "/>
+       <c v="Middle Blackwater River                 "/>
+       <c v="25&#xB0; 56' 3.48 N, 81&#xB0; 35' 44.16 W"/>
+       <c v="25.9343"/>
+       <c v="81.5956"/>
+       <c v="Active    "/>
+       <c v="Jan 2000-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbuhmet  "/>
+       <c v="Upper Henderson Creek                   "/>
+       <c v="26&#xB0; 3' 0.00 N, 81&#xB0; 42' 3.60 W"/>
+       <c v="26.050"/>
+       <c v="81.701"/>
+       <c v="Active    "/>
+       <c v="Jan 2004-"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="rkb                                               "/>
+       <c v="rkbuhwq   "/>
+       <c v="Upper Henderson Creek                   "/>
+       <c v="26&#xB0; 2' 56.40 N, 81&#xB0; 42' 4.32 W"/>
+       <c v="26.049"/>
+       <c v="81.7012"/>
+       <c v="Inactive  "/>
+       <c v="Nov 1996-Dec 2000"/>
+       <c v="fl        "/>
+       <c v="Rookery Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapbcwq   "/>
+       <c v="Barn Creek                              "/>
+       <c v="31&#xB0; 26' 21.12 N, 81&#xB0; 16' 42.96 W"/>
+       <c v="31.4392"/>
+       <c v="81.2786"/>
+       <c v="Inactive  "/>
+       <c v="May 1995-Dec 1997"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapcanut  "/>
+       <c v="Cabretta Creek                          "/>
+       <c v="31&#xB0; 26' 37.32 N, 81&#xB0; 14' 23.64 W"/>
+       <c v="31.4437"/>
+       <c v="81.2399"/>
+       <c v="Active    "/>
+       <c v="Aug 2004-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapcawq   "/>
+       <c v="Cabretta Creek                          "/>
+       <c v="31&#xB0; 26' 37.32 N, 81&#xB0; 14' 23.64 W"/>
+       <c v="31.4437"/>
+       <c v="81.2399"/>
+       <c v="Active    "/>
+       <c v="Aug 2004-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapccwq   "/>
+       <c v="Crab Creek                              "/>
+       <c v="31&#xB0; 30' 44.28 N, 80&#xB0; 15' 15.12 W"/>
+       <c v="31.5123"/>
+       <c v="80.2542"/>
+       <c v="Inactive  "/>
+       <c v="Jan 2004-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapdcnut  "/>
+       <c v="Dean Creek                              "/>
+       <c v="31&#xB0; 23' 22.56 N, 81&#xB0; 16' 44.04 W"/>
+       <c v="31.3896"/>
+       <c v="81.2789"/>
+       <c v="Active    "/>
+       <c v="May 2004-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapdcwq   "/>
+       <c v="Dean Creek                              "/>
+       <c v="31&#xB0; 23' 22.56 N, 81&#xB0; 16' 44.04 W"/>
+       <c v="31.3896"/>
+       <c v="81.2789"/>
+       <c v="Active    "/>
+       <c v="May 2004-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapfdnut  "/>
+       <c v="Flume Dock                              "/>
+       <c v="31&#xB0; 28' 58.08 N, 81&#xB0; 16' 3.00 W"/>
+       <c v="31.4828"/>
+       <c v="81.2675"/>
+       <c v="Inactive  "/>
+       <c v="Mar 2002-Aug 2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapfdwq   "/>
+       <c v="Flume Dock                              "/>
+       <c v="31&#xB0; 28' 58.08 N, 81&#xB0; 16' 3.00 W"/>
+       <c v="31.4828"/>
+       <c v="81.2675"/>
+       <c v="Inactive  "/>
+       <c v="Jan 1995-Dec 1998; Jun 2002-Aug 2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="saphcnut  "/>
+       <c v="Hunt Camp                               "/>
+       <c v="31&#xB0; 28' 30.00 N, 81&#xB0; 17' 29.76 W"/>
+       <c v="31.475"/>
+       <c v="81.2916"/>
+       <c v="Inactive  "/>
+       <c v=""/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v=""/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="saphdnut  "/>
+       <c v="Hunt Dock                               "/>
+       <c v="31&#xB0; 28' 42.96 N, 81&#xB0; 16' 23.16 W"/>
+       <c v="31.4786"/>
+       <c v="81.2731"/>
+       <c v="Active    "/>
+       <c v="Mar 2002-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="saphdwq   "/>
+       <c v="Hunt Dock                               "/>
+       <c v="31&#xB0; 28' 42.96 N, 81&#xB0; 16' 23.16 W"/>
+       <c v="31.4786"/>
+       <c v="81.2731"/>
+       <c v="Active    "/>
+       <c v="Jul 1999-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapldnut  "/>
+       <c v="Lower Duplin                            "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapldwq   "/>
+       <c v="Lower Duplin                            "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Active    "/>
+       <c v="Jan 1999-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapmbnut  "/>
+       <c v="Marsh Landing Bottom                    "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Inactive  "/>
+       <c v="Jan 2002-Aug 2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v=""/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapmlmet  "/>
+       <c v="Marsh Landing                           "/>
+       <c v="31&#xB0; 25' 4.08 N, 81&#xB0; 17' 43.26 W"/>
+       <c v="31.4178"/>
+       <c v="81.29535"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp,TotSoRad"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapmlnut  "/>
+       <c v="Marsh Landing                           "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Inactive  "/>
+       <c v="Jan 2002-2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapmlwq   "/>
+       <c v="Marsh Landing                           "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Inactive  "/>
+       <c v="May 1995-Dec 1998; Jun 2002-May 2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sap                                               "/>
+       <c v="sapmsnut  "/>
+       <c v="Marsh Landing Surface                   "/>
+       <c v="31&#xB0; 25' 3.72 N, 81&#xB0; 17' 45.96 W"/>
+       <c v="31.4177"/>
+       <c v="81.2961"/>
+       <c v="Inactive  "/>
+       <c v="Jan 2002-Aug 2004"/>
+       <c v="ga        "/>
+       <c v="Sapelo Island                                     "/>
+       <c v=""/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sfb                                               "/>
+       <c v="sfbccwq   "/>
+       <c v="China Camp                              "/>
+       <c v="38&#xB0; 0' 4.49 N, 122&#xB0; 27' 37.28 W"/>
+       <c v="38.0012"/>
+       <c v="122.4604"/>
+       <c v="Active    "/>
+       <c v="Dec 2006-"/>
+       <c v="ca        "/>
+       <c v="San Francisco Bay                                 "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sfb                                               "/>
+       <c v="sfbfmwq   "/>
+       <c v="First Mallard                           "/>
+       <c v="38&#xB0; 11' 41.70 N, 122&#xB0; 1' 58.02 W"/>
+       <c v="38.1949"/>
+       <c v="122.0328"/>
+       <c v="Active    "/>
+       <c v="May 2008-"/>
+       <c v="ca        "/>
+       <c v="San Francisco Bay                                 "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sfb                                               "/>
+       <c v="sfbgcwq   "/>
+       <c v="Gallinas Creek                          "/>
+       <c v="38&#xB0; 00' 57.3 N, 122&#xB0; 30' 30.6 W"/>
+       <c v="38.0159"/>
+       <c v="122.5085"/>
+       <c v="Active    "/>
+       <c v="Dec 2005-"/>
+       <c v="ca        "/>
+       <c v="San Francisco Bay                                 "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sfb                                               "/>
+       <c v="sfbrrmet  "/>
+       <c v="Rush Ranch                              "/>
+       <c v="38&#xB0; 12' 01.6 N, 122&#xB0; 1' 35.3 W"/>
+       <c v="38.2004"/>
+       <c v="122.0265"/>
+       <c v="Active    "/>
+       <c v="08/17/2006"/>
+       <c v="ca        "/>
+       <c v="San Francisco Bay                                 "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sfb                                               "/>
+       <c v="sfbsmwq   "/>
+       <c v="Second Mallard                          "/>
+       <c v="38&#xB0; 11' 02.8 N, 122&#xB0; 0' 48.9 W"/>
+       <c v="38.1841"/>
+       <c v="122.0136"/>
+       <c v="Active    "/>
+       <c v="May 2008-"/>
+       <c v="ca        "/>
+       <c v="San Francisco Bay                                 "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="sosbhnut  "/>
+       <c v="Boathouse                               "/>
+       <c v="43&#xB0; 21' 0.36 N, 124&#xB0; 19' 42.96 W"/>
+       <c v="43.3501"/>
+       <c v="124.3286"/>
+       <c v="Active    "/>
+       <c v="Mar 2003-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,TDN,DO_S_N,PON,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soschnut  "/>
+       <c v="Charleston Bridge                       "/>
+       <c v="43&#xB0; 20' 42.36 N, 124&#xB0; 19' 43.32 W"/>
+       <c v="43.3451"/>
+       <c v="124.3287"/>
+       <c v="Active    "/>
+       <c v="Jun 2002-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,TDN,DO_S_N,PON,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soschwq   "/>
+       <c v="Charleston Bridge                       "/>
+       <c v="43&#xB0; 20' 15.72 N, 124&#xB0; 19' 13.92 W"/>
+       <c v="43.3377"/>
+       <c v="124.320533"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soscmmet  "/>
+       <c v="Charleston Met. Station                 "/>
+       <c v="43&#xB0; 20' 42.36 N, 124&#xB0; 19' 43.32 W"/>
+       <c v="43.3451"/>
+       <c v="124.3287"/>
+       <c v="Active    "/>
+       <c v="Aug 2001-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soscsnut  "/>
+       <c v="Charleston Bridge Surface               "/>
+       <c v="43&#xB0; 20' 42.36 N, 124&#xB0; 19' 43.32 W"/>
+       <c v="43.3451"/>
+       <c v="124.3287"/>
+       <c v="Inactive  "/>
+       <c v="Nov 2002-July 2003"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="NO23F,PO4F,TDP,TDN,PON,CHLA_N,NO3F,NO2F,POC,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="sossewq   "/>
+       <c v="Sengstacken Arm                         "/>
+       <c v="43&#xB0; 17' 22.86 N, 124&#xB0; 18' 9.42 W"/>
+       <c v="43.289683"/>
+       <c v="124.302617"/>
+       <c v="Active    "/>
+       <c v="Apr 1995-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="sosvanut  "/>
+       <c v="Valino Island                           "/>
+       <c v="43&#xB0; 19' 1.92 N, 124&#xB0; 19' 17.76 W"/>
+       <c v="43.3172"/>
+       <c v="124.3216"/>
+       <c v="Active    "/>
+       <c v="Jun 2002-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,TDN,DO_S_N,PON,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="sosvawq   "/>
+       <c v="Valino Island                           "/>
+       <c v="43&#xB0; 19' 1.98 N, 124&#xB0; 19' 17.88 W"/>
+       <c v="43.317217"/>
+       <c v="124.321633"/>
+       <c v="Active    "/>
+       <c v="Jun 1999-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soswinut  "/>
+       <c v="Winchester Arm                          "/>
+       <c v="43&#xB0; 16' 56.64 N, 124&#xB0; 19' 13.08 W"/>
+       <c v="43.2824"/>
+       <c v="124.3203"/>
+       <c v="Active    "/>
+       <c v="Jun 2002-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,TDN,DO_S_N,PON,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA,TSS,DOC,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="sos                                               "/>
+       <c v="soswiwq   "/>
+       <c v="Winchester Arm                          "/>
+       <c v="43&#xB0; 16' 56.70 N, 124&#xB0; 19' 13.14 W"/>
+       <c v="43.282417"/>
+       <c v="124.320317"/>
+       <c v="Active    "/>
+       <c v="Apr 1995-"/>
+       <c v="or        "/>
+       <c v="South Slough                                      "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrbrnut  "/>
+       <c v="Boca Rio                                "/>
+       <c v="32&#xB0; 33' 34.20 N, 117&#xB0; 7' 43.68 W"/>
+       <c v="32.5595"/>
+       <c v="117.1288"/>
+       <c v="Active    "/>
+       <c v="Dec 2004-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrbrwq   "/>
+       <c v="Boca Rio                                "/>
+       <c v="32&#xB0; 33' 34.20 N, 117&#xB0; 7' 43.68 W"/>
+       <c v="32.5595"/>
+       <c v="117.1288"/>
+       <c v="Active    "/>
+       <c v="Dec2004-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrhpnut  "/>
+       <c v="Helicopter Pad                          "/>
+       <c v="32&#xB0; 33' 24.48 N, 117&#xB0; 6' 2.16 W"/>
+       <c v="32.5568"/>
+       <c v="117.1006"/>
+       <c v="Inactive  "/>
+       <c v="Sep 2002-Sep 2002"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrmmnut  "/>
+       <c v="Model Marsh                             "/>
+       <c v="32&#xB0; 32' 52.08 N, 117&#xB0; 7' 22.80 W"/>
+       <c v="32.5478"/>
+       <c v="117.123"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrmmwq   "/>
+       <c v="Model Marsh                             "/>
+       <c v="32&#xB0; 32' 52.08 N, 117&#xB0; 7' 22.80 W"/>
+       <c v="32.5478"/>
+       <c v="117.123"/>
+       <c v="Active    "/>
+       <c v="Oct 2000-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrosnut  "/>
+       <c v="Oneonta Slough                          "/>
+       <c v="32&#xB0; 34' 4.80 N, 117&#xB0; 7' 52.32 W"/>
+       <c v="32.568"/>
+       <c v="117.1312"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjroswq   "/>
+       <c v="Oneonta Slough                          "/>
+       <c v="32&#xB0; 34' 4.80 N, 117&#xB0; 7' 52.32 W"/>
+       <c v="32.568"/>
+       <c v="117.1312"/>
+       <c v="Active    "/>
+       <c v="Jan 1996-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrpewq   "/>
+       <c v="Pond Eleven                             "/>
+       <c v="32&#xB0; 36 03.54 N, 117&#xB0; 06' 58.46 W"/>
+       <c v="32.600983"/>
+       <c v="117.116239"/>
+       <c v="Active    "/>
+       <c v="August 2008 -"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrrcnut  "/>
+       <c v="River Channel                           "/>
+       <c v="32&#xB0; 34' 4.80 N, 117&#xB0; 7' 52.32 W"/>
+       <c v="32.568"/>
+       <c v="117.1312"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrrcwq   "/>
+       <c v="River Channel                           "/>
+       <c v="32&#xB0; 33' 28.08 N, 117&#xB0; 6' 21.96 W"/>
+       <c v="32.5578"/>
+       <c v="117.1061"/>
+       <c v="Inactive  "/>
+       <c v="Aug 2002-Nov 2004"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrrmnut  "/>
+       <c v="River Mouth                             "/>
+       <c v="32&#xB0; 33' 13.32 N, 117&#xB0; 7' 34.32 W"/>
+       <c v="32.5537"/>
+       <c v="117.1262"/>
+       <c v="Inactive  "/>
+       <c v="Sep 2002-Dec 2002"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrsbwq   "/>
+       <c v="South Bay                               "/>
+       <c v="32&#xB0; 36' 0.49 N, 117&#xB0; 6' 56.49 W"/>
+       <c v="32.600136"/>
+       <c v="117.115692"/>
+       <c v="Active    "/>
+       <c v="Dec 2007-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrtlmet  "/>
+       <c v="Tidal Linkage                           "/>
+       <c v="32&#xB0; 34' 28.20 N, 117&#xB0; 7' 37.20 W"/>
+       <c v="32.5745"/>
+       <c v="117.127"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrtlnut  "/>
+       <c v="Tidal Linkage                           "/>
+       <c v="32&#xB0; 34' 27.84 N, 117&#xB0; 7' 37.92 W"/>
+       <c v="32.5744"/>
+       <c v="117.1272"/>
+       <c v="Active    "/>
+       <c v="Sep 2002-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="tjr                                               "/>
+       <c v="tjrtlwq   "/>
+       <c v="Tidal Linkage                           "/>
+       <c v="32&#xB0; 34' 27.84 N, 117&#xB0; 7' 37.92 W"/>
+       <c v="32.5744"/>
+       <c v="117.1272"/>
+       <c v="Active    "/>
+       <c v="May 1997-"/>
+       <c v="ca        "/>
+       <c v="Tijuana River                                     "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="weldnwq   "/>
+       <c v="Drake Island Downstream                 "/>
+       <c v="43&#xB0; 19' 44.04 N, 70&#xB0; 33' 37.08 W"/>
+       <c v="43.3289"/>
+       <c v="70.5603"/>
+       <c v="Inactive  "/>
+       <c v="Apr 1996-Dec 1997"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welhtnut  "/>
+       <c v="Head of Tide                            "/>
+       <c v="43&#xB0; 17' 54.24 N, 70&#xB0; 35' 13.56 W"/>
+       <c v="43.2984"/>
+       <c v="70.5871"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welhtwq   "/>
+       <c v="Head of Tide                            "/>
+       <c v="43&#xB0; 17' 54.24 N, 70&#xB0; 35' 13.56 W"/>
+       <c v="43.2984"/>
+       <c v="70.5871"/>
+       <c v="Active    "/>
+       <c v="Apr 1995-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welinnut  "/>
+       <c v="Inlet                                   "/>
+       <c v="43&#xB0; 19' 12.36 N, 70&#xB0; 33' 13.68 W"/>
+       <c v="43.3201"/>
+       <c v="70.5538"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welinwq   "/>
+       <c v="Inlet                                   "/>
+       <c v="43&#xB0; 19' 12.36 N, 70&#xB0; 33' 13.68 W"/>
+       <c v="43.3201"/>
+       <c v="70.5538"/>
+       <c v="Active    "/>
+       <c v="May 1995-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="wellfmet  "/>
+       <c v="Laudholm Farm                           "/>
+       <c v="43&#xB0; 20' 14.64 N, 70&#xB0; 32' 60.00 W"/>
+       <c v="43.3374"/>
+       <c v="70.55"/>
+       <c v="Active    "/>
+       <c v="Jan 2001-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="wellmnut  "/>
+       <c v="Little River Mouth                      "/>
+       <c v="43&#xB0; 20' 24.72 N, 70&#xB0; 32' 26.52 W"/>
+       <c v="43.3402"/>
+       <c v="70.5407"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="wellmwq   "/>
+       <c v="Little River Mouth                      "/>
+       <c v="43&#xB0; 20' 24.72 N, 70&#xB0; 32' 26.52 W"/>
+       <c v="43.3402"/>
+       <c v="70.5407"/>
+       <c v="Active    "/>
+       <c v="Apr 2002-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welmlnut  "/>
+       <c v="Mile Road                               "/>
+       <c v="43&#xB0; 18' 18.00 N, 70&#xB0; 34' 35.04 W"/>
+       <c v="43.305"/>
+       <c v="70.5764"/>
+       <c v="Inactive  "/>
+       <c v="May2002-2003"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="NO23F,PO4F,CHLA_N,NO3F,NO2F,DIN,NH4F,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welmlwq   "/>
+       <c v="Mile Road                               "/>
+       <c v="43&#xB0; 18' 18.00 N, 70&#xB0; 34' 35.04 W"/>
+       <c v="43.305"/>
+       <c v="70.5764"/>
+       <c v="Inactive  "/>
+       <c v="Mar 2002-Dec 2003"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welsmnut  "/>
+       <c v="Skinner Mill                            "/>
+       <c v="43&#xB0; 20' 43.19 N, 70&#xB0; 33' 7.54 W"/>
+       <c v="43.34533"/>
+       <c v="70.552094"/>
+       <c v="Active    "/>
+       <c v="April 2004-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="NO23F,PO4F,CHLA_N,NH4F,SiO4F"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welsmwq   "/>
+       <c v="Skinner Mill                            "/>
+       <c v="43&#xB0; 20' 43.19 N, 70&#xB0; 33' 7.54 W"/>
+       <c v="43.34533"/>
+       <c v="70.552094"/>
+       <c v="Active    "/>
+       <c v="Apr 2004-"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wel                                               "/>
+       <c v="welupwq   "/>
+       <c v="Drake Island Upstream                   "/>
+       <c v="43&#xB0; 19' 50.16 N, 70&#xB0; 33' 25.92 W"/>
+       <c v="43.3306"/>
+       <c v="70.5572"/>
+       <c v="Inactive  "/>
+       <c v="Apr 1996-Dec 1997"/>
+       <c v="me        "/>
+       <c v="Wells                                             "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbfrnut  "/>
+       <c v="Fish River                              "/>
+       <c v="30&#xB0; 24' 58.32 N, 87&#xB0; 49' 22.08 W"/>
+       <c v="30.4162"/>
+       <c v="87.8228"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,DO_S_N,PH_N,CHLA_N,TVS,TFS,NO3F,NO2F,WTEM_N,DIN,NH4F,TDEP_N,PHEA,TSS,DOP,TURB_N,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbfrwq   "/>
+       <c v="Fish River                              "/>
+       <c v="30&#xB0; 24' 58.32 N, 87&#xB0; 49' 22.08 W"/>
+       <c v="30.4162"/>
+       <c v="87.8228"/>
+       <c v="Active    "/>
+       <c v="Oct 1995-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbmbnut  "/>
+       <c v="Middle Bay                              "/>
+       <c v="30&#xB0; 23' 45.96 N, 87&#xB0; 50' 0.60 W"/>
+       <c v="30.3961"/>
+       <c v="87.8335"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,DO_S_N,PH_N,CHLA_N,TVS,TFS,NO3F,NO2F,WTEM_N,DIN,NH4F,TDEP_N,PHEA,TSS,DOP,TURB_N,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbmbwq   "/>
+       <c v="Middle Bay                              "/>
+       <c v="30&#xB0; 23' 45.96 N, 87&#xB0; 50' 0.60 W"/>
+       <c v="30.3961"/>
+       <c v="87.8335"/>
+       <c v="Active    "/>
+       <c v="May 2003-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbmrnut  "/>
+       <c v="Magnolia River                          "/>
+       <c v="30&#xB0; 23' 24.00 N, 87&#xB0; 49' 3.72 W"/>
+       <c v="30.39"/>
+       <c v="87.8177"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,DO_S_N,PH_N,CHLA_N,TVS,TFS,NO3F,NO2F,WTEM_N,DIN,NH4F,TDEP_N,PHEA,TSS,DOP,TURB_N,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbmrwq   "/>
+       <c v="Magnolia River                          "/>
+       <c v="30&#xB0; 23' 24.00 N, 87&#xB0; 49' 3.72 W"/>
+       <c v="30.39"/>
+       <c v="87.8177"/>
+       <c v="Active    "/>
+       <c v="May 2003-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbshmet  "/>
+       <c v="Safe Harbor Met Station                 "/>
+       <c v="30&#xB0; 25' 16.40 N, 87&#xB0; 49' 42.50 W"/>
+       <c v="30.4212"/>
+       <c v="87.8285"/>
+       <c v="Active    "/>
+       <c v="Jan 2008-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbwbmet  "/>
+       <c v="Weeks Bay                               "/>
+       <c v="30&#xB0; 24' 53.28 N, 87&#xB0; 49' 33.60 W"/>
+       <c v="30.4148"/>
+       <c v="87.826"/>
+       <c v="Inactive  "/>
+       <c v="Jan 2001-Jan 2008"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbwbnut  "/>
+       <c v="Weeks Bay                               "/>
+       <c v="30&#xB0; 22' 50.88 N, 87&#xB0; 49' 55.20 W"/>
+       <c v="30.3808"/>
+       <c v="87.832"/>
+       <c v="Active    "/>
+       <c v="Feb 2002-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,DO_S_N,PH_N,CHLA_N,TVS,TFS,NO3F,NO2F,WTEM_N,DIN,NH4F,TDEP_N,PHEA,TSS,DOP,TURB_N,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbwbwq   "/>
+       <c v="Weeks Bay                               "/>
+       <c v="30&#xB0; 22' 50.88 N, 87&#xB0; 49' 55.20 W"/>
+       <c v="30.3808"/>
+       <c v="87.832"/>
+       <c v="Active    "/>
+       <c v="Oct 1995-"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wkb                                               "/>
+       <c v="wkbwsnut  "/>
+       <c v="Weather Station                         "/>
+       <c v="30&#xB0; 24' 53.32 N, 87&#xB0; 49' 33.60 W"/>
+       <c v="30.41481"/>
+       <c v="87.826"/>
+       <c v="Inactive  "/>
+       <c v="Nov 2002-Dec 2004"/>
+       <c v="al        "/>
+       <c v="Weeks Bay                                         "/>
+       <c v="NO23F,SALT_N,PO4F,SCON_N,TDP,DO_N,DO_S_N,PH_N,CHLA_N,TVS,TFS,NO3F,NO2F,WTEM_N,DIN,NH4F,TDEP_N,PHEA,TSS,DOP,TURB_N,TIDE"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbcbwq   "/>
+       <c v="Central Basin                           "/>
+       <c v="41&#xB0; 33' 55.80 N, 70&#xB0; 31' 15.96 W"/>
+       <c v="41.5655"/>
+       <c v="70.5211"/>
+       <c v="Inactive  "/>
+       <c v="Oct 1995-Dec 1998"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbchmet  "/>
+       <c v="Carriage House                          "/>
+       <c v="41&#xB0; 34' 54.12 N, 70&#xB0; 31' 30.36 W"/>
+       <c v="41.5817"/>
+       <c v="70.5251"/>
+       <c v="Active    "/>
+       <c v="Jan 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="ATemp,RH,BP,WSpd,MaxWSpd,MaxWSpdT,Wdir,SDWDir,TotPrcp,TotPAR,CumPrcp,TotSoRad"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbcrnut  "/>
+       <c v="Childs River                            "/>
+       <c v="41&#xB0; 34' 47.28 N, 70&#xB0; 31' 51.24 W"/>
+       <c v="41.5798"/>
+       <c v="70.5309"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="NO23F,SALT_N,PO4F,DON,DO_N,TDN,DO_S_N,PON,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbcrwq   "/>
+       <c v="Childs River                            "/>
+       <c v="41&#xB0; 34' 47.28 N, 70&#xB0; 31' 51.24 W"/>
+       <c v="41.5798"/>
+       <c v="70.5309"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbctwq   "/>
+       <c v="Adjacent to Central Basin               "/>
+       <c v="41&#xB0; 33' 55.80 N, 70&#xB0; 31' 15.96 W"/>
+       <c v="41.5655"/>
+       <c v="70.5211"/>
+       <c v="Inactive  "/>
+       <c v="Sep 1998-Oct 1998"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbmhnut  "/>
+       <c v="Menauhant                               "/>
+       <c v="41&#xB0; 33' 9.36 N, 70&#xB0; 32' 54.60 W"/>
+       <c v="41.5526"/>
+       <c v="70.5485"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="NO23F,SALT_N,PO4F,DON,DO_N,TDN,DO_S_N,PON,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbmhwq   "/>
+       <c v="Menauhant                               "/>
+       <c v="41&#xB0; 33' 9.36 N, 70&#xB0; 32' 54.60 W"/>
+       <c v="41.5526"/>
+       <c v="70.5485"/>
+       <c v="Active    "/>
+       <c v="Mar 2001-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="R         "/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbmpnut  "/>
+       <c v="Metoxit Point                           "/>
+       <c v="41&#xB0; 34' 8.04 N, 70&#xB0; 31' 17.76 W"/>
+       <c v="41.5689"/>
+       <c v="70.5216"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="NO23F,SALT_N,PO4F,DON,DO_N,TDN,DO_S_N,PON,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbmpwq   "/>
+       <c v="Metoxit Point                           "/>
+       <c v="41&#xB0; 34' 8.04 N, 70&#xB0; 31' 17.76 W"/>
+       <c v="41.5689"/>
+       <c v="70.5216"/>
+       <c v="Active    "/>
+       <c v="Nov 1998-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb,ChlFluor"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbnbwq   "/>
+       <c v="North Basin                             "/>
+       <c v="41&#xB0; 34' 43.68 N, 70&#xB0; 31' 25.32 W"/>
+       <c v="41.5788"/>
+       <c v="70.5237"/>
+       <c v="Inactive  "/>
+       <c v="Oct 1995-Dec 1997"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbnswq   "/>
+       <c v="North Basin Surface                     "/>
+       <c v="41&#xB0; 34' 43.68 N, 70&#xB0; 31' 25.32 W"/>
+       <c v="41.5788"/>
+       <c v="70.5237"/>
+       <c v="Inactive  "/>
+       <c v="Jul 1996-Jul 1996; Jul 1997-Dec 1997"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbslnut  "/>
+       <c v="Sage Lot                                "/>
+       <c v="41&#xB0; 33' 15.12 N, 70&#xB0; 30' 36.72 W"/>
+       <c v="41.5542"/>
+       <c v="70.5102"/>
+       <c v="Active    "/>
+       <c v="Jul 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="NO23F,SALT_N,PO4F,DON,DO_N,TDN,DO_S_N,PON,PH_N,CHLA_N,NO3F,NO2F,WTEM_N,POC,DIN,NH4F,SiO4F,TN,PHEA"/>
+       <c v="null"/>
+      </r>
+      <r>
+       <c v="wqb                                               "/>
+       <c v="wqbslwq   "/>
+       <c v="Sage Lot                                "/>
+       <c v="41&#xB0; 33' 15.12 N, 70&#xB0; 30' 36.72 W"/>
+       <c v="41.5542"/>
+       <c v="70.5102"/>
+       <c v="Active    "/>
+       <c v="May 2002-"/>
+       <c v="ma        "/>
+       <c v="Waquoit Bay                                       "/>
+       <c v="Temp,SpCond,Sal,DO_pct,DO_mgl,Depth,pH,Turb"/>
+       <c v="null"/>
+      </r>
+     </data>
+    </nds>
+   </exportStationCodesXMLReturn>
+  </ns1:exportStationCodesXMLResponse>
+ </soapenv:Body>
+</soapenv:Envelope>
