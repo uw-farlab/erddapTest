@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17971</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>Snake River fall Chinook reproductive success (Juvenile life history changes in Snake River fall Chinook salmon)</name>
+      <title>Snake River fall Chinook reproductive success (Juvenile life history changes in Snake River fall Chinook salmon)</title>
+      <abstract>This population historically migrated as subyearling smolts, but in recent years, the yearling life history has become more common. Environmental conditions associated with dams and reservoirs might be exerting strong selection for alteration of life history traits that evolved over millennia. This project attempts to determine the extent to which these life history changes are due to evolution (genetic change) as opposed to phenotypic plasticity (non-genetic response to different environmental conditions).
+Snake River fall Chinook reproductive success</abstract>
+      <purpose>Addresses Legal Mandate
+Raw/field data, Time series (of types 1-3), Laboratory data</purpose>
+      <notes>Loaded by batch 4258, 01-30-2013 17:25</notes>
+      <supplemental-info>These data are available to the public</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>In Work</data-status>
+      <fgdc-data-status>In Work</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17775</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>CB (Conservation Biology) Division</parent-title>
+      <created-by>SysAdmin InPortAdmin</created-by>
+      <created-by-pers-id>0</created-by-pers-id>
+      <record-created>2013-01-30T17:25:53</record-created>
+      <record-last-modified>2013-10-29T14:21:05</record-last-modified>
+      <record-published>2013-02-28</record-published>
+      <publication-status>Public</publication-status>
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2013-08-13</data-set-publication-date>
+      <metadata-next-review-date>2014-03-01</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type="">
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2013-08-13</data-set-publication-date>
+   </data-set>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">reproductive success, Biological, Protected species and marine mammals, Population surveys, chinook salmon</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">Nez Perce Tribal Hatchery, NWFSC Montlake, Montlake</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90681"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11447"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Park, Linda </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Linda.Park@noaa.gov</email>
+            <phone>206-860-3241</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90679"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9829"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Drake, Jon </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Blvd. East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Jon.Drake@noaa.gov</email>
+            <phone>206-860-3258</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90682"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11413"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Elz, Anna E</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Anna.Elz@noaa.gov</email>
+            <phone>206-860-3278</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90680"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11413"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Elz, Anna E</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Anna.Elz@noaa.gov</email>
+            <phone>206-860-3278</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244315" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90678"
+                       type=""
+                       last-modified="2013-01-30T17:25:53"
+                       created="2013-01-30T17:25:53">
+               <description>Nez Perce Tribal Hatchery; NWFSC Montlake, Seattle</description>
+               <west-bound>-122.306178</west-bound>
+               <east-bound>-116.838684082</east-bound>
+               <south-bound>46.44494483</south-bound>
+               <north-bound>47.644914</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90677"
+                        type="Range"
+                        last-modified="2013-01-30T17:25:53"
+                        created="2013-01-30T17:25:53">
+               <start>2011-01-01</start>
+               <end>2013-08-13</end>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints/>
+      <data-use-constraints/>
+      <metadata-access-constraints/>
+      <metadata-use-constraints/>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90684"
+                          type=""
+                          last-modified="2013-01-30T17:25:53"
+                          created="2013-01-30T17:25:53">
+      <description>Access Database</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>High</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Park, Linda </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Linda.Park@noaa.gov</email>
+         <voice>206-860-3241</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Drake, Jon </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Blvd. East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Jon.Drake@noaa.gov</email>
+         <voice>206-860-3258</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Elz, Anna E</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Anna.Elz@noaa.gov</email>
+         <voice>206-860-3278</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2011-01-01</begdate>
+               <begtime/>
+               <enddate>2013-08-13</enddate>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>

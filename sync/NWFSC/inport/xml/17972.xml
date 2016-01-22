@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17972</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>DTAGs SRKW (Using DTAGs to study vessel sound exposure &amp; effects on behavior in southern resident killer whales)</name>
+      <title>DTAGs SRKW (Using DTAGs to study vessel sound exposure &amp; effects on behavior in southern resident killer whales)</title>
+      <abstract>Drs. Marla Holt, Brad Hanson, and Candice Emmons of the NWFSC, along with collaborators from Cascadia Research Collective and UC Davis, are currently conducting a study using digital acoustic recording tags (DTAGs) to examine sound exposure, sound use, and behavior of Southern Resident killer whales (SRKWs) in core summer habitat. The DTAG is suction cup attached and consists of a number of different sensors that record sound, pitch, roll, heading, and depth. The tag was developed by Woods Hole Oceanographic Institution specifically to monitor the behavior of marine mammals and their response to sound, continuously throughout the dive cycle. Prey samples and vessel data are also concurrently collected relative to tagged whales in a manner similar to previous work. The project research goals include the following: 
+
+(1) Measure noise levels in biological relevant frequency ranges that are received by individual SRKWs.
+
+(2) Quantify the relationship between vessels and received noise levels. 
+
+(3) Determine acoustic behavior during different activities and matched with fine scale details on movement, especially those indicative of foraging.
+
+(4) Quantify foraging efforts and determine potential effects of vessels and associated noise levels. 
+
+The results of this study will provide pertinent data to address multiple risk factors of SRKWs including vessel disturbance, noise exposure, effects on foraging, and cumulative effects. The specific work that will be done includes experimental design, data collection, data analysis, and writing for submission to peer-reviewed journals.
+Southern resident killer whale tag data</abstract>
+      <purpose>Addresses Legal Mandate
+Raw/field data</purpose>
+      <notes>Loaded by batch 4260, 01-30-2013 17:37</notes>
+      <supplemental-info>These data are available to the public
+Presentation: Holt, M.M. et al. 2011. Investigating acoustics, behavior and vessel noise exposure in endangered killer whales (Orc using digital acoustic recording tags (Invited talk). 161st ASA Meeting, Journal of Acoustical Society of America 129: 2606.
+Outreach: Using DTAGs to study acoustics and behavior of Southern Resident killer whales, 2011, The Whale Museum, Friday Harbor, WA</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>In Work</data-status>
+      <fgdc-data-status>In Work</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17775</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>CB (Conservation Biology) Division</parent-title>
+      <created-by>Jeffrey Cowen</created-by>
+      <created-by-pers-id>4250</created-by-pers-id>
+      <record-created>2013-01-30T17:37:09</record-created>
+      <record-last-modified>2013-02-28T19:16:32</record-last-modified>
+      <record-published>2013-02-28</record-published>
+      <publication-status>Public</publication-status>
+      <metadata-next-review-date>2014-03-01</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type=""/>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">DTAG, behavioral effects of noise, killer whale, vessel sound exposure, Biological, Protected species and marine mammals, Human Interaction</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">Waters of the San Juan Islands, WA and Gulf Islands, BC, WAMarine, MACN</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90702"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9972"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Hanson, Brad </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Brad.Hanson@noaa.gov</email>
+            <phone>206-860-3220</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90700"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9829"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Drake, Jon </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Blvd. East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Jon.Drake@noaa.gov</email>
+            <phone>206-860-3258</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90703"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11425"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Holt, Marla </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Marla.Holt@noaa.gov</email>
+            <phone>206-860-3261</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90701"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11425"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Holt, Marla </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Marla.Holt@noaa.gov</email>
+            <phone>206-860-3261</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244316" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90699"
+                       type=""
+                       last-modified="2013-01-30T17:37:09"
+                       created="2013-01-30T17:37:09">
+               <description>Waters of the San Juan Islands, WA and Gulf Islands, BC</description>
+               <west-bound>-123.267302501</west-bound>
+               <east-bound>-123.267302501</east-bound>
+               <south-bound>48.692624313</south-bound>
+               <north-bound>48.692624313</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90698"
+                        type="Range"
+                        last-modified="2013-01-30T17:37:09"
+                        created="2013-01-30T17:37:09">
+               <start>2010-09-01</start>
+               <end/>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>Unclassified</data-access-constraints>
+      <data-use-constraints>None</data-use-constraints>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90705"
+                          type=""
+                          last-modified="2013-01-30T17:37:09"
+                          created="2013-01-30T17:37:09">
+      <description>Spreadsheet</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>Medium</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Hanson, Brad </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Brad.Hanson@noaa.gov</email>
+         <voice>206-860-3220</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Drake, Jon </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Blvd. East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Jon.Drake@noaa.gov</email>
+         <voice>206-860-3258</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Holt, Marla </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Marla.Holt@noaa.gov</email>
+         <voice>206-860-3261</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2010-09-01</begdate>
+               <begtime/>
+               <enddate/>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>

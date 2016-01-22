@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17979</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>In-stream PIT detection, estuary wetlands (Columbia River Estuary Tidal Habitats)</name>
+      <title>In-stream PIT detection, estuary wetlands (Columbia River Estuary Tidal Habitats)</title>
+      <abstract>The goal of the tidal-fluvial estuary study is to determine the estuarys contribution to the spatial structure and life history diversity of Columbia River salmon stocks and the implications for estuary restoration. The study targets salmon use of tidal-fresh habitats in the estuary from Rkm 75 to Bonneville Dam, and addresses four primary objectives:
+
+1. Characterize the temporal and spatial distribution of Chinook salmon genetic stock groups throughout the estuary (March 2010- March 2012).
+
+2. Determine stock-specific habitat use, life histories, and performance of juvenile salmon in key habitat complexes to fill data gaps in the tidal fluvial reaches of the estuary (2012-2016).
+
+3. Monitor juvenile salmon life histories and their contributions to adult returns in selected estuary tributaries, including tributary examples where tidal habitats have been restored (2012-2018).
+
+4. Evaluate estuary restoration needs for recovery of all salmon ESUs and account for projected effects of climate change through application of a salmon life-cycle model (2011-1015).
+
+The study, funded by the U.S. Army Corps of Engineers, involves a large team of researchers organized by NOAA Fisheries, including researchers from the Oregon Health and Sciences University, University of Washington, and Washington Department of Fish and Wildlife. The study addresses critical uncertainties identified in the research, monitoring, and evaluation (RME) program for the Federal Columbia River Estuary Program. The Estuary Program is intended to conserve and restore the estuary ecosystem to improve the performance of listed salmonid populations. Products from the tidal-fluvial study will include:
+
+1. Descriptions of stock-specific temporal and spatial distributions of Chinook salmon throughout the estuary.
+
+2. Estimates of variations in Chinook salmon stock composition and stock-specific growth, food habits, consumption rates, and bioenergetic efficiencies within selected tidal-fluvial habitats. 
+
+3. Estimated contributions of estuarine life histories among returning adult Chinook salmon from selected populations throughout the Columbia River Basin.
+
+4. A hydrological model quantifying the dynamics of rearing habitat opportunities for juvenile salmon at estuary reach and habitat scales.
+
+5. Improved life-cycle models to account for the estuarine life histories of juvenile salmon and estimating the potential effectiveness of estuary restoration actions on the recovery and viability of selected salmon stocks. These results will directly address information needs to support estuary actions specified in the FCRPS Biological Opinion for the Columbia River. The tidal-fluvial estuary study is part of an ongoing estuary research program initiated in 2002. The current study expands upon earlier research conducted in the lower 100 km of the estuary from 2002 to 2008. Although all objectives will be addressed by 2018 to correspond with a review of progress implementing the FCRPS Biological Opinion, some sampling activities may extend beyond this date to allow brood-year reconstruction of estuary contributions to adult returns in selected streams (Objective 3).
+PIT detection data (residence time, travel time) in estuary wetland channels from juvenile salmon tagged by this project and other projects.</abstract>
+      <purpose>Addresses Legal Mandate
+Raw/field data, Monitoring or sensor data, Time series (of types 1-3)</purpose>
+      <notes>Loaded by batch 4266, 01-30-2013 18:25</notes>
+      <supplemental-info>These data are available to the public
+Database: Genetic stock distribution (Genetic stock group ID for juvenile Chinook Salmon collected from 3 habitats each from 6 tidal-fluvial estuary reaches)</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>In Work</data-status>
+      <fgdc-data-status>In Work</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17697</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>FE (Fish Ecology) Division</parent-title>
+      <created-by>Jeffrey Cowen</created-by>
+      <created-by-pers-id>4250</created-by-pers-id>
+      <record-created>2013-01-30T18:25:48</record-created>
+      <record-last-modified>2013-02-22T17:56:14</record-last-modified>
+      <record-published>2013-02-22</record-published>
+      <publication-status>Public</publication-status>
+      <metadata-next-review-date>2014-02-23</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type=""/>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">columbia river, habitat, chinook salmon, juvenile salmonid, life history, Physical Measures: Air; Water; Sediments; Biota, Habitat, Biological, Protected species and marine mammals, Genotype</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">Point Adams Field Station, Point Adams (Hammond)</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90844"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10149"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>McNatt, Regan A</name>
+            <address-type>MAILING</address-type>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email>Regan.McNatt@noaa.gov</email>
+            <phone>503-861-1818 x25</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90842"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9832"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Hanson, Karrie </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Karrie.Hanson@noaa.gov</email>
+            <phone>206-860-3334</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90845"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10149"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>McNatt, Regan A</name>
+            <address-type>MAILING</address-type>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email>Regan.McNatt@noaa.gov</email>
+            <phone>503-861-1818 x25</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90843"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10149"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>McNatt, Regan A</name>
+            <address-type>MAILING</address-type>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email>Regan.McNatt@noaa.gov</email>
+            <phone>503-861-1818 x25</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244321" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90841"
+                       type=""
+                       last-modified="2013-01-30T18:25:48"
+                       created="2013-01-30T18:25:48">
+               <description>Point Adams Field Station</description>
+               <west-bound>-123.947401</west-bound>
+               <east-bound>-123.947401</east-bound>
+               <south-bound>46.199543</south-bound>
+               <north-bound>46.199543</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90840"
+                        type="Range"
+                        last-modified="2013-01-30T18:25:48"
+                        created="2013-01-30T18:25:48">
+               <start>2006-04-04</start>
+               <end/>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>Unclassified</data-access-constraints>
+      <data-use-constraints>None</data-use-constraints>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90847"
+                          type=""
+                          last-modified="2013-01-30T18:25:48"
+                          created="2013-01-30T18:25:48">
+      <description>Access Database</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>High</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>McNatt, Regan A</contact-person-name>
+         <address-type>MAILING</address-type>
+         <email>Regan.McNatt@noaa.gov</email>
+         <voice>503-861-1818 x25</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Hanson, Karrie </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Karrie.Hanson@noaa.gov</email>
+         <voice>206-860-3334</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>McNatt, Regan A</contact-person-name>
+         <address-type>MAILING</address-type>
+         <email>Regan.McNatt@noaa.gov</email>
+         <voice>503-861-1818 x25</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2006-04-04</begdate>
+               <begtime/>
+               <enddate/>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17970</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>Coral genetic (Taxonomic and genetic identification of deep-sea corals in bycatch and field surveys -linked to groundfish survey dataset)</name>
+      <title>Coral genetic (Taxonomic and genetic identification of deep-sea corals in bycatch and field surveys -linked to groundfish survey dataset)</title>
+      <abstract>Data for this project will reside in the West Coast Groundfish Bottom Trawl Survey Data Base. This proposal relates to a continuation and augmentation of our efforts in creating a DNA sequence repository and voucher collection of coral and sponge species found off the U.S. West Coast, and initial steps toward population-level analysis in deep-sea octocorals and sponges using microsatellite loci. We propose to continue taking genetic samples from specimens collected during the 2012 West Coast Groundfish Bottom Trawl Survey, and continue DNA sequencing of those specimens. We will then link the DNA data to our verified specimens to create a West Coast repository that will serve not only as an essential resource for coral researchers and other stakeholders, but also as a foundation for future research efforts at the NWFSC, aimed at understanding the biogeography and ecology of coral species in these deep-sea communities. 
+
+Our primary goals with this funding opportunity are to hire an NRC postdoctoral fellow to work full-time on this project, and to continue to support at-sea specimen collection.
+Coral DNA</abstract>
+      <purpose>Addresses Legal Mandate
+Raw/field data, Laboratory data, Other</purpose>
+      <notes>Loaded by batch 4257, 01-30-2013 17:10</notes>
+      <supplemental-info>These data are available to the public</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>Planned</data-status>
+      <fgdc-data-status>Planned</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17775</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>CB (Conservation Biology) Division</parent-title>
+      <created-by>SysAdmin InPortAdmin</created-by>
+      <created-by-pers-id>0</created-by-pers-id>
+      <record-created>2013-01-30T17:10:31</record-created>
+      <record-last-modified>2013-10-29T14:21:05</record-last-modified>
+      <record-published>2013-02-28</record-published>
+      <publication-status>Public</publication-status>
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2013-08-13</data-set-publication-date>
+      <metadata-next-review-date>2014-03-01</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type="">
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2013-08-13</data-set-publication-date>
+   </data-set>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">Taxonomy, deep sea coral, genetics, Genotype, Photo/video images, Logbook Data, Observer Data</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">NWFSC Montalke, California Current System, Montlake</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90664"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11378"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Berntson, Ewann A</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Ewann.Berntson@noaa.gov</email>
+            <phone>360-871-8333</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90662"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9829"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Drake, Jon </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Blvd. East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Jon.Drake@noaa.gov</email>
+            <phone>206-860-3258</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90665"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11378"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Berntson, Ewann A</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Ewann.Berntson@noaa.gov</email>
+            <phone>360-871-8333</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90663"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="11378"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Berntson, Ewann A</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Ewann.Berntson@noaa.gov</email>
+            <phone>360-871-8333</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244314" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90661"
+                       type=""
+                       last-modified="2013-01-30T17:10:31"
+                       created="2013-01-30T17:10:31">
+               <description>US-Canada to US-Mexico at depths of 55 to 1280 m; NWFSC Montlake DNA lab</description>
+               <west-bound>-122.306178</west-bound>
+               <east-bound>-122.306178</east-bound>
+               <south-bound>47.644914</south-bound>
+               <north-bound>47.644914</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90660"
+                        type="Range"
+                        last-modified="2013-01-30T17:10:31"
+                        created="2013-01-30T17:10:31">
+               <start>2013-08-11</start>
+               <end>2013-08-13</end>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>Unclassified</data-access-constraints>
+      <data-use-constraints>None</data-use-constraints>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90667"
+                          type=""
+                          last-modified="2013-01-30T17:10:31"
+                          created="2013-01-30T17:10:31">
+      <description>Spreadsheet</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>High</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Berntson, Ewann A</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Ewann.Berntson@noaa.gov</email>
+         <voice>360-871-8333</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Drake, Jon </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Blvd. East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Jon.Drake@noaa.gov</email>
+         <voice>206-860-3258</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Berntson, Ewann A</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Ewann.Berntson@noaa.gov</email>
+         <voice>360-871-8333</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2013-08-11</begdate>
+               <begtime/>
+               <enddate>2013-08-13</enddate>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>

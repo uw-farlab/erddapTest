@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17975</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>POPs and stable isotopes in bird and forage fish tissues</name>
+      <title>POPs and stable isotopes in bird and forage fish tissues (Persistent organic pollutant levels in juvenile salmonids, forage fish and their avian predators from Puget Sound and the outer WA coast)</title>
+      <abstract>This project is examining contaminant loads of fish prey species of a resident marine bird (Rhinoceros Auklet) breeding in inland waters (Puget Sound) and in the northern California Current (outer Washington coast). It is being conducted by NMFS FTEs, in collaboration with scientists from the State of Washington and University of Puget Sound. Contaminant loads of fish prey as well as the marine bird predators are being assessed in the context of other upper trophic level predators in Puget Sound (Southern resident killer whales; harbor seals; adult salmonids). Scientific manuscripts and technical reports will be the main products. 
+
+The target audience includes the Puget Sound Partnership, resource management agencies, stakeholders in the Puget Sound area, and marine scientists in general. This is an on-going, stand-alone project without a firm deadline.
+POPs and stable isotopes in bird and forage fish tissues</abstract>
+      <purpose>Addresses Legal Mandate
+Laboratory data</purpose>
+      <notes>Loaded by batch 4262, 01-30-2013 17:51</notes>
+      <supplemental-info>These data are not available to the public</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>In Work</data-status>
+      <fgdc-data-status>In Work</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17696</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>EC (Environmental Conservation) Division</parent-title>
+      <created-by>SysAdmin InPortAdmin</created-by>
+      <created-by-pers-id>0</created-by-pers-id>
+      <record-created>2013-01-30T17:51:24</record-created>
+      <record-last-modified>2013-10-29T14:21:05</record-last-modified>
+      <record-published>2013-02-26</record-published>
+      <publication-status>Public</publication-status>
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2011-09-30</data-set-publication-date>
+      <metadata-next-review-date>2014-02-27</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type="">
+      <data-set-publication-status>Published</data-set-publication-status>
+      <data-set-publication-date>2011-09-30</data-set-publication-date>
+   </data-set>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">marine ecosystems, persistent organic pollutants, stable isotopes, Environmental, Physical Measures: Air; Water; Sediments; Biota, Biological, feeding ecology</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">PI Rhinoceros auklet breeding colony, Ylitalo lab, TI Rhinoceros auklet breeding colony, DI Rhinoceros auklet breeding colony, Montlake</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90736"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="8416"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Bolton, Jennie L</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Jennie.Bolton@noaa.gov</email>
+            <phone>206-860-3359</phone>
+            <fax>206-860-3335</fax>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90734"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="8416"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Bolton, Jennie L</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Jennie.Bolton@noaa.gov</email>
+            <phone>206-860-3359</phone>
+            <fax>206-860-3335</fax>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90737"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10002"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Good, Thomas P</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Tom.Good@noaa.gov</email>
+            <phone>206-860-3469</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90735"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10002"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Good, Thomas P</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Tom.Good@noaa.gov</email>
+            <phone>206-860-3469</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244319" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90733"
+                       type=""
+                       last-modified="2013-01-30T17:51:24"
+                       created="2013-01-30T17:51:24">
+               <description>Destruction Island; NWFSC Montlake lab; Tatoosh Island; Protection Island</description>
+               <west-bound>-124.738540649</west-bound>
+               <east-bound>-122.306178</east-bound>
+               <south-bound>47.644914</south-bound>
+               <north-bound>48.391132837</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90732"
+                        type="Range"
+                        last-modified="2013-01-30T17:51:24"
+                        created="2013-01-30T17:51:24">
+               <start>2010-10-01</start>
+               <end>2011-09-30</end>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>Confidential</data-access-constraints>
+      <data-use-constraints>Restricted</data-use-constraints>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90739"
+                          type=""
+                          last-modified="2013-01-30T17:51:24"
+                          created="2013-01-30T17:51:24">
+      <description>RDBMS (Oracle, SQL Server, etc.)</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>High</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Bolton, Jennie L</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Jennie.Bolton@noaa.gov</email>
+         <voice>206-860-3359</voice>
+         <fax>206-860-3335</fax>
+         <instructions>Email preferred.</instructions>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Bolton, Jennie L</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Jennie.Bolton@noaa.gov</email>
+         <voice>206-860-3359</voice>
+         <fax>206-860-3335</fax>
+         <instructions>Email preferred.</instructions>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Good, Thomas P</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Tom.Good@noaa.gov</email>
+         <voice>206-860-3469</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2010-10-01</begdate>
+               <begtime/>
+               <enddate>2011-09-30</enddate>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>17977</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>Biological data for 10-20 streams in Salmon River Basin</name>
+      <title>Biological data for 10-20 streams in Salmon River Basin (Importance of biotic and abiotic features of salmon habitat implications for juvenile Chinook and steelhead growth and survival)</title>
+      <abstract>This is a large-scale, long-term comparative study that includes many streams (20+ streams in the Salmon River Basin, Idaho, including a few non-salmon streams for reference). A primary goal of the Idaho stream project is to link measures of habitat quality to Chinook and steelhead growth and survival. We consider physical, chemical, and biological features of streams that may affect conditions for growth and survival of juvenile salmon and steelhead. This includes the role of marine-derived nutrients for stream productivity.
+
+Our goal in the coming year is to complete several manuscripts that will provide valuable insights for management of Chinook and steelhead and continue to collect field data on habitat status and trends. Products include peer reviewed publications and a long-term data set on physical, chemical and biological habitat variables in 20 + streams in the Salmon River Basin. This is an ongoing project, and the audience includes both science and management.
+
+
+
+Physical, chemical, and biological data</abstract>
+      <purpose>Raw/field data</purpose>
+      <notes>Loaded by batch 4264, 01-30-2013 18:10</notes>
+      <supplemental-info>These data are not available to the public
+Peer Reviewed Publication: mutliple manuscripts
+Monitoring Program: monitoring
+Data: data</supplemental-info>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>In Work</data-status>
+      <fgdc-data-status>In Work</fgdc-data-status>
+      <org-id>1268</org-id>
+      <owner-org-name>Northwest Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NWFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>17697</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>FE (Fish Ecology) Division</parent-title>
+      <created-by>Jeffrey Cowen</created-by>
+      <created-by-pers-id>4250</created-by-pers-id>
+      <record-created>2013-01-30T18:10:51</record-created>
+      <record-last-modified>2013-02-22T17:56:14</record-last-modified>
+      <record-published>2013-02-22</record-published>
+      <publication-status>Public</publication-status>
+      <metadata-next-review-date>2014-02-23</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location/>
+   <data-set type=""/>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">Salmon River Basin, Idaho, baseline monitoring, chinook salmon, ecosystem, food web, habitat, marine derived nutrients, nutrient enrichment, periphyton, primary production, stable isotopes, Physical Measures: Air; Water; Sediments; Biota, Habitat, Habitat characteristics, Habitat mapping, Biological, Biomass sampling, Benthic samples, Gut content</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">Salmon River Basin, Idaho, NWFSC Montlake, Montlake, Subbasin</keyword-list>
+      </spatial-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="90781"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10170"
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Sanderson, Beth L</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Beth.Sanderson@noaa.gov</email>
+            <phone>206-860-3410</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90779"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="9832"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Hanson, Karrie </name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Karrie.Hanson@noaa.gov</email>
+            <phone>206-860-3334</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90782"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10170"
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Sanderson, Beth L</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Beth.Sanderson@noaa.gov</email>
+            <phone>206-860-3410</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="90780"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org=""
+                    person="10170"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2013-01-30</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Sanderson, Beth L</name>
+            <address-type>MAILING</address-type>
+            <street-address>2725 Montlake Boulevard East</street-address>
+            <city>Seattle</city>
+            <state-prov>WA</state-prov>
+            <zip>98112</zip>
+            <country/>
+            <email>Beth.Sanderson@noaa.gov</email>
+            <phone>206-860-3410</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <url/>
+            <business-hours/>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="244320" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="90778"
+                       type=""
+                       last-modified="2013-01-30T18:10:52"
+                       created="2013-01-30T18:10:52">
+               <description>NWFSC Montlake Laboratory analysis in Seattle; Upper Middle Fork Salmon; Secesh and South Fork Salmon; Lower Middle Fork Salmon; Middle Salmon - Chamberlain; Upper Salmon (Valley Creek)</description>
+               <west-bound>-122.306178</west-bound>
+               <east-bound>-114.917106628</east-bound>
+               <south-bound>44.267811494</south-bound>
+               <north-bound>47.644914</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="90777"
+                        type="Range"
+                        last-modified="2013-01-30T18:10:52"
+                        created="2013-01-30T18:10:52">
+               <start>2002-06-01</start>
+               <end/>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>Confidential</data-access-constraints>
+      <data-use-constraints>Restricted</data-use-constraints>
+   </access-info>
+   <urls/>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="90784"
+                          type=""
+                          last-modified="2013-01-30T18:10:52"
+                          created="2013-01-30T18:10:52">
+      <description>Access Database</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>Medium</accuracy>
+   </data-quality>
+   <lineage/>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads/>
+   <related-items/>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Sanderson, Beth L</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Beth.Sanderson@noaa.gov</email>
+         <voice>206-860-3410</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Hanson, Karrie </contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Karrie.Hanson@noaa.gov</email>
+         <voice>206-860-3334</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Sanderson, Beth L</contact-person-name>
+         <address-type>MAILING</address-type>
+         <street-address>2725 Montlake Boulevard East</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <email>Beth.Sanderson@noaa.gov</email>
+         <voice>206-860-3410</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>2002-06-01</begdate>
+               <begtime/>
+               <enddate/>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Cowen, Jeffrey W</name>
+         <address-type>PHYSICAL</address-type>
+         <street-address>2725 Montlake Blvd. East, South Building, Room 107 S</street-address>
+         <city>Seattle</city>
+         <state-prov>WA</state-prov>
+         <zip>98112</zip>
+         <country>USA</country>
+         <email>jeff.cowen@noaa.gov</email>
+         <phone>(206)860-3413</phone>
+         <fax>(206)302-1765</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>
