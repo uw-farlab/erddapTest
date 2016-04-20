@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog-item>
+   <common-information>
+      <cat-id>8083</cat-id>
+      <cat-type-code>DS</cat-type-code>
+      <metadata-workflow-state>Published / External</metadata-workflow-state>
+      <is-do-not-publish>N</is-do-not-publish>
+      <name>Food Habits Database (FHDBS)</name>
+      <title>Food Habits Database (FHDBS)</title>
+      <abstract>The NEFSC Food Habits Database has two major sources of data. The first, and most extensive, is the standard NEFSC Bottom Trawl Surveys Program. During these surveys, food habits data are collected for a variety of species. Additionally, "process-oriented" cruises are conducted periodically to address specific questions related to the feeding ecology of the fish in the ecosystem.
+
+Both sources provide primarily stomach content information; composition, total and individual prey weights or volumes, and length of prey. Additional information associated with each fish predator is also collected. Other databases encompass the prey fields of these fish, and include zooplankton, ichthyoplankton, and benthic surveys.</abstract>
+      <purpose>The surveys were designed to monitor trends in abundance and distribution and to provide data and samples to study the ecology of the large number of fish and invertebrate species inhabiting the northeast US continental shelf.</purpose>
+      <notes/>
+      <is-display-xml-formats>Y</is-display-xml-formats>
+      <data-status>Complete</data-status>
+      <fgdc-data-status>Complete</fgdc-data-status>
+      <org-id>1061</org-id>
+      <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+      <owner-org-acro>NEFSC</owner-org-acro>
+      <catalog-control-state>9</catalog-control-state>
+      <parent-cat-id>23133</parent-cat-id>
+      <parent-cat-type-code>PRJ</parent-cat-type-code>
+      <parent-title>Food Web Dynamics Program</parent-title>
+      <created-by>Kathleen Mays</created-by>
+      <created-by-pers-id>3782</created-by-pers-id>
+      <record-created>2008-09-30T15:48:07</record-created>
+      <record-last-modified>2016-02-18T13:22:14</record-last-modified>
+      <record-published>2016-02-18</record-published>
+      <publication-status>Public</publication-status>
+      <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
+      <metadata-next-review-date>2017-02-18</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </common-information>
+   <physical-location>
+      <organization>Northeast Fisheries Science Center</organization>
+      <city>Woods Hole</city>
+      <state-province>MA</state-province>
+      <country>USA</country>
+   </physical-location>
+   <data-set type="Oracle Database">
+      <maintenance-frequency>As needed</maintenance-frequency>
+      <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
+   </data-set>
+   <keywords>
+      <theme-keywords>
+         <keyword-list thesaurus="None">food habits, stomach content, prey fields, abundance, distribution, Fish trophic ecology, feeding ecology, predator-prey interactions, Fish feeding ecology</keyword-list>
+      </theme-keywords>
+      <spatial-keywords>
+         <keyword-list thesaurus="None">Cape Hatteras, Nova Scotia, Georges Bank, Northeast US continental shelf, Northwest Atlantic Ocean</keyword-list>
+      </spatial-keywords>
+      <temporal-keywords>
+         <keyword-list thesaurus="None">Continuous, Continuous fall and spring sampling</keyword-list>
+      </temporal-keywords>
+   </keywords>
+   <data-attributes/>
+   <support-roles>
+      <support-role ccid="208927"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org="1061"
+                    person="14371"
+                    support-role="2690">
+         <role>Data Steward</role>
+         <role-definition>Person responsible for a Data Collection Item</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2001</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Smith, Brian </name>
+            <address-type>MAILING</address-type>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <email>brian.smith@noaa.gov</email>
+            <phone>508-495-2020</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name>Northeast Fisheries Science Center</name>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <url>http://www.nefsc.noaa.gov</url>
+            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="242238"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org="1061"
+                    person=""
+                    support-role="2680">
+         <role>Distributor</role>
+         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2001</from>
+         <to-date/>
+         <person-contact-info>
+            <name/>
+            <address-type/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email/>
+            <phone/>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name>Northeast Fisheries Science Center</name>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <url>http://www.nefsc.noaa.gov</url>
+            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="204154"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org="1061"
+                    person="14371"
+                    support-role="2710">
+         <role>Metadata Contact</role>
+         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2015-05-22</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Smith, Brian </name>
+            <address-type>MAILING</address-type>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <email>brian.smith@noaa.gov</email>
+            <phone>508-495-2020</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name>Northeast Fisheries Science Center</name>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <url>http://www.nefsc.noaa.gov</url>
+            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="204156"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org="1061"
+                    person=""
+                    support-role="2650">
+         <role>Originator</role>
+         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2001</from>
+         <to-date/>
+         <person-contact-info>
+            <name/>
+            <address-type/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email/>
+            <phone/>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name>Northeast Fisheries Science Center</name>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <url>http://www.nefsc.noaa.gov</url>
+            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+      <support-role ccid="202552"
+                    type=""
+                    last-modified=""
+                    created=""
+                    org="1061"
+                    person="14371"
+                    support-role="2660">
+         <role>Point of Contact</role>
+         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <in-effect>Y</in-effect>
+         <from>2001-11</from>
+         <to-date/>
+         <person-contact-info>
+            <name>Smith, Brian </name>
+            <address-type>MAILING</address-type>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <email>brian.smith@noaa.gov</email>
+            <phone>508-495-2020</phone>
+            <fax/>
+         </person-contact-info>
+         <org-contact-info>
+            <name>Northeast Fisheries Science Center</name>
+            <street-address>166 Water Street</street-address>
+            <city>Woods Hole</city>
+            <state-prov>MA</state-prov>
+            <zip>02543-1026</zip>
+            <country>USA</country>
+            <url>http://www.nefsc.noaa.gov</url>
+            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
+         </org-contact-info>
+         <contact-instructions/>
+      </support-role>
+   </support-roles>
+   <extents>
+      <extent ccid="243445" type="" last-modified="" created="">
+         <description/>
+         <geog-areas>
+            <geog-area ccid="31393"
+                       type=""
+                       last-modified="2015-05-28T17:36:20"
+                       created="2008-09-30T15:48:43">
+               <description>Approximately Cape Hatteras, NC to Nova Scotia, Canada</description>
+               <west-bound>-76</west-bound>
+               <east-bound>-66</east-bound>
+               <south-bound>35</south-bound>
+               <north-bound>45</north-bound>
+            </geog-area>
+         </geog-areas>
+         <time-frames>
+            <time-frame ccid="36957"
+                        type="Continuing"
+                        last-modified="2015-05-28T17:36:59"
+                        created="2009-06-22T13:28:09">
+               <start>1973</start>
+            </time-frame>
+         </time-frames>
+         <vertical-extents/>
+      </extent>
+   </extents>
+   <access-info>
+      <security-class>Unclassified</security-class>
+      <data-access-constraints>NEFSC Data Access Constraint:
+If data is stored on an internal NEFSC network, the requester may not have direct access to query the data unless they are also authorized for network access.</data-access-constraints>
+      <data-access-procedure>NEFSC Data Access Procedure:
+1. Formal request in writing usually to the data owner/contact or Center Director;
+2. Requester is contacted by data owner to review and verify the request content and details for data delivery options. 
+3. If data is confidential then owner will determine if the data may be released to the requester;
+4.  If data can be released, the data is downloaded and packaged for delivery electronically; or the requester may be directed to where the data is available online. </data-access-procedure>
+      <data-use-constraints>not applicable</data-use-constraints>
+   </access-info>
+   <urls>
+      <url ccid="202553"
+           type=""
+           last-modified="2015-05-28T17:39:38"
+           created="2015-05-28T17:39:38">
+         <link>http://www.nefsc.noaa.gov/femad/pbio/fwdp/</link>
+         <url-type>Online Resource</url-type>
+         <file-resource-format>HTML</file-resource-format>
+         <description>Online information regarding the food habits database</description>
+      </url>
+   </urls>
+   <activity-log/>
+   <issues/>
+   <technical-environment ccid="204155"
+                          type=""
+                          last-modified="2015-06-10T08:38:09"
+                          created="2015-06-10T08:38:09">
+      <description>Oracle 11g sole database</description>
+   </technical-environment>
+   <data-quality>
+      <accuracy>Data is audited prior to being available including a 15-point data quality assurance check conducted by experienced personnel within the Food Web Dynamics Program.</accuracy>
+      <completeness-report>not applicable</completeness-report>
+   </data-quality>
+   <lineage>
+      <lineage-statement>see Food Web Dynamics Program website at  http://nefsc.noaa.gov/femad/pbb/fwdp/ for a description of data and sources</lineage-statement>
+   </lineage>
+   <acronyms/>
+   <glossary-terms/>
+   <faqs/>
+   <downloads>
+      <download ccid="247332"
+                type=""
+                last-modified="2015-11-06T15:32:33"
+                created="2015-11-06T15:32:33">
+         <download-url>ftp://ftp.nefsc.noaa.gov/</download-url>
+      </download>
+   </downloads>
+   <related-items>
+      <item cat-id="25175" cat-type="DOC" relation-type="HI">
+         <title>Effects of chronic bottom fishing on the benthic epifauna and diets of demersal fishes on northern Georges Bank</title>
+         <abstract>Feeding by demersal fishes on benthic invertebrates constitutes an important link between fishery resources and continental shelf habitats. However, concurrent sampling of demersal fish diets and benthic invertebrate prey fields has been limited, particularly in relation to chronic bottom fishing disturbance on continental shelves worldwide. Here, we quantified differences in the epibenthic invertebrate and fish communities between sites with contrasting levels of disturbance from mobile bottom fishing gear for 2 gravel regions of Georges Bank in the northwest Atlantic. The main objectives were to compare a suite of biological indices for epibenthic invertebrates, demersal fishes, and fish diets across year and level of fishing disturbance. The fishes selected for diet comparisons included winter skate Leucoraja ocellata, little skate L. erinacea, Atlantic cod Gadus morhua, haddock Melanogrammus aeglefinus, winter flounder Pseudopleuronectes americanus, and longhorn sculpin Myoxocephalus octodecemspinosus. Three baseline benthic epifaunal indices, species richness, abundance (no. l(-1)), and biomass (g l(-1)), were lower in the heavily fished areas; however, evenness was higher in these areas. The lengths of haddock, Atlantic cod, and winter flounder tended to be larger at the undisturbed sites. Fish stomach contents differed significantly among habitats for 3 benthivores: haddock, winter flounder, and longhorn sculpin; diets were more highly correlated with the benthic fauna within than among sites, which indicated site-specific feeding. In several cases, prey that contributed to the diet dissimilarity between sites were benthic epifauna most sensitive to the impact of bottom fishing disturbance; thus, the availability of epibenthic prey was determined by this disturbance.</abstract>
+      </item>
+      <item cat-id="29069" cat-type="DOC" relation-type="HI">
+         <title>Overview and History of the Food Web Dynamics Program of the NEFSC, Woods Hole, MA</title>
+         <abstract>We provide an overview of the National Marine Fisheries Service (NMFS), Northeast Fisheries Science Center (NEFSC), Food Web Dynamics Program (FWDP). The FWDP’s food habits database is one of the largest in the world and extends from 1973 to present. This database covers the entire Northeast U.S. Continental Shelf Ecosystem and has over 250,000 stomachs from more than 120 predators, with more than 1,200 different types of prey collected. We discuss the differences in sampling protocols and priorities over the history of the program, and address issues of time-series continuity. For most species, diet can be adequately characterized with an examination of 500-1,000 stomachs. The basic diet composition for 38 predators, including economically and ecologically important species, demonstrates that most members of the fish community of this ecosystem are generalists, exhibiting a broad diet as either a benthivore, planktivore, or piscivore. Many major ecosystem and multispecies issues in fisheries management can only be addressed with a knowledge derived from food habits data such as those described in this document.</abstract>
+      </item>
+      <item cat-id="29068" cat-type="DOC" relation-type="HI">
+         <title>Trophic Dynamics of 50 Finfish and 2 Squid Species on the Northeast US Continental Shelf</title>
+         <abstract>This document describes the feeding habits of 50 fish and 2 squid species inhabiting the Northeast US (NEUS) continental shelf ecosystem and provides a current context for the Northeast Fisheries Science Center’s Food Web Dynamics Program (FWDP). These descriptions are based on the examination of over 510,000 stomachs from over 150 predators since 1973. Trophic dynamics were examined with respect to decadal, spatial, seasonal, and ontogenetic variations in feeding habits. Most species are opportunistic, generalist feeders exhibiting broad diets, but feeding patterns were identified over broad temporal and spatial scales and in relation to ontogenetic stages. Dietary overlap among numerous fish species within this ecosystem was moderate, although for the entire shelf community, diet overlap was generally low among all species, suggesting relatively minimal competition. Given the wide range of feeding habits of most species in this ecosystem, changes in prey or predator abundance are less likely to impact populations and the community compared to ecosystems with a high number of specialists. The recognition of patterns and processes in the NEUS continental shelf fish community over large temporal and spatial scales has remained a key objective for the FWDP given ongoing efforts with food habits sampling, particularly during periods of intense fishing pressure. </abstract>
+      </item>
+   </related-items>
+   <fgdc-contacts>
+      <fgdc-contact role="Distributor">
+         <contact-type>cntorg</contact-type>
+         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
+         <street-address>166 Water Street</street-address>
+         <city>Woods Hole</city>
+         <state-prov>MA</state-prov>
+         <zip>02543-1026</zip>
+         <country>USA</country>
+         <voice>(508)495-2000</voice>
+         <org-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</org-business-hours>
+      </fgdc-contact>
+      <fgdc-contact role="Metadata contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Smith, Brian </contact-person-name>
+         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
+         <address-type>MAILING</address-type>
+         <street-address>166 Water Street</street-address>
+         <city>Woods Hole</city>
+         <state-prov>MA</state-prov>
+         <zip>02543-1026</zip>
+         <country>USA</country>
+         <email>brian.smith@noaa.gov</email>
+         <voice>508-495-2020</voice>
+      </fgdc-contact>
+      <fgdc-contact role="Point of Contact">
+         <contact-type>cntper</contact-type>
+         <contact-person-name>Smith, Brian </contact-person-name>
+         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
+         <address-type>MAILING</address-type>
+         <street-address>166 Water Street</street-address>
+         <city>Woods Hole</city>
+         <state-prov>MA</state-prov>
+         <zip>02543-1026</zip>
+         <country>USA</country>
+         <email>brian.smith@noaa.gov</email>
+         <voice>508-495-2020</voice>
+      </fgdc-contact>
+   </fgdc-contacts>
+   <fgdc-time-period>
+      <timeperd>
+         <timeinfo>
+            <rngdates>
+               <begdate>1973</begdate>
+               <begtime/>
+               <enddate>Present</enddate>
+               <endtime/>
+            </rngdates>
+         </timeinfo>
+         <current/>
+      </timeperd>
+   </fgdc-time-period>
+   <publisher>
+      <person-contact-info>
+         <name>Jones, Patricia L</name>
+         <address-type>MAILING</address-type>
+         <street-address>166 Water Street, Room M203</street-address>
+         <city>Woods Hole</city>
+         <state-prov>MA</state-prov>
+         <zip>02543-1026</zip>
+         <country>USA</country>
+         <email>patti.jones@noaa.gov</email>
+         <phone>508-495-2116</phone>
+         <fax>508-295-2258</fax>
+      </person-contact-info>
+   </publisher>
+</catalog-item>
