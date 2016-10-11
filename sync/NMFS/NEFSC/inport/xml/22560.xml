@@ -23,12 +23,12 @@
       <created-by>Nancy McHugh</created-by>
       <created-by-pers-id>13166</created-by-pers-id>
       <record-created>2014-11-14T11:08:53</record-created>
-      <record-last-modified>2016-04-07T17:20:04</record-last-modified>
-      <record-published>2016-04-07</record-published>
+      <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+      <record-published>2016-07-28</record-published>
       <publication-status>Public</publication-status>
       <data-set-publication-status>Unpublished</data-set-publication-status>
       <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
-      <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+      <metadata-next-review-date>2017-07-29</metadata-next-review-date>
       <linking-share-level>Public</linking-share-level>
    </common-information>
    <physical-location>
@@ -265,6 +265,9 @@
                         last-modified="2014-12-03T14:13:32"
                         created="2014-11-21T12:33:03">
                <start>1963-11-14</start>
+               <alternate-start-as-of-info/>
+               <alternate-end-as-of-info/>
+               <description>The standardized Fall Bottom Trawl Survey began with the first station on November 14,1963 at 12:14 AM (GMT).</description>
             </time-frame>
          </time-frames>
          <vertical-extents/>
@@ -370,10 +373,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          <abstract>Child data table to MASTER_CRUISE_TABLE containing information related to all surveys conducted by or through the NEFSC.</abstract>
          <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
       </item>
-      <item cat-id="31177" cat-type="ENT" relation-type="HI">
+      <item cat-id="33597" cat-type="ENT" relation-type="HI">
          <title>Table: MASTER_CRUISE_TABLE</title>
          <abstract>Data table containing information related to all surveys conducted by or through the NEFSC.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
       <item cat-id="31178" cat-type="ENT" relation-type="HI">
          <title>Table: MATURITY_CODES</title>
@@ -405,35 +408,35 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
          <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
       </item>
-      <item cat-id="31184" cat-type="ENT" relation-type="HI">
+      <item cat-id="33598" cat-type="ENT" relation-type="HI">
          <title>Table: SVMSTRATA</title>
          <abstract>Historical support table containing all acceptable stratum codes.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
-      <item cat-id="31185" cat-type="ENT" relation-type="HI">
+      <item cat-id="33599" cat-type="ENT" relation-type="HI">
          <title>Table: SV_VESSEL</title>
          <abstract>Support table identifying all vessel codes and descriptions.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
-      <item cat-id="31186" cat-type="ENT" relation-type="HI">
+      <item cat-id="33600" cat-type="ENT" relation-type="HI">
          <title>Table: UNION_FSCS_SVBIO</title>
          <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
-      <item cat-id="31187" cat-type="ENT" relation-type="HI">
+      <item cat-id="33601" cat-type="ENT" relation-type="HI">
          <title>Table: UNION_FSCS_SVCAT</title>
          <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
-      <item cat-id="31134" cat-type="ENT" relation-type="HI">
+      <item cat-id="33602" cat-type="ENT" relation-type="HI">
          <title>Table: UNION_FSCS_SVLEN</title>
-         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
-         <relation-note>Loaded by batch 8297, 03-10-2016 14:50</relation-note>
+         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
-      <item cat-id="31188" cat-type="ENT" relation-type="HI">
+      <item cat-id="33603" cat-type="ENT" relation-type="HI">
          <title>Table: UNION_FSCS_SVSTA</title>
          <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
+         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
       </item>
       <item cat-id="31189" cat-type="ENT" relation-type="HI">
          <title>Table: WEATHER</title>
@@ -519,407 +522,6 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
    <child-entities>
       <child-entity>
          <common-information>
-            <cat-id>31134</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>UNION_FSCS_SVLEN</name>
-            <title>Table: UNION_FSCS_SVLEN</title>
-            <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8297, 03-10-2016 14:50</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-10T14:50:57</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>UNION_FSCS_SVLEN</entity-name>
-            <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>CRUISE6</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>6</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>CRUISE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>6</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Unique numerical code for a cruise.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>STRATUM</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>5</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>A predefined area where a net dredge, or other piece of gear was deployed. Code consists of 2 parts: Stratum group code number (2 bytes) and stratum number (3 bytes). Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater). The stratum number (third and fourth digits of code) refers to area defined by depth zone. See SVDBS.SVMSTRATA. The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established. Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offhore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area. A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows: Previous strata: 01350; Present strata: 01351, 01352.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>TOW</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>3</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Sequential number representing order in which station was selected within a stratum.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>STATION</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>4</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>STATUS_CODE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>2</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>7</seq-order>
-               <name>ID</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>18</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>8</seq-order>
-               <name>SVSPP</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>3</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>9</seq-order>
-               <name>CATCHSEX</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>1</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>10</seq-order>
-               <name>LENGTH</name>
-               <data-storage-type>NUMBER</data-storage-type>
-               <max-length>22</max-length>
-               <min-length/>
-               <precision>38</precision>
-               <scale>2</scale>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Measured length of species in centimeters (cm).  Measure method differs by species.</description>
-               <general-data-type>NUMBER</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals>38</decimals>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>11</seq-order>
-               <name>EXPNUMLEN</name>
-               <data-storage-type>NUMBER</data-storage-type>
-               <max-length>22</max-length>
-               <min-length/>
-               <precision>8</precision>
-               <scale>0</scale>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Expanded number of specimens at a given length.</description>
-               <general-data-type>NUMBER</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals>8</decimals>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>12</seq-order>
-               <name>LOGGED_SPECIES_NAME</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>45</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Name of the species, either common, scientific or both.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>13</seq-order>
-               <name>LENGTH_COMMENT</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>100</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Comment related to length of individual fish.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
             <cat-id>31173</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
@@ -944,10 +546,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
             <record-created>2016-03-14T13:01:38</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -1156,10 +758,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
             <record-created>2016-03-14T13:01:38</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -1368,10 +970,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
             <record-created>2016-03-14T13:01:38</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -1580,10 +1182,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
             <record-created>2016-03-14T13:01:38</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -1957,13 +1559,13 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31177</cat-id>
+            <cat-id>31178</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
-            <name>MASTER_CRUISE_TABLE</name>
-            <title>Table: MASTER_CRUISE_TABLE</title>
-            <abstract>Data table containing information related to all surveys conducted by or through the NEFSC.</abstract>
+            <name>MATURITY_CODES</name>
+            <title>Table: MATURITY_CODES</title>
+            <abstract>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</abstract>
             <purpose/>
             <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
             <other-citation-details/>
@@ -1980,11 +1582,1383 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:38</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>MATURITY_CODES</entity-name>
+            <description>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>MATURITY</name>
+               <data-storage-type>CHAR</data-storage-type>
+               <max-length>1</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
+               <general-data-type>CHAR</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>MATURITY_DESCRIPTION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of maturity codes.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31179</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SEX_CODES</name>
+            <title>Table: SEX_CODES</title>
+            <abstract>Historical support table containing acceptable codes and descriptions for the field sex.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SEX_CODES</entity-name>
+            <description>Historical support table containing acceptable codes and descriptions for the field sex.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>SEX</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <min-length/>
+               <precision>1</precision>
+               <scale>0</scale>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code indicating sex of fish or invertebrate species.  See SVDBS.FSCS_SEX_CODES if using fscs data and SVDBS.SEX_CODES if using non FSCS data.  Codes 0, 1, 2 and 4 are the only valid codes in fscs tables.</description>
+               <general-data-type>NUMBER</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals>1</decimals>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>SEX_DESCRIPTION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>255</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of the sex code field.  Only 0, 1, 2 are valid entries for fscs tables. 0=Unsexed, unknown, or sex not observed; Since the summer 1995 Gulf of Maine Trawl Survey forgot to look for American Lobster; 1=Male; 2=Female; Female Stage I for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female (no eggs, no notch) for American Lobster; 3=Female Stage II for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with eggs, no notch for American Lobster; 4=Transitional for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch, no eggs for American Lobster; 5=Ovigerous for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch and eggs for American Lobster;6=Non-spawning Female for Northern Shrimp; 7=Female for Northern Shrimp not staged (stage I or II not determined)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31180</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>STATION_VALUE</name>
+            <title>Table: STATION_VALUE</title>
+            <abstract>Support table identifying the type of station being performed.  Component of SHG value</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>STATION_VALUE</entity-name>
+            <description>Support table identifying the type of station being performed.  Component of SHG value</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>STATYPE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code designating type of tow being performed (e.g. random vs. nonrandom tows).  See svdbs.station_value table for all statype codes and their descriptions.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>STATION_TYPE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of station type code for Bottom Trawl Surveys: See SVDBS.STATION_VALUE.STATYPE code for Scallop &amp; Clam Surveys: 1 = Survey haul (random-stratified); 2 = Non-random haul; 3 = Special random add-on station haul;4 = Comparison haul;5 = No dredge haul (e.g., CTD); 6 = Site-specific; 7 = Systematic grid; 8 = Depletion site (as of 1999);9 = Systematiac parallel transects;0 = Systematic zig zag transects</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31181</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SVCRUISE_PURPOSE</name>
+            <title>Table: SVCRUISE_PURPOSE</title>
+            <abstract>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SVCRUISE_PURPOSE</entity-name>
+            <description>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>PURPOSE_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code referencing purpose of cruise conducted. See SVDBS.SVCRUISE_PURPOSE table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>PURPOSE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>100</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of purpose_code to identify type of cruise conducted (e.g. Bottom Trawl, Scallop, Clam, etc.).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31182</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SVCRUISE_STATUS</name>
+            <title>Table: SVCRUISE_STATUS</title>
+            <abstract>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SVCRUISE_STATUS</entity-name>
+            <description>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>STATUS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>40</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>A data status code indictating whether a cruise is availabe in SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31183</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SVGEAR</name>
+            <title>Table: SVGEAR</title>
+            <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:39</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SVGEAR</entity-name>
+            <description>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>SVGEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>GEAR_DEFINITION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>300</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Type and description of gear.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31189</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>WEATHER</name>
+            <title>Table: WEATHER</title>
+            <abstract>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>WEATHER</entity-name>
+            <description>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>WEATHER</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>WEATHER_DEF</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of weather code.  See SVDBS.WEATHER table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>31190</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>XBT</name>
+            <title>Table: XBT</title>
+            <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-03-14T13:01:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>XBT</entity-name>
+            <description>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>XBT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>XBT_DEF</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Definition of XBT codes.  See SVDBS.XBT</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>33597</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>MASTER_CRUISE_TABLE</name>
+            <title>Table: MASTER_CRUISE_TABLE</title>
+            <abstract>Data table containing information related to all surveys conducted by or through the NEFSC.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -2576,7 +3550,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>10</precision>
                <scale>0</scale>
                <is-required>Y</is-required>
                <is-pkey>N</is-pkey>
@@ -2594,7 +3568,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>10</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -2736,955 +3710,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31178</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>MATURITY_CODES</name>
-            <title>Table: MATURITY_CODES</title>
-            <abstract>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>MATURITY_CODES</entity-name>
-            <description>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>MATURITY</name>
-               <data-storage-type>CHAR</data-storage-type>
-               <max-length>1</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
-               <general-data-type>CHAR</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>MATURITY_DESCRIPTION</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>65</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Description of maturity codes.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31179</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>SEX_CODES</name>
-            <title>Table: SEX_CODES</title>
-            <abstract>Historical support table containing acceptable codes and descriptions for the field sex.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>SEX_CODES</entity-name>
-            <description>Historical support table containing acceptable codes and descriptions for the field sex.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>SEX</name>
-               <data-storage-type>NUMBER</data-storage-type>
-               <max-length>22</max-length>
-               <min-length/>
-               <precision>1</precision>
-               <scale>0</scale>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Code indicating sex of fish or invertebrate species.  See SVDBS.FSCS_SEX_CODES if using fscs data and SVDBS.SEX_CODES if using non FSCS data.  Codes 0, 1, 2 and 4 are the only valid codes in fscs tables.</description>
-               <general-data-type>NUMBER</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals>1</decimals>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>SEX_DESCRIPTION</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>255</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Description of the sex code field.  Only 0, 1, 2 are valid entries for fscs tables. 0=Unsexed, unknown, or sex not observed; Since the summer 1995 Gulf of Maine Trawl Survey forgot to look for American Lobster; 1=Male; 2=Female; Female Stage I for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female (no eggs, no notch) for American Lobster; 3=Female Stage II for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with eggs, no notch for American Lobster; 4=Transitional for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch, no eggs for American Lobster; 5=Ovigerous for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch and eggs for American Lobster;6=Non-spawning Female for Northern Shrimp; 7=Female for Northern Shrimp not staged (stage I or II not determined)</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31180</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>STATION_VALUE</name>
-            <title>Table: STATION_VALUE</title>
-            <abstract>Support table identifying the type of station being performed.  Component of SHG value</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>STATION_VALUE</entity-name>
-            <description>Support table identifying the type of station being performed.  Component of SHG value</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>STATYPE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>1</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code designating type of tow being performed (e.g. random vs. nonrandom tows).  See svdbs.station_value table for all statype codes and their descriptions.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>STATION_TYPE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>65</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Description of station type code for Bottom Trawl Surveys: See SVDBS.STATION_VALUE.STATYPE code for Scallop &amp; Clam Surveys: 1 = Survey haul (random-stratified); 2 = Non-random haul; 3 = Special random add-on station haul;4 = Comparison haul;5 = No dredge haul (e.g., CTD); 6 = Site-specific; 7 = Systematic grid; 8 = Depletion site (as of 1999);9 = Systematiac parallel transects;0 = Systematic zig zag transects</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>DOE</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>DOC</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>UOE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who entered the new record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>UOC</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who changed the current record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31181</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>SVCRUISE_PURPOSE</name>
-            <title>Table: SVCRUISE_PURPOSE</title>
-            <abstract>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>SVCRUISE_PURPOSE</entity-name>
-            <description>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>PURPOSE_CODE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>2</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code referencing purpose of cruise conducted. See SVDBS.SVCRUISE_PURPOSE table</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>PURPOSE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>100</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Description of purpose_code to identify type of cruise conducted (e.g. Bottom Trawl, Scallop, Clam, etc.).</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>DOE</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>DOC</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>UOE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who entered the new record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>UOC</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who changed the current record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31182</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>SVCRUISE_STATUS</name>
-            <title>Table: SVCRUISE_STATUS</title>
-            <abstract>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>SVCRUISE_STATUS</entity-name>
-            <description>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>STATUS_CODE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>2</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>STATUS</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>40</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>A data status code indictating whether a cruise is availabe in SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31183</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>SVGEAR</name>
-            <title>Table: SVGEAR</title>
-            <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>SVGEAR</entity-name>
-            <description>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>SVGEAR</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>2</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>GEAR_DEFINITION</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>300</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Type and description of gear.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>DOE</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>DOC</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>UOE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who entered the new record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>UOC</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who changed the current record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31184</cat-id>
+            <cat-id>33598</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
@@ -3692,7 +3718,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <title>Table: SVMSTRATA</title>
             <abstract>Historical support table containing all acceptable stratum codes.</abstract>
             <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
@@ -3707,11 +3733,11 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -3768,7 +3794,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <is-required>Y</is-required>
                <is-pkey>Y</is-pkey>
                <status>Active</status>
-               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area. A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
                <case-restriction/>
                <units/>
@@ -3817,7 +3843,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>6</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -3835,7 +3861,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>6</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -4166,7 +4192,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31185</cat-id>
+            <cat-id>33599</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
@@ -4174,7 +4200,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <title>Table: SV_VESSEL</title>
             <abstract>Support table identifying all vessel codes and descriptions.</abstract>
             <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
@@ -4189,11 +4215,11 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -4432,7 +4458,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31186</cat-id>
+            <cat-id>33600</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
@@ -4440,7 +4466,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <title>Table: UNION_FSCS_SVBIO</title>
             <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</abstract>
             <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
@@ -4455,11 +4481,11 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -4624,7 +4650,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
                <status>Active</status>
-               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
                <case-restriction/>
                <units/>
@@ -4727,7 +4753,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>6</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -4745,7 +4771,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>6</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -4916,7 +4942,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>5</precision>
                <scale>1</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -4934,7 +4960,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>5</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -5049,7 +5075,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31187</cat-id>
+            <cat-id>33601</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
@@ -5057,7 +5083,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <title>Table: UNION_FSCS_SVCAT</title>
             <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</abstract>
             <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
@@ -5072,11 +5098,11 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -5241,7 +5267,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
                <status>Active</status>
-               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
                <case-restriction/>
                <units/>
@@ -5344,7 +5370,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>8</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -5362,7 +5388,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>8</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -5450,15 +5476,15 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
       </child-entity>
       <child-entity>
          <common-information>
-            <cat-id>31188</cat-id>
+            <cat-id>33602</cat-id>
             <cat-type-code>ENT</cat-type-code>
             <metadata-workflow-state>Published / External</metadata-workflow-state>
             <is-do-not-publish>N</is-do-not-publish>
-            <name>UNION_FSCS_SVSTA</name>
-            <title>Table: UNION_FSCS_SVSTA</title>
-            <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
+            <name>UNION_FSCS_SVLEN</name>
+            <title>Table: UNION_FSCS_SVLEN</title>
+            <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
             <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
@@ -5473,11 +5499,412 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <parent-title>Fall Bottom Trawl Survey</parent-title>
             <created-by>Patricia Jones</created-by>
             <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:39</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
+            <record-created>2016-07-28T11:11:40</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
             <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
+            <linking-share-level>Project</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>UNION_FSCS_SVLEN</entity-name>
+            <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>CRUISE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Unique numerical code for a cruise.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>TOW</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Sequential number representing order in which station was selected within a stratum.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>STATION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>7</seq-order>
+               <name>ID</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>18</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>8</seq-order>
+               <name>SVSPP</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>9</seq-order>
+               <name>CATCHSEX</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>10</seq-order>
+               <name>LENGTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <min-length/>
+               <precision>5</precision>
+               <scale>2</scale>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Measured length of species in centimeters (cm).  Measure method differs by species.</description>
+               <general-data-type>NUMBER</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals>5</decimals>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>11</seq-order>
+               <name>EXPNUMLEN</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <min-length/>
+               <precision>8</precision>
+               <scale>0</scale>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Expanded number of specimens at a given length.</description>
+               <general-data-type>NUMBER</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals>8</decimals>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>12</seq-order>
+               <name>LOGGED_SPECIES_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>45</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Name of the species, either common, scientific or both.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>13</seq-order>
+               <name>LENGTH_COMMENT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>100</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Comment related to length of individual fish.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>33603</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>UNION_FSCS_SVSTA</name>
+            <title>Table: UNION_FSCS_SVSTA</title>
+            <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
+            <purpose/>
+            <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22560</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Fall Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2016-07-28T11:11:41</record-created>
+            <record-last-modified>2016-07-28T11:30:52</record-last-modified>
+            <record-published>2016-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2017-07-29</metadata-next-review-date>
             <linking-share-level>Project</linking-share-level>
          </common-information>
          <physical-location>
@@ -5642,7 +6069,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
                <status>Active</status>
-               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
                <case-restriction/>
                <units/>
@@ -5853,12 +6280,12 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>2</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
                <status>Active</status>
-               <description>Code to define tow in terms of the operational characteristics (i.e. tow duration, vessel speed, scope ratio, depth, trawl perf., winch perf., stratum boundaries. O-Value= 4 is considered non-valid. Tow should be repeated, when possible, at the discretion of Chief Scientist.   1- Good Performance - All operational parameters are within optimal tol.range.  2- Representative - Tow dur. 18.00min-19.49min or 20.50min-21.00min; 75-99% on-bottom tow dist. within the correct stratum; Door Spread mean outside optimal but within tol. limit. Wing Spread mean outside optimal but within tolerance limit. (Door and Wing spread are depth dependent calcs.); Headrope Height mean outside optimal but within the tolerance limit(Optimal Height is 3.2-4.1m)  3- Representative - Tow dur. 16.00min -17.99min; Acqu. Code Value = 4 (details given with A code); Door Spread Std Deviation High (greater than 4.5m);Wing Spread Std Deviation High (&gt; than 2.0m; Headrope Ht Spread Std Deviation High (Greater than 1.0m; Scope Ratio outside tolerance limit. (+/- 25%)'  4- Non Representative - Tow dur. &lt; than 16.00min or &gt; than 21.00min; Tow distance &lt; than 0.8nm or &gt; than 1.05nm; Door Spread mean outside tol. limit. (Depth dependent); Wing Spread mean outside tol. limit. (Depth dependent); Headrope Height mean outside tol. limit. (Less than 2.7m or greater than 4.7m); SOG mean outside tol. limit. (Less than 2.6 or greater than 3.4kts); Depth mean outside tol. limit. (EK6018kHz, must be within +/- 10% of set depth, or +/-5m at depths less than 50m); Mean Starboard and Mean Port Block Tension not equalized within ±0.5t; Diff. between mean Starboard and Port Winch calculated wire out lengths greater than 10m; Diff. between mean STBD and Port Block wire out lengths greater than 10m; Less than 75% of on-bottom tow distance within correct stratum; Trawl Depth &gt; than 20% difference of vessel tow depth; Chief Scientist or Watch Chief Failed tow- tow considered unsatisfactory based on vessel or gear perf.</description>
+               <description>Code to define tow in terms of the operational characteristics (i.e. tow duration, vessel speed, scope ratio, depth, trawl perf., winch perf., stratum boundaries. O-Value= 4 is considered non-valid. Tow should be repeated, when possible, at the discretion of Chief Scientist. 1- Good Performance - All operational parameters are within optimal tol.range.2- Representative - Tow dur. 18.00min 19.49min or 20.50min-21.00min; 75-99% on-bottom tow dist. within the correct stratum; Door Spread mean outside optimal but within tol. limit. Wing Spread mean outside optimal but within tolerance limit. (Door and Wing spread are depth dependant calcs.); Headrope Height mean outside optimal but within the tolerance limit(Optimal Height is 3.2-4.1m.3- Representative - Tow dur. 16.00min -17.99min; Acqu. Code Value = 4 (details given with A code); Door Spread Std Deviation High (greater than 4.5m);Wing Spread Std Deviation High (&gt; than 2.0m; Headrope Ht Spread Std Deviation High (Greater than 1.0m; Scope Ratio outside tolerance limit. (+/- 25%)4- Non Representative - Tow dur. &lt; than 16.00min or &gt; than 21.00min; Tow distance &lt; than 0.8nm or &gt; than 1.05nm; Door Spread mean outside tol. limit. (Depth dependant); Wing Spread mean outside tol. limit.(Depth dependant); Headrope Height mean outside tol. limit. (Less than 2.7m or greater than 4.7m); SOG mean outside tol. limit. (Less than 2.6 or greater than 3.4kts); Depth mean outside tol. limit. (EK6018kHz, must be within +/- 10% of set depth, or +/-5m at depths less than 50m); Mean Starboard and Mean Port Block Tension not equalized within ±0.5t; Diff. between mean Starboard and Port Winch calculated wire out lengths greater than 10m; Diff. between mean STBD and Port Block wire out lengths greater than 10m; Less than 75% of on-bottom tow distance within correct stratum; Trawl Depth &gt; than 20% difference of vessel tow depth; Chief Scientist or Watch Chief Failed tow- tow considered unsatisfactory based on vessel or gear performance.</description>
                <general-data-type>NUMBER</general-data-type>
                <case-restriction/>
                <units/>
@@ -5871,7 +6298,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>2</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -5907,12 +6334,12 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>2</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
                <status>Active</status>
-               <description>Gear condition code.Gear defined as trawl net,cod-end,liner,sweep, doors &amp; rigging. 1-Good Tow- No damage to webbing, frame ropes, sweep doors or rigging. Trawl properly rigged and considered to be in standard configuration. 2- Representative-  Minor Small Holes/Tears in webbing (incl. cod-end and liner).Tears easily repaired coded Gvalue=2.  Larger holes/tears in Jibs,Wings,Bunts,Square or 1st &amp; 2nd Top Bellies.Hole not thought to sig. alter fish capture.  Obstr. in/on gear, not thought to signif. alter fish capture; Minor Hang;No signif. gear damage;Hang,after 16.00min tow dur.;Tow dur. adjust to time hang occurred;Insignif. sweep damage (i.e. slight damage to rockhoppers not thought to increase fish escapement);Loss or damage to &lt; than 12 floats; Very large catch;Deck tow of dogfish or other species;Other gear damage/malfunction not thought to significantly alter fish capture.  4-Non_Representative -Signif. holes/tears/large holes in bottom bellies, or any portion of webbing aft of 2nd belly;Major Gear Damage(i.e. rim-rack, whole sections torn out,loss of trawl door(s) etc.);Open Cod-end;Improperly Attached Liner OR Open Liner OR Significant Catch Outside Liner;Twisted Wing(s);Significant Loss of bottom contacts (4min duration or longer).Improper Rigging; Collapsed Doors;Crossed Doors;Major Sweep Damage. (Parted sweep and/or major damage(i.e. loss of more than one rockhopper, or damage to sweep components thought to significantly increase fish escapement).  Damaged Frame Rope(s)(headrope,up&amp;down line,bolshline);Open Gore;Twisted or Crossed Bridle(s); Parted Legs;Loss/damage to 12 or &gt; floats;Signif. damage to wing-end extension (i.e. loss, broken or altered length).  Significant Hang. Occurring at &lt;16.00min tow dur.(OR unknown tow dur.;Large Obstr. IN/ON gear thought to alter catch effic. or trawl geom.(i.e. pot stuck in front opening of cod-end). Catch not landed on deck;Damage to main towing cable(s);Other gear dam./malf. signif. altering catch efficiency.</description>
+               <description>Gear condition code.Gear defined as trawl net,cod-end,liner,sweep,doors &amp; rigging. Valid Gear values =1,2,4(no code 3).1-Good Tow- No damage to webbing, frame ropes, sweep doors or rigging. Trawl properly rigged and considered to be in standard configuration. 2- Representative- Minor Small Holes/Tears in webbing (incl. cod-end and liner).Tears easily repaired coded 2. Larger holes/tears in Jibs,Wings,Bunts,Square or 1st &amp; 2nd Top Bellies.Hole not thought to sig. alter fish capture.Obstr. in/on gear, not thought to signif. alter fish capture Minor Hang;No signif. gear damage;Hang,after 16.00min tow dur.;Tow dur. adjust to time hang occurred;Insignif. sweep damage (i.e. slight damage to rockhoppers not thought to increase fish escapement);Loss or damage to &lt; than 12 floats; Very large catch;Deck tow of dogfish or other species;Other gear damage/malfunction not thought to significantly alter fish capture.4-Non_Representative -Signif. holes/tears/large holes in bottom bellies, or any portion of webbing aft of 2nd belly;Major Gear Damage(i.e. rim-rack, whole sections torn out,loss of trawl door(s) etc.);Open Cod-end;Improperly Attached Liner OR Open Liner OR Signif. Catch Outside Liner;Twisted Wing(s);Signif. Loss of bottom contacts (4min duration or longer).Improper Rigging;Collapsed Doors;Crossed Doors;Major Sweep Damage. (Parted sweep and/or major damage(i.e. loss of more than one rockhopper, or damage to sweep components thought to significantly increase fish escapement. Damaged Frame Rope(s)(headrope,up&amp;down line,bolshline);Open Gore;Twisted or Crossed Bridle(s); Parted Legs;Loss/damage to 12 or &gt; floats;Signif. damage to wing-end extension (i.e. loss, broken or altered length).Signif. Hang. Occurring at &lt;16.00min tow dur.(OR unknown tow dur.;Large obstr. IN/ON gear thought to alter catch effic. or trawl geom.(i.e. pot stuck in front opening of cod-end. Catch not landed on deck;Damage to main towing cable(s);Other gear dam./malf. signif. altering catch efficiency.</description>
                <general-data-type>NUMBER</general-data-type>
                <case-restriction/>
                <units/>
@@ -5925,7 +6352,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>2</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -5961,7 +6388,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>2</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -5979,7 +6406,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>2</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -6015,7 +6442,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
                <min-length/>
-               <precision>38</precision>
+               <precision>8</precision>
                <scale>0</scale>
                <is-required>N</is-required>
                <is-pkey>N</is-pkey>
@@ -6033,7 +6460,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <fkey-relations/>
                <derivation/>
                <validation-rules/>
-               <decimals>38</decimals>
+               <decimals>8</decimals>
                <version/>
             </attribute>
             <attribute>
@@ -6844,430 +7271,6 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <derivation/>
                <validation-rules/>
                <decimals>9</decimals>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31189</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>WEATHER</name>
-            <title>Table: WEATHER</title>
-            <abstract>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:40</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>WEATHER</entity-name>
-            <description>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>WEATHER</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>2</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>WEATHER_DEF</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>65</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Description of weather code.  See SVDBS.WEATHER table</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>DOE</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>DOC</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>UOE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who entered the new record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>UOC</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who changed the current record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-         </data-attributes>
-      </child-entity>
-      <child-entity>
-         <common-information>
-            <cat-id>31190</cat-id>
-            <cat-type-code>ENT</cat-type-code>
-            <metadata-workflow-state>Published / External</metadata-workflow-state>
-            <is-do-not-publish>N</is-do-not-publish>
-            <name>XBT</name>
-            <title>Table: XBT</title>
-            <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
-            <purpose/>
-            <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
-            <other-citation-details/>
-            <supplemental-info/>
-            <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
-            <org-id/>
-            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
-            <owner-org-acro>NEFSC</owner-org-acro>
-            <catalog-control-state>9</catalog-control-state>
-            <parent-cat-id>22560</parent-cat-id>
-            <parent-cat-type-code>DS</parent-cat-type-code>
-            <parent-title>Fall Bottom Trawl Survey</parent-title>
-            <created-by>Patricia Jones</created-by>
-            <created-by-pers-id>13445</created-by-pers-id>
-            <record-created>2016-03-14T13:01:40</record-created>
-            <record-last-modified>2016-04-07T17:20:05</record-last-modified>
-            <record-published>2016-04-07</record-published>
-            <publication-status>Public</publication-status>
-            <metadata-next-review-date>2017-04-08</metadata-next-review-date>
-            <linking-share-level>Project</linking-share-level>
-         </common-information>
-         <physical-location>
-            <organization/>
-            <city/>
-            <state-province/>
-            <country/>
-            <location-description/>
-         </physical-location>
-         <entity>
-            <entity-name>XBT</entity-name>
-            <description>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</description>
-            <alias/>
-            <schema-name>SVDBS</schema-name>
-            <is-active-vers>Y</is-active-vers>
-            <change-summary/>
-         </entity>
-         <data-attributes>
-            <attribute>
-               <seq-order>1</seq-order>
-               <name>XBT</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>1</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>Y</is-required>
-               <is-pkey>Y</is-pkey>
-               <status>Active</status>
-               <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>2</seq-order>
-               <name>XBT_DEF</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>65</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Definition of XBT codes.  See SVDBS.XBT</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>3</seq-order>
-               <name>DOE</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>4</seq-order>
-               <name>DOC</name>
-               <data-storage-type>DATE</data-storage-type>
-               <max-length>7</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
-               <general-data-type>DATE</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>5</seq-order>
-               <name>UOE</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who entered the new record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
-               <version/>
-            </attribute>
-            <attribute>
-               <seq-order>6</seq-order>
-               <name>UOC</name>
-               <data-storage-type>VARCHAR2</data-storage-type>
-               <max-length>8</max-length>
-               <min-length/>
-               <precision/>
-               <scale/>
-               <is-required>N</is-required>
-               <is-pkey>N</is-pkey>
-               <status>Active</status>
-               <description>The Oracle username of the individual who changed the current record.</description>
-               <general-data-type>VARCHAR2</general-data-type>
-               <case-restriction/>
-               <units/>
-               <format-mask/>
-               <display-example/>
-               <null-repr/>
-               <null-meaning/>
-               <allowed-values/>
-               <default-value/>
-               <fkey-relations/>
-               <derivation/>
-               <validation-rules/>
-               <decimals/>
                <version/>
             </attribute>
          </data-attributes>
