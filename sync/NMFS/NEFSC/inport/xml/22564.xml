@@ -49,17 +49,17 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
    </data-set>
    <keywords>
       <theme-keywords>
-         <keyword-list thesaurus="None">dredge, Atlantic sea scallop, Placopecten magellanicus, Chlamys islandica, Icelandic scallop, HabCam, FRV Albatross IV, RV Hugh R. Sharp, FRV Oregon II, FRV Chapman, FV Tradition, rock chains, stereo-optic towed vehicle</keyword-list>
+         <keyword-list>Atlantic sea scallop, Chlamys islandica, dredge, FRV Albatross IV, FRV Chapman, FRV Oregon II, FV Tradition, HabCam, Icelandic scallop, Placopecten magellanicus, rock chains, RV Hugh R. Sharp, stereo-optic towed vehicle</keyword-list>
          <keyword-list thesaurus="NMFS Data Category">bio-sampling, fishery-independent surveys</keyword-list>
       </theme-keywords>
       <spatial-keywords>
-         <keyword-list thesaurus="None">Georges Bank, southern New England, Mid-Atlantic Bight</keyword-list>
+         <keyword-list>Georges Bank, Mid-Atlantic Bight, southern New England</keyword-list>
       </spatial-keywords>
       <stratum-keywords>
          <keyword-list thesaurus="NMFS Data Category">benthic</keyword-list>
       </stratum-keywords>
       <temporal-keywords>
-         <keyword-list thesaurus="None">summer</keyword-list>
+         <keyword-list>summer</keyword-list>
       </temporal-keywords>
    </keywords>
    <data-attributes/>
@@ -286,6 +286,15 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
 </data-access-procedure>
       <data-use-constraints>User must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.</data-use-constraints>
    </access-info>
+   <distribution-info>
+      <distribution ccid="247325"
+                    type=""
+                    last-modified="2015-11-06T15:10:43"
+                    created="2015-11-06T15:10:43">
+         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
+         <distributor/>
+      </distribution>
+   </distribution-info>
    <urls>
       <url ccid="195274"
            type=""
@@ -387,14 +396,6 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
    <acronyms/>
    <glossary-terms/>
    <faqs/>
-   <downloads>
-      <download ccid="247325"
-                type=""
-                last-modified="2015-11-06T15:10:43"
-                created="2015-11-06T15:10:43">
-         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
-      </download>
-   </downloads>
    <related-items>
       <item cat-id="31319" cat-type="ENT" relation-type="HI">
          <title>Table: CLOUD</title>

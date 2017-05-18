@@ -47,17 +47,17 @@
    </data-set>
    <keywords>
       <theme-keywords>
-         <keyword-list thesaurus="None">standardized, hydroacoustics, relative abundance, distribution, size composition, bottom trawl, survey, seasonal distribution, invertebrates, biological sampling, age sampling, feeding Ecologye, stratified random sampling, groundfish, ichthyoplantkon, zooplankton, oceanographic, FRV Albatross IV, FRV Delaware II, FRV Henry B. Bigelow, FV Atlantic Twin</keyword-list>
-         <keyword-list thesaurus="NMFS Data Category">fishery-independent surveys, age &amp; growth, physical measures, biological measures, maturity data, population survey, genotype/species identification</keyword-list>
+         <keyword-list>age sampling, biological sampling, bottom trawl, distribution, feeding Ecologye, FRV Albatross IV, FRV Delaware II, FRV Henry B. Bigelow, FV Atlantic Twin, groundfish, hydroacoustics, ichthyoplantkon, invertebrates, oceanographic, relative abundance, seasonal distribution, size composition, standardized, stratified random sampling, survey, zooplankton</keyword-list>
+         <keyword-list thesaurus="NMFS Data Category">age &amp; growth, biological measures, fishery-independent surveys, genotype/species identification, maturity data, physical measures, population survey</keyword-list>
       </theme-keywords>
       <spatial-keywords>
-         <keyword-list thesaurus="None">northwest Atlantic, Gulf of Maine, Mid-Atlantic Bight, southern New England, Cape Hatteras, continental shelf, Georges Bank</keyword-list>
+         <keyword-list>Cape Hatteras, continental shelf, Georges Bank, Gulf of Maine, Mid-Atlantic Bight, northwest Atlantic, southern New England</keyword-list>
       </spatial-keywords>
       <stratum-keywords>
-         <keyword-list thesaurus="None">pelagic, benthic, demersal</keyword-list>
+         <keyword-list>benthic, demersal, pelagic</keyword-list>
       </stratum-keywords>
       <temporal-keywords>
-         <keyword-list thesaurus="None">continuous, spring</keyword-list>
+         <keyword-list>continuous, spring</keyword-list>
       </temporal-keywords>
    </keywords>
    <data-attributes/>
@@ -284,6 +284,15 @@
 </data-access-procedure>
       <data-use-constraints>User must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.</data-use-constraints>
    </access-info>
+   <distribution-info>
+      <distribution ccid="247320"
+                    type=""
+                    last-modified="2015-11-06T15:08:14"
+                    created="2015-11-06T15:08:14">
+         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
+         <distributor/>
+      </distribution>
+   </distribution-info>
    <urls>
       <url ccid="180996"
            type=""
@@ -342,14 +351,6 @@ Trawl gear used from 1968-1997 on the spring survey included the #36 Yankee traw
 Fishery-Independent Surveys,Data Sources, and Methods. Robert N. Reid, Frank P. Almeida, and Christine A. Zetlin.</answer>
       </faq>
    </faqs>
-   <downloads>
-      <download ccid="247320"
-                type=""
-                last-modified="2015-11-06T15:08:14"
-                created="2015-11-06T15:08:14">
-         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
-      </download>
-   </downloads>
    <related-items>
       <item cat-id="31224" cat-type="ENT" relation-type="HI">
          <title>Table: CLOUD</title>

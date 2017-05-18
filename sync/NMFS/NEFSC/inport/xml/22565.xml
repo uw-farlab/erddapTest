@@ -47,11 +47,11 @@
    </data-set>
    <keywords>
       <theme-keywords>
-         <keyword-list thesaurus="None">ocean quahog, Atlantic surf clam, dredge, distribution, abundance, size composition, FRV Delaware II, FV E.S.S. Pursuit, Spisula solidissima, Arctica islandica</keyword-list>
-         <keyword-list thesaurus="NMFS Data Category">fishery-independent Surveys, bio-sampling</keyword-list>
+         <keyword-list>abundance, Arctica islandica, Atlantic surf clam, distribution, dredge, FRV Delaware II, FV E.S.S. Pursuit, ocean quahog, size composition, Spisula solidissima</keyword-list>
+         <keyword-list thesaurus="NMFS Data Category">bio-sampling, fishery-independent Surveys</keyword-list>
       </theme-keywords>
       <spatial-keywords>
-         <keyword-list thesaurus="None">Long Island, Georges Bank, Delmarva Peninsula, Mid-Atlantic Bight</keyword-list>
+         <keyword-list>Delmarva Peninsula, Georges Bank, Long Island, Mid-Atlantic Bight</keyword-list>
       </spatial-keywords>
       <stratum-keywords>
          <keyword-list thesaurus="NMFS Data Category">benthic</keyword-list>
@@ -281,6 +281,15 @@
 </data-access-procedure>
       <data-use-constraints>User must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.</data-use-constraints>
    </access-info>
+   <distribution-info>
+      <distribution ccid="247324"
+                    type=""
+                    last-modified="2015-11-06T15:10:19"
+                    created="2015-11-06T15:10:19">
+         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
+         <distributor/>
+      </distribution>
+   </distribution-info>
    <urls>
       <url ccid="182469"
            type=""
@@ -411,14 +420,6 @@ Starting with year 2002, FSCS 1.0 was implemented to electronically capture stat
 &lt;&lt;&lt;check standard survey years - surfrace pump used 1965-1978&gt;&gt;</answer>
       </faq>
    </faqs>
-   <downloads>
-      <download ccid="247324"
-                type=""
-                last-modified="2015-11-06T15:10:19"
-                created="2015-11-06T15:10:19">
-         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
-      </download>
-   </downloads>
    <related-items>
       <item cat-id="31300" cat-type="ENT" relation-type="HI">
          <title>Table: CLOUD</title>

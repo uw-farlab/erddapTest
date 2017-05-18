@@ -46,17 +46,17 @@
    </data-set>
    <keywords>
       <theme-keywords>
-         <keyword-list thesaurus="None">hydroacoustics, relative abundance, distribution, size composition, bottom trawl, survey, invertebrates, biological sampling, age sampling, feeding ecology, stratified random sampling, groundfish, ichthyoplantkon, zooplankton, oceanographic, FRV Albatross IV, FRV Delaware II, flatfish</keyword-list>
-         <keyword-list thesaurus="NMFS Data Category">fishery-independent surveys, age &amp; growth, physical measures, biological measures, maturity data, population surveys, genotype/species identification</keyword-list>
+         <keyword-list>age sampling, biological sampling, bottom trawl, distribution, feeding ecology, flatfish, FRV Albatross IV, FRV Delaware II, groundfish, hydroacoustics, ichthyoplantkon, invertebrates, oceanographic, relative abundance, size composition, stratified random sampling, survey, zooplankton</keyword-list>
+         <keyword-list thesaurus="NMFS Data Category">age &amp; growth, biological measures, fishery-independent surveys, genotype/species identification, maturity data, physical measures, population surveys</keyword-list>
       </theme-keywords>
       <spatial-keywords>
-         <keyword-list thesaurus="None">Northwest Atlantic, Mid-Atlantic Bight, Southern New England, Cape Hatteras, continental shelf, Georges Bank</keyword-list>
+         <keyword-list>Cape Hatteras, continental shelf, Georges Bank, Mid-Atlantic Bight, Northwest Atlantic, Southern New England</keyword-list>
       </spatial-keywords>
       <stratum-keywords>
-         <keyword-list thesaurus="None">pelagic, benthic, demersal</keyword-list>
+         <keyword-list>benthic, demersal, pelagic</keyword-list>
       </stratum-keywords>
       <temporal-keywords>
-         <keyword-list thesaurus="None">seasonal distribution, winter</keyword-list>
+         <keyword-list>seasonal distribution, winter</keyword-list>
       </temporal-keywords>
    </keywords>
    <data-attributes/>
@@ -283,6 +283,15 @@
 </data-access-procedure>
       <data-use-constraints>User must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.</data-use-constraints>
    </access-info>
+   <distribution-info>
+      <distribution ccid="247322"
+                    type=""
+                    last-modified="2015-11-06T15:09:08"
+                    created="2015-11-06T15:09:08">
+         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
+         <distributor/>
+      </distribution>
+   </distribution-info>
    <urls>
       <url ccid="202528"
            type=""
@@ -345,14 +354,6 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
 Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P. Almeida, and Christine A. Zetlin.</answer>
       </faq>
    </faqs>
-   <downloads>
-      <download ccid="247322"
-                type=""
-                last-modified="2015-11-06T15:09:08"
-                created="2015-11-06T15:09:08">
-         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
-      </download>
-   </downloads>
    <related-items>
       <item cat-id="31262" cat-type="ENT" relation-type="HI">
          <title>Table: CLOUD</title>
