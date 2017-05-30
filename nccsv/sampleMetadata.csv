@@ -17,7 +17,7 @@ ship,*SCALAR*,Bell M. Shimada
 ship,cf_role,trajectory_id
 time,*DATA_TYPE*,String
 time,standard_name,time
-time,units,"M/d/YYYY H:mm:ss"
+time,units,"yyyy-MM-dd'T'HH:mm:ssZ"
 lat,*DATA_TYPE*,double
 lat,units,degrees_north
 lon,*DATA_TYPE*,double
