@@ -7,7 +7,7 @@
       <is-do-not-publish>N</is-do-not-publish>
       <name>Winter Bottom Trawl Survey</name>
       <title>Winter Bottom Trawl Survey</title>
-      <abstract>The standardized NEFSC Winter Bottom Trawl Survey was initiated in 1992 and covered offshore areas from the Mid-Atlantic to Georges Bank.  Inshore strata were covered from 1992-1997 but were later dropped, as few flatfish of interest were captured.  Deep strata (183-366 m) were not covered consistently until 1998.</abstract>
+      <abstract>The standardized NEFSC Winter Bottom Trawl Survey was initiated in 1992 and covered offshore areas from the Mid-Atlantic to Georges Bank.  Inshore strata were covered from 1992-2007 but were later dropped, as few flatfish of interest were captured.  Deep strata (183-366 m) were not covered consistently until 1998.</abstract>
       <purpose>The winter survey mission was to address the perceived low catchability of flatfish in the spring and autumn surveys.  In 2007, the survey ended when it became clear that the new vessel and gear would capture flatfish adequately.</purpose>
       <notes>Also referred to as the Winter Flatfish Survey</notes>
       <is-display-xml-formats>Y</is-display-xml-formats>
@@ -23,7 +23,7 @@
       <created-by>Nancy McHugh</created-by>
       <created-by-pers-id>13166</created-by-pers-id>
       <record-created>2014-11-14T11:12:45</record-created>
-      <record-last-modified>2016-07-28T12:17:44</record-last-modified>
+      <record-last-modified>2017-07-26T07:53:54</record-last-modified>
       <record-published>2016-07-28</record-published>
       <publication-status>Public</publication-status>
       <data-set-publication-status>Unpublished</data-set-publication-status>
@@ -272,6 +272,7 @@
          <vertical-extents/>
       </extent>
    </extents>
+   <spatial-information/>
    <access-info>
       <security-class>Unclassified</security-class>
       <data-access-policy>Available to qualified researchers.</data-access-policy>
@@ -450,6 +451,10 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
          <relation-note>Loaded by batch 8343, 03-16-2016 11:45</relation-note>
       </item>
+      <item cat-id="46701" cat-type="ENT" relation-type="HI">
+         <title>View: SVDBS_CRUISES</title>
+         <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
+      </item>
    </related-items>
    <fgdc-contacts>
       <fgdc-contact role="Distributor">
@@ -564,6 +569,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>CLOUD</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table describing cloud cover.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -776,6 +783,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>GEAR_CONDITION</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for field GEARCOND in the table SVSTA_BASE.  Identifies condition of the gear and is one component of the SHG value.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -988,6 +997,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>HAUL_VALUE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for field HAUL in the table SVSTA_BASE.  A component of the SHG in determining whether a tow is considered valid.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1200,6 +1211,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>MASTER_CRUISE_DETAILS</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>MASSACHUSETTS Child data table to MASTER_CRUISE_TABLE containing information related to all surveys conducted by or through the NEFSC.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1601,6 +1614,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>MATURITY_CODES</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>MASSACHUSETTS Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1705,6 +1720,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SEX_CODES</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing acceptable codes and descriptions for the field sex.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1809,6 +1826,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>STATION_VALUE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table identifying the type of station being performed.  Component of SHG value</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2021,6 +2040,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SVCRUISE_PURPOSE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2233,6 +2254,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SVCRUISE_STATUS</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2337,6 +2360,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SVGEAR</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2549,6 +2574,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>WEATHER</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2761,6 +2788,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>XBT</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2973,6 +3002,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>MASTER_CRUISE_TABLE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Data table containing information related to all surveys conducted by or through the NEFSC.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -3752,6 +3783,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SVMSTRATA</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing all acceptable stratum codes.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -4234,6 +4267,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>SV_VESSEL</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table identifying all vessel codes and descriptions.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -4500,6 +4535,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVBIO</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5117,6 +5154,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVCAT</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5518,6 +5557,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVLEN</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5919,6 +5960,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVSTA</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -7274,6 +7317,247 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
                <derivation/>
                <validation-rules/>
                <decimals>9</decimals>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>46701</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SVDBS_CRUISES</name>
+            <title>View: SVDBS_CRUISES</title>
+            <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
+            <purpose/>
+            <notes/>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22563</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Winter Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2017-07-28T12:53:57</record-created>
+            <record-last-modified>2017-07-28T12:54:20</record-last-modified>
+            <record-published>2017-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2018-07-29</metadata-next-review-date>
+            <linking-share-level>Public</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SVDBS_CRUISES</entity-name>
+            <entity-type>VW</entity-type>
+            <entity-type-value>Data View</entity-type-value>
+            <description>Data view conatining unique records for each cruise conducted by or through the NEFSC</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise. The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>PURPOSE_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code referencing purpose of cruise conducted. See SVDBS.SVCRUISE_PURPOSE table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>PURPOSE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>100</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of purpose_code to identify type of cruise conducted (e.g. Bottom Trawl, Scallop, Clam, etc.)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>STATUS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>40</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>A data status code indictating whether a cruise is availabe in SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>SEASON</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Season of the year in which cruise was conducted</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>7</seq-order>
+               <name>YEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Year in which cruise was conducted</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
                <version/>
             </attribute>
          </data-attributes>

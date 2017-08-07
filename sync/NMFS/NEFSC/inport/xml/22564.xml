@@ -246,7 +246,7 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
       </support-role>
    </support-roles>
    <extents>
-      <currentness-reference>Ground condition</currentness-reference>
+      <currentness-reference>Ground Condition</currentness-reference>
       <extent ccid="245301" type="" last-modified="" created="">
          <description/>
          <geog-areas>
@@ -275,6 +275,7 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
          <vertical-extents/>
       </extent>
    </extents>
+   <spatial-information/>
    <access-info>
       <security-class>Unclassified</security-class>
       <data-access-policy>Available to qualified researchers.</data-access-policy>
@@ -550,7 +551,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
                <endtime/>
             </rngdates>
          </timeinfo>
-         <current>Ground condition</current>
+         <current>Ground Condition</current>
       </timeperd>
    </fgdc-time-period>
    <publisher>
@@ -609,6 +610,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>CLOUD</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table describing cloud cover.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -821,6 +824,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>GEAR_CONDITION</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for field GEARCOND in the table SVSTA_BASE.  Identifies condition of the gear and is one component of the SHG value.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1033,6 +1038,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>HAUL_VALUE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for field HAUL in the table SVSTA_BASE.  A component of the SHG in determining whether a tow is considered valid.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1245,6 +1252,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>MASTER_CRUISE_DETAILS</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>MASSACHUSETTS Child data table to MASTER_CRUISE_TABLE containing information related to all surveys conducted by or through the NEFSC.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1646,6 +1655,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>MATURITY_CODES</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>MASSACHUSETTS Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1750,6 +1761,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SEX_CODES</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing acceptable codes and descriptions for the field sex.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -1854,6 +1867,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>STATION_VALUE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table identifying the type of station being performed.  Component of SHG value</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2066,6 +2081,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SVCRUISE_PURPOSE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2278,6 +2295,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SVCRUISE_STATUS</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2382,6 +2401,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SVGEAR</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2594,6 +2615,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>WEATHER</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -2806,6 +2829,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>XBT</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -3018,6 +3043,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>MASTER_CRUISE_TABLE</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Data table containing information related to all surveys conducted by or through the NEFSC.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -3797,6 +3824,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SVMSTRATA</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Historical support table containing all acceptable stratum codes.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -4279,6 +4308,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>SV_VESSEL</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Support table identifying all vessel codes and descriptions.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -4545,6 +4576,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVBIO</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5162,6 +5195,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVCAT</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5563,6 +5598,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVLEN</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
@@ -5964,6 +6001,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
          </physical-location>
          <entity>
             <entity-name>UNION_FSCS_SVSTA</entity-name>
+            <entity-type>TBL</entity-type>
+            <entity-type-value>Data Table</entity-type-value>
             <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</description>
             <alias/>
             <schema-name>SVDBS</schema-name>
