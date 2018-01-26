@@ -29,7 +29,7 @@ testLong,units,1
 sst,*DATA_TYPE*,float
 sst,standard_name,sea_surface_temperature
 sst,actual_range,0.17f,23.58f
-sst,units,degrees_C
+sst,units,degree_C
 sst,missing_value,99f
 sst,testBytes,-128b,0b,127b
 sst,testShorts,-32768s,0s,32767s

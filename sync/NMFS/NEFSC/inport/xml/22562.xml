@@ -23,7 +23,7 @@
       <created-by>Nancy McHugh</created-by>
       <created-by-pers-id>13166</created-by-pers-id>
       <record-created>2014-11-14T11:12:15</record-created>
-      <record-last-modified>2016-07-28T12:14:02</record-last-modified>
+      <record-last-modified>2017-08-25T15:46:22</record-last-modified>
       <record-published>2016-07-28</record-published>
       <publication-status>Public</publication-status>
       <data-set-publication-status>Unpublished</data-set-publication-status>
@@ -38,7 +38,7 @@
       <country>USA</country>
    </physical-location>
    <data-set type="Oracle Database">
-      <maintenance-frequency>As needed</maintenance-frequency>
+      <maintenance-frequency>As Needed</maintenance-frequency>
       <data-set-publication-status>Unpublished</data-set-publication-status>
       <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
       <data-set-credit>NOAA/NEFSC/FEMAD/ESB</data-set-credit>
@@ -70,7 +70,7 @@
                     person="4028"
                     support-role="2690">
          <role>Data Steward</role>
-         <role-definition>Person responsible for a Data Collection Item</role-definition>
+         <role-definition>Data Steward</role-definition>
          <in-effect>Y</in-effect>
          <from>2014</from>
          <to-date/>
@@ -103,24 +103,24 @@
                     last-modified=""
                     created=""
                     org="1061"
-                    person="14578"
+                    person=""
                     support-role="2680">
          <role>Distributor</role>
-         <role-definition>&lt;F6.1&gt; Person responsible for distributing the data.</role-definition>
+         <role-definition>Distributor</role-definition>
          <in-effect>Y</in-effect>
          <from>2015</from>
          <to-date/>
          <person-contact-info>
-            <name>Johnston, Robert </name>
-            <address-type>MAILING</address-type>
-            <street-address>166 Water Street, Room 316</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <email>Robert.Johnston@noaa.gov</email>
-            <phone>(508) 495-2061</phone>
-            <fax>508-495-2115</fax>
+            <name/>
+            <address-type/>
+            <street-address/>
+            <city/>
+            <state-prov/>
+            <zip/>
+            <country/>
+            <email/>
+            <phone/>
+            <fax/>
          </person-contact-info>
          <org-contact-info>
             <name>Northeast Fisheries Science Center</name>
@@ -142,7 +142,7 @@
                     person="13166"
                     support-role="2710">
          <role>Metadata Contact</role>
-         <role-definition>&lt;F7.4&gt; Person responsible for creating the metadata for this data set.</role-definition>
+         <role-definition>Metadata Contact</role-definition>
          <in-effect>Y</in-effect>
          <from>2014-11</from>
          <to-date/>
@@ -178,7 +178,7 @@
                     person=""
                     support-role="2650">
          <role>Originator</role>
-         <role-definition>&lt;F8.1&gt; Party responsible for the data set.</role-definition>
+         <role-definition>Originator</role-definition>
          <in-effect>Y</in-effect>
          <from>1995</from>
          <to-date/>
@@ -211,24 +211,24 @@
                     last-modified=""
                     created=""
                     org="1061"
-                    person="14578"
+                    person="4028"
                     support-role="2660">
          <role>Point of Contact</role>
-         <role-definition>&lt;F1.9&gt; Primary data manager for the data set(s)</role-definition>
+         <role-definition>Point of Contact</role-definition>
          <in-effect>Y</in-effect>
-         <from>2014</from>
+         <from>2017</from>
          <to-date/>
          <person-contact-info>
-            <name>Johnston, Robert </name>
-            <address-type>MAILING</address-type>
-            <street-address>166 Water Street, Room 316</street-address>
+            <name>Kostovick, Paul </name>
+            <address-type>PHYSICAL</address-type>
+            <street-address>166 Water Street, Maintenance, Room 204</street-address>
             <city>Woods Hole</city>
             <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
+            <zip>02543</zip>
             <country>USA</country>
-            <email>Robert.Johnston@noaa.gov</email>
-            <phone>(508) 495-2061</phone>
-            <fax>508-495-2115</fax>
+            <email>paul.kostovick@noaa.gov</email>
+            <phone>(508)495-2343</phone>
+            <fax>(508)495-2230</fax>
          </person-contact-info>
          <org-contact-info>
             <name>Northeast Fisheries Science Center</name>
@@ -288,9 +288,16 @@
    <distribution-info>
       <distribution ccid="247321"
                     type=""
-                    last-modified="2015-11-06T15:08:42"
+                    last-modified="2017-08-25T12:59:52"
                     created="2015-11-06T15:08:42">
-         <download-url>ftp://ftp.nefsc.noaa.gov</download-url>
+         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/22562</download-url>
+         <distributor/>
+      </distribution>
+      <distribution ccid="579731"
+                    type=""
+                    last-modified="2017-08-25T13:00:25"
+                    created="2017-08-25T13:00:25">
+         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/SVDBS/</download-url>
          <distributor/>
       </distribution>
    </distribution-info>
@@ -426,21 +433,22 @@ Fishery-Independent Surveys,Data Sources, and Methods. Robert N. Reid, Frank P. 
          <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
          <relation-note>Loaded by batch 8342, 03-16-2016 11:25</relation-note>
       </item>
+      <item cat-id="46700" cat-type="ENT" relation-type="HI">
+         <title>View: SVDBS_CRUISES</title>
+         <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
+      </item>
    </related-items>
    <fgdc-contacts>
       <fgdc-contact role="Distributor">
-         <contact-type>cntper</contact-type>
-         <contact-person-name>Johnston, Robert </contact-person-name>
+         <contact-type>cntorg</contact-type>
          <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room 316</street-address>
+         <street-address>166 Water Street</street-address>
          <city>Woods Hole</city>
          <state-prov>MA</state-prov>
          <zip>02543-1026</zip>
          <country>USA</country>
-         <email>Robert.Johnston@noaa.gov</email>
-         <voice>(508) 495-2061</voice>
-         <fax>508-495-2115</fax>
+         <voice>(508)495-2000</voice>
+         <org-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</org-business-hours>
          <instructions>Contact via email.</instructions>
       </fgdc-contact>
       <fgdc-contact role="Metadata contact">
@@ -460,18 +468,19 @@ Fishery-Independent Surveys,Data Sources, and Methods. Robert N. Reid, Frank P. 
       </fgdc-contact>
       <fgdc-contact role="Point of Contact">
          <contact-type>cntper</contact-type>
-         <contact-person-name>Johnston, Robert </contact-person-name>
+         <contact-person-name>Kostovick, Paul </contact-person-name>
          <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room 316</street-address>
+         <address-type>PHYSICAL</address-type>
+         <street-address>166 Water Street, Maintenance, Room 204</street-address>
          <city>Woods Hole</city>
          <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
+         <zip>02543</zip>
          <country>USA</country>
-         <email>Robert.Johnston@noaa.gov</email>
-         <voice>(508) 495-2061</voice>
-         <fax>508-495-2115</fax>
-         <instructions>Email</instructions>
+         <email>paul.kostovick@noaa.gov</email>
+         <voice>(508)495-2343</voice>
+         <fax>(508)495-2230</fax>
+         <org-business-hours>8am-4:30pm</org-business-hours>
+         <instructions>email or phone</instructions>
       </fgdc-contact>
    </fgdc-contacts>
    <fgdc-time-period>
@@ -7291,6 +7300,247 @@ Fishery-Independent Surveys,Data Sources, and Methods. Robert N. Reid, Frank P. 
                <derivation/>
                <validation-rules/>
                <decimals>9</decimals>
+               <version/>
+            </attribute>
+         </data-attributes>
+      </child-entity>
+      <child-entity>
+         <common-information>
+            <cat-id>46700</cat-id>
+            <cat-type-code>ENT</cat-type-code>
+            <metadata-workflow-state>Published / External</metadata-workflow-state>
+            <is-do-not-publish>N</is-do-not-publish>
+            <name>SVDBS_CRUISES</name>
+            <title>View: SVDBS_CRUISES</title>
+            <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
+            <purpose/>
+            <notes/>
+            <other-citation-details/>
+            <supplemental-info/>
+            <is-display-xml-formats>N</is-display-xml-formats>
+            <data-status>Complete</data-status>
+            <fgdc-data-status>Complete</fgdc-data-status>
+            <org-id/>
+            <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
+            <owner-org-acro>NEFSC</owner-org-acro>
+            <catalog-control-state>9</catalog-control-state>
+            <parent-cat-id>22562</parent-cat-id>
+            <parent-cat-type-code>DS</parent-cat-type-code>
+            <parent-title>Summer Bottom Trawl Survey</parent-title>
+            <created-by>Patricia Jones</created-by>
+            <created-by-pers-id>13445</created-by-pers-id>
+            <record-created>2017-07-28T12:52:08</record-created>
+            <record-last-modified>2017-07-28T12:52:26</record-last-modified>
+            <record-published>2017-07-28</record-published>
+            <publication-status>Public</publication-status>
+            <metadata-next-review-date>2018-07-29</metadata-next-review-date>
+            <linking-share-level>Public</linking-share-level>
+         </common-information>
+         <physical-location>
+            <organization/>
+            <city/>
+            <state-province/>
+            <country/>
+            <location-description/>
+         </physical-location>
+         <entity>
+            <entity-name>SVDBS_CRUISES</entity-name>
+            <entity-type>VW</entity-type>
+            <entity-type-value>Data View</entity-type-value>
+            <description>Data view conatining unique records for each cruise conducted by or through the NEFSC</description>
+            <alias/>
+            <schema-name>SVDBS</schema-name>
+            <is-active-vers>Y</is-active-vers>
+            <change-summary/>
+         </entity>
+         <data-attributes>
+            <attribute>
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>Y</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise. The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>2</seq-order>
+               <name>PURPOSE_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code referencing purpose of cruise conducted. See SVDBS.SVCRUISE_PURPOSE table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>3</seq-order>
+               <name>PURPOSE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>100</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Description of purpose_code to identify type of cruise conducted (e.g. Bottom Trawl, Scallop, Clam, etc.)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>4</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>5</seq-order>
+               <name>STATUS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>40</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>A data status code indictating whether a cruise is availabe in SVDBS system. See SVDBS.SVCRUISE_STATUS</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>6</seq-order>
+               <name>SEASON</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>N</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Season of the year in which cruise was conducted</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
+               <version/>
+            </attribute>
+            <attribute>
+               <seq-order>7</seq-order>
+               <name>YEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <min-length/>
+               <precision/>
+               <scale/>
+               <is-required>Y</is-required>
+               <is-pkey>N</is-pkey>
+               <status>Active</status>
+               <description>Year in which cruise was conducted</description>
+               <general-data-type>VARCHAR2</general-data-type>
+               <case-restriction/>
+               <units/>
+               <format-mask/>
+               <display-example/>
+               <null-repr/>
+               <null-meaning/>
+               <allowed-values/>
+               <default-value/>
+               <fkey-relations/>
+               <derivation/>
+               <validation-rules/>
+               <decimals/>
                <version/>
             </attribute>
          </data-attributes>
