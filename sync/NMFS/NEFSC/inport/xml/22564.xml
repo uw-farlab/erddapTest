@@ -14,11 +14,19 @@
 Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The camera system is towed by the vessel to a depth within one to two meters  of the seafloor.  Rapid photo streams (6 images per second) are sent to the ship over a fiber-optic cable, where they are recorded on large scale servers. This stream of images can later be stitched together to form a mosaic of the seafloor.  Scientists on the ship see images and data while flying HabCam. Scallop measurements from the images are translated into a true size and biomass measurement. In addition, new software allows automated counting and measurement on the ship while the instrument is being towed.
 </notes>
       <is-display-xml-formats>Y</is-display-xml-formats>
-      <data-status>Complete</data-status>
-      <fgdc-data-status>Complete</fgdc-data-status>
+      <data-status>Completed</data-status>
+      <fgdc-data-status>Completed</fgdc-data-status>
       <org-id>1061</org-id>
       <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
       <owner-org-acro>NEFSC</owner-org-acro>
+      <owner-org-phone>(508)495-2000</owner-org-phone>
+      <owner-org-street-addr>166 Water Street</owner-org-street-addr>
+      <owner-org-city>Woods Hole</owner-org-city>
+      <owner-org-state-province>MA</owner-org-state-province>
+      <owner-org-postal-code>02543-1026</owner-org-postal-code>
+      <owner-org-country>USA</owner-org-country>
+      <owner-org-url>http://www.nefsc.noaa.gov</owner-org-url>
+      <owner-org-business-hrs>8:00 a.m. to 4:30 p.m. Monday - Friday</owner-org-business-hrs>
       <catalog-control-state>9</catalog-control-state>
       <parent-cat-id>22558</parent-cat-id>
       <parent-cat-type-code>PRJ</parent-cat-type-code>
@@ -26,7 +34,7 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
       <created-by>Nancy McHugh</created-by>
       <created-by-pers-id>13166</created-by-pers-id>
       <record-created>2014-11-14T11:13:34</record-created>
-      <record-last-modified>2017-08-25T15:37:59</record-last-modified>
+      <record-last-modified>2018-09-04T13:41:54</record-last-modified>
       <record-published>2016-07-28</record-published>
       <publication-status>Public</publication-status>
       <data-set-publication-status>Unpublished</data-set-publication-status>
@@ -41,6 +49,7 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
       <country>USA</country>
    </physical-location>
    <data-set type="Oracle Database">
+      <data-set-scope-code>Data Set</data-set-scope-code>
       <maintenance-frequency>As Needed</maintenance-frequency>
       <data-set-publication-status>Unpublished</data-set-publication-status>
       <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
@@ -62,186 +71,121 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
          <keyword-list>summer</keyword-list>
       </temporal-keywords>
    </keywords>
-   <data-attributes/>
+   <data-attributes partial-listing="" total-count=""/>
    <support-roles>
       <support-role ccid="181912"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="4028"
+                    org=""
+                    person=""
                     support-role="2690">
          <role>Data Steward</role>
-         <role-definition>Data Steward</role-definition>
          <in-effect>Y</in-effect>
          <from>2014</from>
          <to-date/>
-         <person-contact-info>
-            <name>Kostovick, Paul </name>
-            <address-type>PHYSICAL</address-type>
-            <street-address>166 Water Street, Maintenance, Room 204</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543</zip>
-            <country>USA</country>
-            <email>paul.kostovick@noaa.gov</email>
-            <phone>(508)495-2343</phone>
-            <fax>(508)495-2230</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
-         <contact-instructions/>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
       </support-role>
       <support-role ccid="222404"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
+                    org=""
                     person=""
                     support-role="2680">
          <role>Distributor</role>
-         <role-definition>Distributor</role-definition>
          <in-effect>Y</in-effect>
          <from>2015</from>
          <to-date/>
-         <person-contact-info>
-            <name/>
-            <address-type/>
-            <street-address/>
-            <city/>
-            <state-prov/>
-            <zip/>
-            <country/>
-            <email/>
-            <phone/>
-            <fax/>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
          <contact-instructions>Contact via email.</contact-instructions>
       </support-role>
       <support-role ccid="181911"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="13166"
+                    org=""
+                    person=""
                     support-role="2710">
          <role>Metadata Contact</role>
-         <role-definition>Metadata Contact</role-definition>
          <in-effect>Y</in-effect>
-         <from>2014</from>
+         <from>2018-09</from>
          <to-date/>
-         <person-contact-info>
-            <name>McHugh, Nancy </name>
-            <address-type>MAILING</address-type>
-            <street-address>166 Water Street, Room L114</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <email>nancy.mchugh@noaa.gov</email>
-            <phone>508-495-2282</phone>
-            <fax>508-495-2258</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
-         <contact-instructions>Email</contact-instructions>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
       </support-role>
       <support-role ccid="205806"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
+                    org=""
                     person=""
                     support-role="2650">
          <role>Originator</role>
-         <role-definition>Originator</role-definition>
          <in-effect>Y</in-effect>
          <from>1980</from>
          <to-date/>
-         <person-contact-info>
-            <name/>
-            <address-type/>
-            <street-address/>
-            <city/>
-            <state-prov/>
-            <zip/>
-            <country/>
-            <email/>
-            <phone/>
-            <fax/>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
          <contact-instructions>Email</contact-instructions>
       </support-role>
       <support-role ccid="205807"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="4028"
+                    org=""
+                    person=""
                     support-role="2660">
          <role>Point of Contact</role>
-         <role-definition>Point of Contact</role-definition>
          <in-effect>Y</in-effect>
-         <from>2017</from>
+         <from>2018</from>
          <to-date/>
-         <person-contact-info>
-            <name>Kostovick, Paul </name>
-            <address-type>PHYSICAL</address-type>
-            <street-address>166 Water Street, Maintenance, Room 204</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543</zip>
-            <country>USA</country>
-            <email>paul.kostovick@noaa.gov</email>
-            <phone>(508)495-2343</phone>
-            <fax>(508)495-2230</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
+         <contact-type>Person</contact-type>
+         <contact-name>Chase, Peter D</contact-name>
+         <contact-email>peter.chase@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-phone-number>(508) 495-2348</contact-phone-number>
          <contact-instructions>Email</contact-instructions>
       </support-role>
    </support-roles>
@@ -294,6 +238,18 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
                     created="2015-11-06T15:10:43">
          <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/22564</download-url>
          <distributor/>
+         <description>Compressed Zipped Folders 
+  22564_MasterTables.zip contains Entities
+   - 22564_MASTER_CRUISE_DETAILS.csv
+   - 22564_MASTER_CRUISE_TABLE.csv
+   - 22564_SVDBS_CRUISES.csv
+  22564_FSCSTables.zip contains Entities
+   - 22564_UNION_FSCS_SVBIO.csv
+   - 22564_UNION_FSCS_SVCAT.csv
+   - 22564_UNION_FSCS_SVLEN.csv
+   - 22564_UNION_FSCS_SVSTA.csv
+
+Data extracted on 8/23/2017	</description>
       </distribution>
       <distribution ccid="579733"
                     type=""
@@ -301,6 +257,23 @@ Since 2009, a habitat mapping camera system (HabCam) has been deployed.  The cam
                     created="2017-08-25T13:15:33">
          <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/SVDBS</download-url>
          <distributor/>
+         <description>Compressed Zipped Folder contains Support Table Entities for this data set
+  SVDBS_SupportTables.zip contains Entities
+   - SVDBS_CLOUD.csv.csv
+   - SVDBS_GEAR_CONDITION.csv
+   - SVDBS_HAUL_VALUE.csv
+   - SVDBS_MATURITY_CODES.csv
+   - SVDBS_ SEX_CODES.csv
+   - SVDBS_STATION_VALUE.csv
+   - SVDBS_SVCRUISE_PURPOSE.csv
+   - SVDBS_SVCRUISE_STATUS.csv
+   - SVDBS_SVGEAR.csv
+   - SVDBS_SVMSTRATA.csv
+   - SVDBS_SV_VESSEL.csv
+   - SVDBS_WEATHER.csv
+   - SVDBS_XBT.csv
+	
+Data extracted on 8/8/2017	</description>
       </distribution>
    </distribution-info>
    <urls>
@@ -396,6 +369,17 @@ magellanicus) resources. U.S. Natl. Mar. Fish. Serv., Northeast Fish. Cent., Woo
       <description>RDBMS:  Oracle</description>
    </technical-environment>
    <data-quality/>
+   <data-management>
+      <resources-identified>Yes</resources-identified>
+      <resources-budget-percentage>Unknown</resources-budget-percentage>
+      <data-access-directive-compliant>Yes</data-access-directive-compliant>
+      <data-access-directive-waiver>No</data-access-directive-waiver>
+      <delay-collection-dissemination>45 days</delay-collection-dissemination>
+      <archive-location>Other</archive-location>
+      <archive-location-explanation-other>NEFSC</archive-location-explanation-other>
+      <delay-collection-archive>N/A</delay-collection-archive>
+      <data-protection-plan>Archival of source data preserving unaltered collected data, Scheduled backups, Remote storage backups, Password protection.</data-protection-plan>
+   </data-management>
    <lineage>
       <lineage-statement>Vessel sensor data are collected electronically using SCS.  Station, catch and biological data were collected manually using paper logs until 2000.  At the completion of each cruise leg, the logs were keypunched and data audited extensively prior to being released.
 
@@ -404,180 +388,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
    <acronyms/>
    <glossary-terms/>
    <faqs/>
-   <related-items>
-      <item cat-id="31319" cat-type="ENT" relation-type="HI">
-         <title>Table: CLOUD</title>
-         <abstract>Support table describing cloud cover.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31320" cat-type="ENT" relation-type="HI">
-         <title>Table: GEAR_CONDITION</title>
-         <abstract>Support table for field GEARCOND in the table SVSTA_BASE.  Identifies condition of the gear and is one component of the SHG value.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31321" cat-type="ENT" relation-type="HI">
-         <title>Table: HAUL_VALUE</title>
-         <abstract>Support table for field HAUL in the table SVSTA_BASE.  A component of the SHG in determining whether a tow is considered valid.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31322" cat-type="ENT" relation-type="HI">
-         <title>Table: MASTER_CRUISE_DETAILS</title>
-         <abstract>MASSACHUSETTS Child data table to MASTER_CRUISE_TABLE containing information related to all surveys conducted by or through the NEFSC.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="33724" cat-type="ENT" relation-type="HI">
-         <title>Table: MASTER_CRUISE_TABLE</title>
-         <abstract>Data table containing information related to all surveys conducted by or through the NEFSC.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="31324" cat-type="ENT" relation-type="HI">
-         <title>Table: MATURITY_CODES</title>
-         <abstract>MASSACHUSETTS Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31325" cat-type="ENT" relation-type="HI">
-         <title>Table: SEX_CODES</title>
-         <abstract>Historical support table containing acceptable codes and descriptions for the field sex.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31326" cat-type="ENT" relation-type="HI">
-         <title>Table: STATION_VALUE</title>
-         <abstract>Support table identifying the type of station being performed.  Component of SHG value</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31327" cat-type="ENT" relation-type="HI">
-         <title>Table: SVCRUISE_PURPOSE</title>
-         <abstract>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31328" cat-type="ENT" relation-type="HI">
-         <title>Table: SVCRUISE_STATUS</title>
-         <abstract>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31329" cat-type="ENT" relation-type="HI">
-         <title>Table: SVGEAR</title>
-         <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="33725" cat-type="ENT" relation-type="HI">
-         <title>Table: SVMSTRATA</title>
-         <abstract>Historical support table containing all acceptable stratum codes.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="33726" cat-type="ENT" relation-type="HI">
-         <title>Table: SV_VESSEL</title>
-         <abstract>Support table identifying all vessel codes and descriptions.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="33727" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVBIO</title>
-         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="33728" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVCAT</title>
-         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="33729" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVLEN</title>
-         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="33730" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVSTA</title>
-         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
-         <relation-note>Loaded by batch 9087, 07-28-2016 17:26</relation-note>
-      </item>
-      <item cat-id="31336" cat-type="ENT" relation-type="HI">
-         <title>Table: WEATHER</title>
-         <abstract>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="31337" cat-type="ENT" relation-type="HI">
-         <title>Table: XBT</title>
-         <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
-         <relation-note>Loaded by batch 8347, 03-16-2016 12:14</relation-note>
-      </item>
-      <item cat-id="46704" cat-type="ENT" relation-type="HI">
-         <title>View: SVDBS_CRUISES</title>
-         <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
-      </item>
-   </related-items>
-   <fgdc-contacts>
-      <fgdc-contact role="Distributor">
-         <contact-type>cntorg</contact-type>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <street-address>166 Water Street</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <voice>(508)495-2000</voice>
-         <org-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</org-business-hours>
-         <instructions>Contact via email.</instructions>
-      </fgdc-contact>
-      <fgdc-contact role="Metadata contact">
-         <contact-type>cntper</contact-type>
-         <contact-person-name>McHugh, Nancy </contact-person-name>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room L114</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <email>nancy.mchugh@noaa.gov</email>
-         <voice>508-495-2282</voice>
-         <fax>508-495-2258</fax>
-         <instructions>Email</instructions>
-      </fgdc-contact>
-      <fgdc-contact role="Point of Contact">
-         <contact-type>cntper</contact-type>
-         <contact-person-name>Kostovick, Paul </contact-person-name>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>PHYSICAL</address-type>
-         <street-address>166 Water Street, Maintenance, Room 204</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543</zip>
-         <country>USA</country>
-         <email>paul.kostovick@noaa.gov</email>
-         <voice>(508)495-2343</voice>
-         <fax>(508)495-2230</fax>
-         <org-business-hours>8am-4:30pm</org-business-hours>
-         <instructions>email or phone</instructions>
-      </fgdc-contact>
-   </fgdc-contacts>
-   <fgdc-time-period>
-      <timeperd>
-         <timeinfo>
-            <rngdates>
-               <begdate>1980-05-20</begdate>
-               <begtime/>
-               <enddate>Present</enddate>
-               <endtime/>
-            </rngdates>
-         </timeinfo>
-         <current>Ground Condition</current>
-      </timeperd>
-   </fgdc-time-period>
-   <publisher>
-      <person-contact-info>
-         <name>Jones, Patricia L</name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room M203</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <email>patti.jones@noaa.gov</email>
-         <phone>508-495-2116</phone>
-         <fax>508-295-2258</fax>
-      </person-contact-info>
-   </publisher>
-   <child-entities>
+   <related-items/>
+   <child-entities partial-listing="No" total-count="20">
       <child-entity>
          <common-information>
             <cat-id>31319</cat-id>
@@ -592,8 +404,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -627,7 +439,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>CLOUD</name>
@@ -806,8 +618,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -841,7 +653,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>GEARCOND</name>
@@ -1020,8 +832,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1055,7 +867,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>HAUL</name>
@@ -1234,8 +1046,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1269,7 +1081,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVVESSEL</name>
@@ -1637,8 +1449,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1672,7 +1484,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>MATURITY</name>
@@ -1743,8 +1555,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1778,7 +1590,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>SEX</name>
@@ -1849,8 +1661,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1884,7 +1696,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>STATYPE</name>
@@ -2063,8 +1875,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2098,7 +1910,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>PURPOSE_CODE</name>
@@ -2277,8 +2089,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2312,7 +2124,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>STATUS_CODE</name>
@@ -2383,8 +2195,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2418,7 +2230,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVGEAR</name>
@@ -2597,8 +2409,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2632,7 +2444,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>WEATHER</name>
@@ -2811,8 +2623,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2846,7 +2658,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>XBT</name>
@@ -3025,8 +2837,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -3060,7 +2872,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="27">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVVESSEL</name>
@@ -3806,8 +3618,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -3841,7 +3653,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="16">
             <attribute>
                <seq-order>1</seq-order>
                <name>STRGRP_DESC</name>
@@ -4290,8 +4102,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -4325,7 +4137,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="8">
             <attribute>
                <seq-order>1</seq-order>
                <name>VESSEL_NAME</name>
@@ -4558,8 +4370,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -4593,7 +4405,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="21">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5177,8 +4989,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -5212,7 +5024,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5580,8 +5392,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -5615,7 +5427,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5983,8 +5795,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -6018,7 +5830,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="Yes" total-count="96">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -7385,8 +7197,8 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -7420,7 +7232,7 @@ Starting with year 2001, FSCS 1.0 was implemented to electronically capture stat
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="7">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>

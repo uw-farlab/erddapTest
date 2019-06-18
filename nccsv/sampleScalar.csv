@@ -5,11 +5,11 @@
 *GLOBAL*,creator_type,person
 *GLOBAL*,creator_url,https://www.pfeg.noaa.gov
 *GLOBAL*,featureType,trajectory
-*GLOBAL*,infoUrl,https://coastwatch.pfeg.noaa.gov/erddap/downloads/NCCSV.html
+*GLOBAL*,infoUrl,https://coastwatch.pfeg.noaa.gov/erddap/download/NCCSV.html
 *GLOBAL*,institution,"NOAA NMFS SWFSC ERD, NOAA PMEL"
 *GLOBAL*,license,"""NCCSV Demonstration"" by Bob Simons and Steve Hankin is licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ ."
 *GLOBAL*,keywords,"NOAA, sea, ship, sst, surface, temperature, trajectory"
-*GLOBAL*,standard_name_vocabulary,CF Standard Name Table v29
+*GLOBAL*,standard_name_vocabulary,CF Standard Name Table v55
 *GLOBAL*,subsetVariables,"ship"
 *GLOBAL*,summary,"This is a paragraph or two describing the dataset."
 *GLOBAL*,title,NCCSV Demonstration

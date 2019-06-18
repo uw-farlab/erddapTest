@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inport-metadata xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.9">
+   <item-identification>
+      <catalog-item-id>22560</catalog-item-id>
+      <title>Fall Bottom Trawl Survey</title>
+      <short-name>Fall Bottom Trawl Survey</short-name>
+      <catalog-item-type>Data Set</catalog-item-type>
+      <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+      <parent-catalog-item-id>22557</parent-catalog-item-id>
+      <parent-title>Bottom Trawl Surveys</parent-title>
+      <parent-catalog-item-type>Project</parent-catalog-item-type>
+      <status>Completed</status>
+      <abstract>The standardized NEFSC Fall Bottom Trawl Survey was initiated in 1963 and covered an area from Hudson Canyon, NY to Nova Scotia, Canada. Throughout the years, coverage has extended as far south as Florida and sampling depths have ranged from &lt;27 to 366 m. Currently, the survey coverage is from Cape Hatteras, NC to Nova Scotia and the minimum depth range is &gt; 18 m as the result of a change in the sampling platform.  This has resulted in the exclusion of many inshore strata.</abstract>
+      <purpose>The purpose of the Fall Bottom Trawl Survey is to determine the seasonal distribution, relative abundance, and biodiversity of fish and invertebrate species found on the continental shelf during the fall months, typically September to November.  Other cruise objectives are: to collect biological samples for age determinations and growth sutidies, fecundity, maturity, and feeding ecology; opportunistically test trawl gear, methods, or survey-related equipment that may benefit the trawl survey in the future; collect oceanographic data, inclduing CTD casts  as well as samples of ichthyoplankton and zooplankton for relative abundance and distribution studies; and to collect hydroacoustic data between stations. Fishery scientists use the data to assess 45 stocks of commercial and recreational fish and invertebrate species in the northeastern United States.</purpose>
+   </item-identification>
+   <keywords>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>age sampling</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>biological sampling</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>bottom trawl</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>distribution</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>feeding ecology</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>FRV Albatross IV</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>FRV Delaware II</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>FRV Henry B. Bigelow</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>groundfish</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>hydroacoustics</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>ichthyoplantkon</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>invertebrates</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>oceanographic</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>relative abundance</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>RV Atlantic Twin</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>seasonal distribution</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>size composition</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>standardized</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>stratified random sampling</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>survey</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <keyword>zooplankton</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>age &amp; growth</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>biological measures</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>fishery-independent survey</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>genotype/species identification</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>maturity data</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>physical measures</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>NMFS Data Category</thesaurus>
+         <keyword>population surveys</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Cape Hatteras</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Continental Shelf</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Georges Bank</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Gulf of Maine</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>Mid-Atlantic Bight</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>northwest Atlantic</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <keyword>southern New England</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Stratum</keyword-type>
+         <keyword>benthic</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Stratum</keyword-type>
+         <keyword>demersal</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Stratum</keyword-type>
+         <keyword>pelagic</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Temporal</keyword-type>
+         <keyword>continous</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Temporal</keyword-type>
+         <keyword>fall</keyword>
+      </keyword>
+   </keywords>
+   <physical-location>
+      <organization>Northeast Fisheries Science Center</organization>
+      <city>Woods Hole</city>
+      <state-province>MA</state-province>
+      <country>USA</country>
+   </physical-location>
+   <data-set-information>
+      <data-set-scope-code>Data Set</data-set-scope-code>
+      <data-set-type>Oracle Database, CSV file</data-set-type>
+      <maintenance-frequency>As Needed</maintenance-frequency>
+      <maintenance-note>The time series for the Fall Bottom Trawl Survey began in 1963 with data collection and quality assurance occurring with both paper and digital methods throughout the time series. Data consumers occasionally find questionable data from earlier paper collected data that requires verification via the original paper log. The frequency for such verification is minimal.</maintenance-note>
+      <data-presentation-form>Table (digital)</data-presentation-form>
+      <entity-attribute-overview>The provided Fall Bottom Trawl Survey time series from 1963 - most recently audited data set (2018) contain standard audited raw survey results without adjustments for changes in gear and/or vessel over the length of the time series. All "good" tows are included in these data sets. Additional non-representative tows are available upon request only. All inquiries for obtaining calibration information for vessel and gear changes should be addressed to the Chief of the Population Dynamics Branch or Chief of the Resource Evaluation and Assessment Division of the Northeast Fisheries Science Center (NEFSC).
+The provided data sets contain the following information:
+Station Data - Vessel-related information (e.g., cruise ID, location, speed, course, etc.) and surface and bottom sea water temperature and salinity
+Aggregate Species Data - Tow-by-tow total weight and number of each species.
+Species Length Frequencies - Summarized number of fish measured at each length interval 
+Individual Fish Data - Additional parameters collected from individual fish (other than length): sex, individual weight, gonad maturation, age, and overall volume of stomach contents.</entity-attribute-overview>
+      <data-set-credit>NOAA/NEFSC/FEMAD/ESB</data-set-credit>
+      <instrument>bottom trawl, bongo nets, CTD, SCS, net mensuration sensors</instrument>
+      <platform>FRV Albatross IV, FRV Delaware II, and FRV Henry B. Bigelow</platform>
+      <physical-collection-fishing-gear>bottom trawl</physical-collection-fishing-gear>
+   </data-set-information>
+   <entity-attribute-information partial-listing="No" total-count="12">
+      <entity>
+         <catalog-item-id>31173</catalog-item-id>
+         <title>Table: CLOUD</title>
+         <short-name>CLOUD</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Support table describing cloud cover.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Support table describing cloud cover.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="6">
+            <data-attribute cc-id="302970">
+               <seq-order>1</seq-order>
+               <name>CLOUD</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>2</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Code to represent percentage of cloud cover.  See SVDBS.CLOUD</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="302971">
+               <seq-order>2</seq-order>
+               <name>PCTCLEAR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Cloud cover as a percentage.  See SVDBS.CLOUD</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="302972">
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="302973">
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="302974">
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="302975">
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>31178</catalog-item-id>
+         <title>Table: MATURITY_CODES</title>
+         <short-name>MATURITY_CODES</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="2">
+            <data-attribute cc-id="303028">
+               <seq-order>1</seq-order>
+               <name>MATURITY</name>
+               <data-storage-type>CHAR</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
+               <general-data-type>CHAR</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303029">
+               <seq-order>2</seq-order>
+               <name>MATURITY_DESCRIPTION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description of maturity codes.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>31179</catalog-item-id>
+         <title>Table: SEX_CODES</title>
+         <short-name>SEX_CODES</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Historical support table containing acceptable codes and descriptions for the field sex.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Historical support table containing acceptable codes and descriptions for the field sex.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="2">
+            <data-attribute cc-id="303030">
+               <seq-order>1</seq-order>
+               <name>SEX</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>1</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Code indicating sex of fish or invertebrate species.  See SVDBS.FSCS_SEX_CODES if using fscs data and SVDBS.SEX_CODES if using non FSCS data.  Codes 0, 1, 2 and 4 are the only valid codes in fscs tables.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303031">
+               <seq-order>2</seq-order>
+               <name>SEX_DESCRIPTION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>255</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description of the sex code field.  Only 0, 1, 2 are valid entries for fscs tables. 0=Unsexed, unknown, or sex not observed; Since the summer 1995 Gulf of Maine Trawl Survey forgot to look for American Lobster; 1=Male; 2=Female; Female Stage I for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female (no eggs, no notch) for American Lobster; 3=Female Stage II for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with eggs, no notch for American Lobster; 4=Transitional for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch, no eggs for American Lobster; 5=Ovigerous for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch and eggs for American Lobster;6=Non-spawning Female for Northern Shrimp; 7=Female for Northern Shrimp not staged (stage I or II not determined)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>31183</catalog-item-id>
+         <title>Table: SVGEAR</title>
+         <short-name>SVGEAR</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="6">
+            <data-attribute cc-id="303046">
+               <seq-order>1</seq-order>
+               <name>SVGEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303047">
+               <seq-order>2</seq-order>
+               <name>GEAR_DEFINITION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>300</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Type and description of gear.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303048">
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303049">
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303050">
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303051">
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>31189</catalog-item-id>
+         <title>Table: WEATHER</title>
+         <short-name>WEATHER</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="6">
+            <data-attribute cc-id="303206">
+               <seq-order>1</seq-order>
+               <name>WEATHER</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303207">
+               <seq-order>2</seq-order>
+               <name>WEATHER_DEF</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description of weather code.  See SVDBS.WEATHER table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303208">
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303209">
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303210">
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303211">
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>31190</catalog-item-id>
+         <title>Table: XBT</title>
+         <short-name>XBT</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
+         <notes>Loaded by batch 8334, 03-14-2016 13:01</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="6">
+            <data-attribute cc-id="303212">
+               <seq-order>1</seq-order>
+               <name>XBT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303213">
+               <seq-order>2</seq-order>
+               <name>XBT_DEF</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>65</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Definition of XBT codes.  See SVDBS.XBT</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303214">
+               <seq-order>3</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303215">
+               <seq-order>4</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303216">
+               <seq-order>5</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="303217">
+               <seq-order>6</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33598</catalog-item-id>
+         <title>Table: SVMSTRATA</title>
+         <short-name>SVMSTRATA</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Historical support table containing all acceptable stratum codes.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Historical support table containing all acceptable stratum codes.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="16">
+            <data-attribute cc-id="335641">
+               <seq-order>1</seq-order>
+               <name>STRGRP_DESC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description of stratum group.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335649">
+               <seq-order>2</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335650">
+               <seq-order>3</seq-order>
+               <name>STRATUM_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of stratum area.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335651">
+               <seq-order>4</seq-order>
+               <name>STRATUM_AREA</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Stratum area measured in square nautical miles.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335652">
+               <seq-order>5</seq-order>
+               <name>MIDLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Middle latitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335653">
+               <seq-order>6</seq-order>
+               <name>MIDLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Middle longitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335654">
+               <seq-order>7</seq-order>
+               <name>MINLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Minimum latitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335655">
+               <seq-order>8</seq-order>
+               <name>MAXLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Maximum latitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335656">
+               <seq-order>9</seq-order>
+               <name>MINLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Minimum longitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335642">
+               <seq-order>10</seq-order>
+               <name>MAXLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Maximum longitude in stratum for auditing purposes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335643">
+               <seq-order>11</seq-order>
+               <name>BLOCKS</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Statistical area blocks.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335644">
+               <seq-order>12</seq-order>
+               <name>NOTOWS</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>2</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Number of tows for a given stratum.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335645">
+               <seq-order>13</seq-order>
+               <name>DOE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335646">
+               <seq-order>14</seq-order>
+               <name>DOC</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335647">
+               <seq-order>15</seq-order>
+               <name>UOE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who entered the new record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335648">
+               <seq-order>16</seq-order>
+               <name>UOC</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The Oracle username of the individual who changed the current record.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33599</catalog-item-id>
+         <title>Table: SVVESSEL</title>
+         <short-name>SVVESSEL</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Support table identifying all vessel codes and descriptions.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Support table identifying all vessel codes and descriptions.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="8">
+            <data-attribute cc-id="335657">
+               <seq-order>1</seq-order>
+               <name>VESSEL_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of vessel.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335658">
+               <seq-order>2</seq-order>
+               <name>VESSEL_ABBREV</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Vessel abbreviation. See SVDBS.SV_VESSEL</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335659">
+               <seq-order>3</seq-order>
+               <name>COUNTRY_OF_ORIGIN</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Country of origin of vessel.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335660">
+               <seq-order>4</seq-order>
+               <name>HOME_PORT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>City where vessel maintains its home port.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335661">
+               <seq-order>5</seq-order>
+               <name>AGENCY_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of state or federal agency that utilizes the vessel.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335662">
+               <seq-order>6</seq-order>
+               <name>LENGTH_OVERALL_FT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>38</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Overall length of vessel measured to nearest foot.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335663">
+               <seq-order>7</seq-order>
+               <name>CONSTRUCTION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Construction material of vessel.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335664">
+               <seq-order>8</seq-order>
+               <name>YEAR_BUILT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Year vessel was built.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33600</catalog-item-id>
+         <title>Table: UNION_FSCS_SVBIO</title>
+         <short-name>UNION_FSCS_SVBIO</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="21">
+            <data-attribute cc-id="335665">
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335676">
+               <seq-order>2</seq-order>
+               <name>CRUISE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique numerical code for a cruise.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335679">
+               <seq-order>3</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335680">
+               <seq-order>4</seq-order>
+               <name>TOW</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Sequential number representing order in which station was selected within a stratum.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335681">
+               <seq-order>5</seq-order>
+               <name>STATION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335682">
+               <seq-order>6</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335683">
+               <seq-order>7</seq-order>
+               <name>ID</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>18</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335684">
+               <seq-order>8</seq-order>
+               <name>SVSPP</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335685">
+               <seq-order>9</seq-order>
+               <name>CATCHSEX</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335666">
+               <seq-order>10</seq-order>
+               <name>INDID</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>A unique identifier for each fish sampled.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335667">
+               <seq-order>11</seq-order>
+               <name>LENGTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Measured length of species in centimeters (cm).  Measure method differs by species.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335668">
+               <seq-order>12</seq-order>
+               <name>INDWT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>7</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Individual weight (KG) of species being sampled.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335669">
+               <seq-order>13</seq-order>
+               <name>SEX</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code indicating sex of fish or invertebrate species.  See SVDBS.FSCS_SEX_CODES if using fscs data and SVDBS.SEX_CODES if using non FSCS data.  Codes 0, 1, 2 and 4 are the only valid codes in fscs tables.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335670">
+               <seq-order>14</seq-order>
+               <name>MATURITY</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335671">
+               <seq-order>15</seq-order>
+               <name>AGE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>2</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Age of specimen in years.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335672">
+               <seq-order>16</seq-order>
+               <name>AGE_DATA_FLAG</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code to indicate whether or not an age sample was taken.  Valuess: Y = Yes, sample taken; NULL = no age sample taken.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335673">
+               <seq-order>17</seq-order>
+               <name>STOM_VOLUME</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Volume of the stomach contents of the fish sampled, measured to the nearest tenth of a cubic centimeter (cc).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335674">
+               <seq-order>18</seq-order>
+               <name>STOM_WGT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>8</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Stomach weight of an individual fish in grams.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335675">
+               <seq-order>19</seq-order>
+               <name>CUTTER</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of the individual who was measuring and cutting fish at a FSCS workstation.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335677">
+               <seq-order>20</seq-order>
+               <name>RECORDER</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>The name of the individual who recorded data.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335678">
+               <seq-order>21</seq-order>
+               <name>IND_FISH_COMMENTS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>500</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Comment field for an indiviual fish or invertebrate sampled.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33601</catalog-item-id>
+         <title>Table: UNION_FSCS_SVCAT</title>
+         <short-name>UNION_FSCS_SVCAT</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="13">
+            <data-attribute cc-id="335686">
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335691">
+               <seq-order>2</seq-order>
+               <name>CRUISE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique numerical code for a cruise.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335692">
+               <seq-order>3</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335693">
+               <seq-order>4</seq-order>
+               <name>TOW</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Sequential number representing order in which station was selected within a stratum.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335694">
+               <seq-order>5</seq-order>
+               <name>STATION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335695">
+               <seq-order>6</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335696">
+               <seq-order>7</seq-order>
+               <name>ID</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>18</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335697">
+               <seq-order>8</seq-order>
+               <name>SVSPP</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335698">
+               <seq-order>9</seq-order>
+               <name>CATCHSEX</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335687">
+               <seq-order>10</seq-order>
+               <name>EXPCATCHNUM</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>8</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Expanded number of individuals of a species caught at a given station.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335688">
+               <seq-order>11</seq-order>
+               <name>EXPCATCHWT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>9</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Expanded catch weight of a species caught at a given station.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335689">
+               <seq-order>12</seq-order>
+               <name>LOGGED_SPECIES_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>45</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of the species, either common, scientific or both.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335690">
+               <seq-order>13</seq-order>
+               <name>CATCH_COMMENT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>500</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Comments concerning a species at the catch level.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33602</catalog-item-id>
+         <title>Table: UNION_FSCS_SVLEN</title>
+         <short-name>UNION_FSCS_SVLEN</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="13">
+            <data-attribute cc-id="335699">
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335704">
+               <seq-order>2</seq-order>
+               <name>CRUISE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique numerical code for a cruise.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335705">
+               <seq-order>3</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335706">
+               <seq-order>4</seq-order>
+               <name>TOW</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Sequential number representing order in which station was selected within a stratum.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335707">
+               <seq-order>5</seq-order>
+               <name>STATION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335708">
+               <seq-order>6</seq-order>
+               <name>STATUS_CODE</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335709">
+               <seq-order>7</seq-order>
+               <name>ID</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>18</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335710">
+               <seq-order>8</seq-order>
+               <name>SVSPP</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335711">
+               <seq-order>9</seq-order>
+               <name>CATCHSEX</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335700">
+               <seq-order>10</seq-order>
+               <name>LENGTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Measured length of species in centimeters (cm).  Measure method differs by species.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335701">
+               <seq-order>11</seq-order>
+               <name>EXPNUMLEN</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>8</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Expanded number of specimens at a given length.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335702">
+               <seq-order>12</seq-order>
+               <name>LOGGED_SPECIES_NAME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>45</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Name of the species, either common, scientific or both.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335703">
+               <seq-order>13</seq-order>
+               <name>LENGTH_COMMENT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>100</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Comment related to length of individual fish.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>33603</catalog-item-id>
+         <title>Table: UNION_FSCS_SVSTA</title>
+         <short-name>UNION_FSCS_SVSTA</short-name>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Completed</status>
+         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
+         <notes>Loaded by batch 9070, 07-28-2016 11:11</notes>
+         <entity-information>
+            <entity-type>Data Table</entity-type>
+            <active-version>Yes</active-version>
+            <schema>SVDBS</schema>
+            <description>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</description>
+         </entity-information>
+         <data-attributes partial-listing="No" total-count="73">
+            <data-attribute cc-id="335712">
+               <seq-order>1</seq-order>
+               <name>CRUISE6</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>6</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335734">
+               <seq-order>3</seq-order>
+               <name>STRATUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335745">
+               <seq-order>4</seq-order>
+               <name>TOW</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Sequential number representing order in which station was selected within a stratum.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335756">
+               <seq-order>5</seq-order>
+               <name>STATION</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335778">
+               <seq-order>7</seq-order>
+               <name>ID</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>72</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335725">
+               <seq-order>21</seq-order>
+               <name>AREA</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Standard area code used for commercial data (New England Statistical Area Code) for the position of the beginning of the tow.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335726">
+               <seq-order>22</seq-order>
+               <name>SVVESSEL</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Standard two character code for a survey vessel.  Refer to SVDBS.SV_VESSEL</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335727">
+               <seq-order>23</seq-order>
+               <name>CRUNUM</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>National Ocean Services (NOS) consecutive cruise number on a particular vessel.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335728">
+               <seq-order>24</seq-order>
+               <name>SVGEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335729">
+               <seq-order>25</seq-order>
+               <name>BEGIN_EST_TOWDATE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date and time represented by Eastern Standard Time (EST) for the start of a tow or deployment.</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335730">
+               <seq-order>26</seq-order>
+               <name>END_EST_TOWDATE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date and time represented by Eastern Standard Time (EST) at the end of a tow or deployment.</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335731">
+               <seq-order>27</seq-order>
+               <name>BEGIN_GMT_TOWDATE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date and time represented by Greenwich Mean Time (GMT) for the start of a tow or deployment.</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335732">
+               <seq-order>28</seq-order>
+               <name>END_GMT_TOWDATE</name>
+               <data-storage-type>DATE</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date and time represented by Greenwich Mean Time (GMT) at the end of a tow or deployment.</description>
+               <general-data-type>DATE</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335733">
+               <seq-order>29</seq-order>
+               <name>EST_YEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Year, represented by Eastern Standard Time (EST).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335735">
+               <seq-order>30</seq-order>
+               <name>EST_MONTH</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Month, represented by Eastern Standard Time (EST).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335736">
+               <seq-order>31</seq-order>
+               <name>EST_DAY</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Day of the month represented by Eastern Standard Time (EST).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335737">
+               <seq-order>32</seq-order>
+               <name>EST_JULIAN_DAY</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Julian day of towdate represented as Eastern Standard Time (EST).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335738">
+               <seq-order>33</seq-order>
+               <name>EST_TIME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Time, represented by Eastern Standard Time (EST).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335739">
+               <seq-order>34</seq-order>
+               <name>GMT_YEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Year, represented as Greenwich Mean Time (GMT).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335740">
+               <seq-order>35</seq-order>
+               <name>GMT_MONTH</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Month, represented as Greenwich Mean Time (GMT).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335741">
+               <seq-order>36</seq-order>
+               <name>GMT_DAY</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>2</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Day of the month, represented as Greenwich Mean Time (GMT).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335742">
+               <seq-order>37</seq-order>
+               <name>GMT_JULIAN_DAY</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>7</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Julian day of towdate represented as Greenwich Mean Time (GMT).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335743">
+               <seq-order>38</seq-order>
+               <name>GMT_TIME</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Time, represented as Greenwich Mean Time (GMT).</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335744">
+               <seq-order>39</seq-order>
+               <name>TOWDUR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Duration of tow in minutes.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335746">
+               <seq-order>40</seq-order>
+               <name>SETDEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Depth at the time the primary gear is set to fish, to the nearest meter.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335747">
+               <seq-order>41</seq-order>
+               <name>ENDDEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Water depth (m) at end of tow.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335748">
+               <seq-order>42</seq-order>
+               <name>MINDEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Minimum depth (m) at which gear fished.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335749">
+               <seq-order>43</seq-order>
+               <name>MAXDEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Maximum depth at which gear fished.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335750">
+               <seq-order>44</seq-order>
+               <name>AVGDEPTH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>A four digit number recording the average depth, to the nearest meter, during a survey gear deployment.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335753">
+               <seq-order>47</seq-order>
+               <name>BEGLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>9</precision>
+               <scale>4</scale>
+               <status>Active</status>
+               <description>Beginning latitude of tow (decimal degrees).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335754">
+               <seq-order>48</seq-order>
+               <name>BEGLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>9</precision>
+               <scale>4</scale>
+               <status>Active</status>
+               <description>Beginning longitude of tow (decimal degrees).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335755">
+               <seq-order>49</seq-order>
+               <name>ENDLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>9</precision>
+               <scale>4</scale>
+               <status>Active</status>
+               <description>Latitude at end of tow.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335757">
+               <seq-order>50</seq-order>
+               <name>ENDLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>9</precision>
+               <scale>4</scale>
+               <status>Active</status>
+               <description>Logitude at end of tow.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335758">
+               <seq-order>51</seq-order>
+               <name>DECDEG_BEGLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>10</precision>
+               <scale>6</scale>
+               <status>Active</status>
+               <description>Beginning latitude of tow in decimal degrees.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335759">
+               <seq-order>52</seq-order>
+               <name>DECDEG_BEGLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>10</precision>
+               <scale>6</scale>
+               <status>Active</status>
+               <description>Beginning longitude of tow in decimal degrees.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335760">
+               <seq-order>53</seq-order>
+               <name>DECDEG_ENDLAT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>10</precision>
+               <scale>6</scale>
+               <status>Active</status>
+               <description>Ending latitide of tow in decimal degrees.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335761">
+               <seq-order>54</seq-order>
+               <name>DECDEG_ENDLON</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>10</precision>
+               <scale>6</scale>
+               <status>Active</status>
+               <description>Ending longitude of tow in decimal degrees.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335766">
+               <seq-order>59</seq-order>
+               <name>CABLE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Wire out (meters) at the water surface.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335768">
+               <seq-order>60</seq-order>
+               <name>PITCH</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Pitch of variable pitch propeller.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335769">
+               <seq-order>61</seq-order>
+               <name>HEADING</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Vessel compass heading.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335770">
+               <seq-order>62</seq-order>
+               <name>COURSE</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Actual course the vessel made good in degrees.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335771">
+               <seq-order>63</seq-order>
+               <name>RPM</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Average shaft revolutions per minute while under tow.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335772">
+               <seq-order>64</seq-order>
+               <name>DOPDISTB</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Speed over bottom recorded by GPS.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335773">
+               <seq-order>65</seq-order>
+               <name>DOPDISTW</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Speed through water recorded by AMATEK when the water depth is &gt;200m.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335774">
+               <seq-order>66</seq-order>
+               <name>DESSPEED</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>2</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Designated towing speed for a particular gear (knots).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335777">
+               <seq-order>69</seq-order>
+               <name>OTHGEAR</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>4</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code for gear deployed other than primary gear (i.e. net, dredge) such as bongo, Neuston, etc.  See SVDBS.OTHGEAR</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335779">
+               <seq-order>70</seq-order>
+               <name>AIRTEMP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Air temperature (degrees Celsius) rounded to nearest whole degree.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335780">
+               <seq-order>71</seq-order>
+               <name>CLOUD</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code to represent percentage of cloud cover.  See SVDBS.CLOUD</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335781">
+               <seq-order>72</seq-order>
+               <name>BAROPRESS</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Barometric pressure (millibars).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335782">
+               <seq-order>73</seq-order>
+               <name>WINDDIR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Direction of wind during deployment of gear (degrees).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335783">
+               <seq-order>74</seq-order>
+               <name>WINDSP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Speed of wind in knots.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335784">
+               <seq-order>75</seq-order>
+               <name>WEATHER</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>3</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335785">
+               <seq-order>76</seq-order>
+               <name>WAVEHGT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Height of waves (m).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335786">
+               <seq-order>77</seq-order>
+               <name>SWELLDIR</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Swell direction (degrees).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335787">
+               <seq-order>78</seq-order>
+               <name>SWELLHGT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Swell height (m).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335788">
+               <seq-order>79</seq-order>
+               <name>BKTTEMP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Surface water temperature (degrees Celsius).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335790">
+               <seq-order>80</seq-order>
+               <name>TRASHAMT</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Volume of trash in liters.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335791">
+               <seq-order>81</seq-order>
+               <name>TRASHSHL</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Trash by % of shells collected during shellfish surveys.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335792">
+               <seq-order>82</seq-order>
+               <name>TRASHBIO</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Trash by % of living animals such as fish, starfish and snails colected during shellfish surveys.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335793">
+               <seq-order>83</seq-order>
+               <name>TRASHSUB</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Trash by % of rocks, pebbles, sand collected during shellfish surveys.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335794">
+               <seq-order>84</seq-order>
+               <name>XBT</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>1</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335795">
+               <seq-order>85</seq-order>
+               <name>SURFTEMP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Surface temperature of water (degrees Celcius).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335796">
+               <seq-order>86</seq-order>
+               <name>SURFSALIN</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Salinity at water surface in practical salinity units (PSU).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335797">
+               <seq-order>87</seq-order>
+               <name>BOTTEMP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Bottom temperature (degrees Celsius).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335798">
+               <seq-order>88</seq-order>
+               <name>BOTSALIN</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>6</precision>
+               <scale>3</scale>
+               <status>Active</status>
+               <description>Bottom salinity in Practical Salinity Units (PSU).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335799">
+               <seq-order>89</seq-order>
+               <name>FULD</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Fullness of the dredge, measured to the nearest bushel (used on scallop and clam surveys only).</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335801">
+               <seq-order>90</seq-order>
+               <name>NO_DETAIL_SVSPP</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>4</precision>
+               <scale>0</scale>
+               <status>Active</status>
+               <description>Number of biological data sheets associated with a given station.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335802">
+               <seq-order>91</seq-order>
+               <name>BOTSPEED</name>
+               <data-storage-type>NUMBER</data-storage-type>
+               <max-length>22</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>3</precision>
+               <scale>1</scale>
+               <status>Active</status>
+               <description>Speed over bottom (knots) recorded by GPS.</description>
+               <general-data-type>NUMBER</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335803">
+               <seq-order>92</seq-order>
+               <name>WATCH_CHIEF</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Person responsible for smooth conduct of each watch and the collection of data.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335804">
+               <seq-order>93</seq-order>
+               <name>CHIEF_SCIENTIST</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>30</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Person responsible for scientific operations (how and where sampling occurs) and the scientific party.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335805">
+               <seq-order>94</seq-order>
+               <name>WATCH_CHIEF_COMMENTS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>500</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Watch Chief comment regarding current tow.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335806">
+               <seq-order>95</seq-order>
+               <name>STATION_COMMENTS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>500</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Comment from the bridge officers.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+            <data-attribute cc-id="335807">
+               <seq-order>96</seq-order>
+               <name>HABITAT_COMMENTS</name>
+               <data-storage-type>VARCHAR2</data-storage-type>
+               <max-length>500</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Comments on non-coded species found in catch.</description>
+               <general-data-type>VARCHAR2</general-data-type>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+   </entity-attribute-information>
+   <support-roles>
+      <support-role cc-id="181903" in-effect="Yes">
+         <support-role-type>Data Steward</support-role-type>
+         <from-date>1999</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
+         <contact-instructions>Email</contact-instructions>
+      </support-role>
+      <support-role cc-id="214485" in-effect="Yes">
+         <support-role-type>Distributor</support-role-type>
+         <from-date>1963</from-date>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
+      </support-role>
+      <support-role cc-id="181904" in-effect="Yes">
+         <support-role-type>Metadata Contact</support-role-type>
+         <from-date>2018-09</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
+      </support-role>
+      <support-role cc-id="204455" in-effect="Yes">
+         <support-role-type>Originator</support-role-type>
+         <from-date>1963</from-date>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
+      </support-role>
+      <support-role cc-id="202455" in-effect="Yes">
+         <support-role-type>Point of Contact</support-role-type>
+         <from-date>2018</from-date>
+         <contact-type>Person</contact-type>
+         <contact-name>Politis, Philip J</contact-name>
+         <contact-email>philip.politis@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-phone-number>(508) 495-2171</contact-phone-number>
+         <contact-instructions>Email</contact-instructions>
+      </support-role>
+   </support-roles>
+   <extents>
+      <currentness-reference>Ground Condition</currentness-reference>
+      <extent cc-id="245297">
+         <geographic-areas>
+            <geographic-area cc-id="181071">
+               <west-bound>-78.24</west-bound>
+               <east-bound>-63.2</east-bound>
+               <north-bound>44.47</north-bound>
+               <south-bound>32.41</south-bound>
+               <description>northwest Atlantic:  Cape Hatteras, NC to Nova Scotia</description>
+            </geographic-area>
+         </geographic-areas>
+         <time-frames>
+            <time-frame cc-id="181357">
+               <time-frame-type>Continuing</time-frame-type>
+               <start-date-time>1963-11-14</start-date-time>
+               <description>The standardized Fall Bottom Trawl Survey began with the first station on November 14,1963 at 12:14 AM (GMT).</description>
+            </time-frame>
+         </time-frames>
+      </extent>
+   </extents>
+   <access-information>
+      <security-class>Unclassified</security-class>
+      <data-access-policy>Available to qualified researchers.</data-access-policy>
+      <data-access-procedure>1.  Formal request in writing usually to the data owner/contact or Center Director.
+2. Requester is contacted by data owner to review and verify the request content and details for data delivery options.
+3.  If data is confidential then owner will determine is the data may be released to the requester.
+4.  If data can be released, the data is downloaded and packaged for delivery electronically; or the requester may be directed to where the data is available online.</data-access-procedure>
+      <data-access-constraints>If data is stored on an internal NEFSC network, the requester may not have direct access to query the data unless they are also authorized for network access.</data-access-constraints>
+      <data-use-constraints>User must read and fully comprehend the metadata prior to use. Applications or inferences derived from the data should be carefully considered for accuracy. Acknowledgement of NOAA/NMFS/NEFSC, as the source from which these data were obtained in any publications and/or other representations of these, data is suggested.</data-use-constraints>
+   </access-information>
+   <distribution-information>
+      <distribution cc-id="247319">
+         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/22560</download-url>
+         <description>Compressed Zipped Folders 
+  22560_FSCSTables.zip contains Entities
+  -  22560_UNION_FSCS_SVBIO.csv
+  -  22560_UNION_FSCS_SVCAT.csv
+  -  22560_UNION_FSCS_SVLEN.csv
+  -  22560_UNION_FSCS_SVSTA.csv
+
+Data extracted on 5/31/2019	</description>
+      </distribution>
+      <distribution cc-id="579729">
+         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/SVDBS</download-url>
+         <description>Compressed Zipped Folder contains Support Table Entities for this data set
+  SVDBS_SupportTables.zip contains Entities
+   - SVDBS_CLOUD.csv
+   - SVDBS_MATURITY_CODES.csv
+   - SVDBS_SEX_CODES.csv
+   - SVDBS_SVGEAR.csv
+   - SVDBS_SVMSTRATA.csv
+   - SVDBS_SVVESSEL.csv
+   - SVDBS_WEATHER.csv
+   - SVDBS_XBT.csv
+	
+Data extracted on 8/8/2017	</description>
+      </distribution>
+   </distribution-information>
+   <urls>
+      <url cc-id="180997">
+         <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/fbts_cr.html</url>
+         <url-type>Online Resource</url-type>
+         <file-resource-format>PDF</file-resource-format>
+         <description>Link to the Fall Bottom Trawl Survey Cruise Results (choose year of interest). Cruise results describe the purpose, methods used, personnel who participated, and provides a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's annual fall bottom trawl survey,</description>
+      </url>
+      <url cc-id="180981">
+         <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/fbts_rsr.html</url>
+         <url-type>Online Resource</url-type>
+         <file-resource-format>PDF</file-resource-format>
+         <description>Link to the Autumn Resource Survey Reports (choose year of interest).  Each report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreationally important species caught during the Ecosystem Surveys Branch's autumn bottom trawl resource cruise.  </description>
+      </url>
+   </urls>
+   <technical-environment>
+      <description>RDBMS:  Oracle</description>
+   </technical-environment>
+   <data-quality>
+      <representativeness>representative</representativeness>
+      <accuracy>High degree of accuracy.  When there is species identification doubt at sea, the specimen is retained for taxonomy at the NEFSC or other taxonomic laboratory.</accuracy>
+      <quality-control-procedures>SCS and FSCS data collection software programs employ real-time validation and must meet database integrity constraints. Data are then subject to post-audits.</quality-control-procedures>
+   </data-quality>
+   <data-management>
+      <resources-identified>Yes</resources-identified>
+      <resources-budget-percentage>Unknown</resources-budget-percentage>
+      <data-access-directive-compliant>Yes</data-access-directive-compliant>
+      <data-access-directive-waiver>No</data-access-directive-waiver>
+      <delay-collection-dissemination>30 days</delay-collection-dissemination>
+      <archive-location>To Be Determined</archive-location>
+      <archive-location-explanation-none>Archiving solution for Oracle Data Sets is yet to be determined.</archive-location-explanation-none>
+      <delay-collection-archive>To be determined</delay-collection-archive>
+      <data-protection-plan>Archival of source data preserving unaltered collected data, Scheduled backups, Remote storage backups, Password protection.</data-protection-plan>
+   </data-management>
+   <lineage>
+      <lineage-statement>Vessel sensor data are collected electronically using SCS.  Catch and biological data are collected electronically using FSCS 2.0.  At the completion of each cruise leg, a database copy is inserted into the shoreside database.</lineage-statement>
+   </lineage>
+   <faqs>
+      <faq cc-id="182427">
+         <date>2014-12-22</date>
+         <author>McHugh, Nancy </author>
+         <question>What trawl gear was used during the spring surveys from 1963 - 1996?</question>
+         <answer>See Table 3b. of reference: NOAA Technical Memorandum NMFS-NE-122, Essential Fish Habitat Source Document:
+Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P. Almeida, and Christine A. Zetlin.
+
+The #36 Yankee Trawl was used from 1963-1996 except in years 1972 and 1973 when the #36 Yankee was used and the 3/4 Yankee was used by the R/V Atlantic Twin.</answer>
+      </faq>
+      <faq cc-id="182441">
+         <date>2014-12-22</date>
+         <author>McHugh, Nancy </author>
+         <question>Where can I find conversion coefficients for for species that had significantly different catch rates (in numbers) at the 0.05 level for each of the major gear changes in the survey?</question>
+         <answer>See Table 4. of reference: NOAA Technical Memorandum NMFS-NE-122, Essential Fish Habitat Source Document:
+Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P. Almeida, and Christine A. Zetlin.</answer>
+      </faq>
+   </faqs>
+   <child-items>
+      <child-item>
+         <catalog-item-id>31173</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: CLOUD</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>31178</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: MATURITY_CODES</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>31179</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: SEX_CODES</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>31183</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: SVGEAR</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33598</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: SVMSTRATA</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33599</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: SVVESSEL</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33600</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: UNION_FSCS_SVBIO</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33601</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: UNION_FSCS_SVCAT</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33602</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: UNION_FSCS_SVLEN</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>33603</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: UNION_FSCS_SVSTA</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>31189</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: WEATHER</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>31190</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Table: XBT</title>
+      </child-item>
+   </child-items>
+   <catalog-details>
+      <metadata-record-created-by pers-id="13166">Nancy McHugh</metadata-record-created-by>
+      <metadata-record-created>2014-11-14T11:08:53</metadata-record-created>
+      <metadata-record-last-modified-by pers-id="0">SysAdmin InPortAdmin</metadata-record-last-modified-by>
+      <metadata-record-last-modified>2019-06-04T13:14:25</metadata-record-last-modified>
+      <record-published>2019-05-31</record-published>
+      <owner-organization>Northeast Fisheries Science Center</owner-organization>
+      <owner-organization-acronym>NEFSC</owner-organization-acronym>
+      <owner-organization-address>166 Water Street</owner-organization-address>
+      <owner-organization-address-city>Woods Hole</owner-organization-address-city>
+      <owner-organization-address-state>MA</owner-organization-address-state>
+      <owner-organization-address-zip>02543-1026</owner-organization-address-zip>
+      <owner-organization-address-country>USA</owner-organization-address-country>
+      <owner-organization-phone>(508)495-2000</owner-organization-phone>
+      <owner-organization-url>http://www.nefsc.noaa.gov</owner-organization-url>
+      <owner-organization-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</owner-organization-business-hours>
+      <owner-organization-group-id>1001</owner-organization-group-id>
+      <publication-status>Public</publication-status>
+      <is-do-not-publish>No</is-do-not-publish>
+      <metadata-next-review-date>2020-05-31</metadata-next-review-date>
+   </catalog-details>
+</inport-metadata>

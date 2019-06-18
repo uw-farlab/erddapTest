@@ -11,11 +11,19 @@
       <purpose>The purpose of the Fall Bottom Trawl Survey is to determine the seasonal distribution, relative abundance, and biodiversity of fish and invertebrate species found on the continental shelf during the fall months, typically September to November.  Other cruise objectives are: to collect biological samples for age determinations and growth sutidies, fecundity, maturity, and feeding ecology; opportunistically test trawl gear, methods, or survey-related equipment that may benefit the trawl survey in the future; collect oceanographic data, inclduing CTD casts  as well as samples of ichthyoplankton and zooplankton for relative abundance and distribution studies; and to collect hydroacoustic data between stations. Fishery scientists use the data to assess 45 stocks of commercial and recreational fish and invertebrate species in the northeastern United States.</purpose>
       <notes/>
       <is-display-xml-formats>Y</is-display-xml-formats>
-      <data-status>Complete</data-status>
-      <fgdc-data-status>Complete</fgdc-data-status>
+      <data-status>Completed</data-status>
+      <fgdc-data-status>Completed</fgdc-data-status>
       <org-id>1061</org-id>
       <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
       <owner-org-acro>NEFSC</owner-org-acro>
+      <owner-org-phone>(508)495-2000</owner-org-phone>
+      <owner-org-street-addr>166 Water Street</owner-org-street-addr>
+      <owner-org-city>Woods Hole</owner-org-city>
+      <owner-org-state-province>MA</owner-org-state-province>
+      <owner-org-postal-code>02543-1026</owner-org-postal-code>
+      <owner-org-country>USA</owner-org-country>
+      <owner-org-url>http://www.nefsc.noaa.gov</owner-org-url>
+      <owner-org-business-hrs>8:00 a.m. to 4:30 p.m. Monday - Friday</owner-org-business-hrs>
       <catalog-control-state>9</catalog-control-state>
       <parent-cat-id>22557</parent-cat-id>
       <parent-cat-type-code>PRJ</parent-cat-type-code>
@@ -23,7 +31,7 @@
       <created-by>Nancy McHugh</created-by>
       <created-by-pers-id>13166</created-by-pers-id>
       <record-created>2014-11-14T11:08:53</record-created>
-      <record-last-modified>2017-08-25T15:41:11</record-last-modified>
+      <record-last-modified>2019-02-19T11:43:04</record-last-modified>
       <record-published>2016-07-28</record-published>
       <publication-status>Public</publication-status>
       <data-set-publication-status>Unpublished</data-set-publication-status>
@@ -38,6 +46,7 @@
       <country>USA</country>
    </physical-location>
    <data-set type="Oracle Database">
+      <data-set-scope-code>Data Set</data-set-scope-code>
       <maintenance-frequency>As Needed</maintenance-frequency>
       <data-set-publication-status>Unpublished</data-set-publication-status>
       <geo-data-presentation-form>Table (digital)</geo-data-presentation-form>
@@ -60,186 +69,120 @@
          <keyword-list>continous, fall</keyword-list>
       </temporal-keywords>
    </keywords>
-   <data-attributes/>
+   <data-attributes partial-listing="" total-count=""/>
    <support-roles>
       <support-role ccid="181903"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="4028"
+                    org=""
+                    person=""
                     support-role="2690">
          <role>Data Steward</role>
-         <role-definition>Data Steward</role-definition>
          <in-effect>Y</in-effect>
          <from>1999</from>
          <to-date/>
-         <person-contact-info>
-            <name>Kostovick, Paul </name>
-            <address-type>PHYSICAL</address-type>
-            <street-address>166 Water Street, Maintenance, Room 204</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543</zip>
-            <country>USA</country>
-            <email>paul.kostovick@noaa.gov</email>
-            <phone>(508)495-2343</phone>
-            <fax>(508)495-2230</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
          <contact-instructions>Email</contact-instructions>
       </support-role>
       <support-role ccid="214485"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
+                    org=""
                     person=""
                     support-role="2680">
          <role>Distributor</role>
-         <role-definition>Distributor</role-definition>
          <in-effect>Y</in-effect>
          <from>1963</from>
          <to-date/>
-         <person-contact-info>
-            <name/>
-            <address-type/>
-            <street-address/>
-            <city/>
-            <state-prov/>
-            <zip/>
-            <country/>
-            <email/>
-            <phone/>
-            <fax/>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
-         <contact-instructions/>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
       </support-role>
       <support-role ccid="181904"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="13166"
+                    org=""
+                    person=""
                     support-role="2710">
          <role>Metadata Contact</role>
-         <role-definition>Metadata Contact</role-definition>
          <in-effect>Y</in-effect>
-         <from>2014</from>
+         <from>2018-09</from>
          <to-date/>
-         <person-contact-info>
-            <name>McHugh, Nancy </name>
-            <address-type>MAILING</address-type>
-            <street-address>166 Water Street, Room L114</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <email>nancy.mchugh@noaa.gov</email>
-            <phone>508-495-2282</phone>
-            <fax>508-495-2258</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
-         <contact-instructions>Email</contact-instructions>
+         <contact-type>Person</contact-type>
+         <contact-name>Kostovick, Paul</contact-name>
+         <contact-email>paul.kostovick@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2343</contact-phone-number>
+         <contact-fax-number>(508)495-2230</contact-fax-number>
+         <contact-business-hours>8am-4:30pm</contact-business-hours>
       </support-role>
       <support-role ccid="204455"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
+                    org=""
                     person=""
                     support-role="2650">
          <role>Originator</role>
-         <role-definition>Originator</role-definition>
          <in-effect>Y</in-effect>
          <from>1963</from>
          <to-date/>
-         <person-contact-info>
-            <name/>
-            <address-type/>
-            <street-address/>
-            <city/>
-            <state-prov/>
-            <zip/>
-            <country/>
-            <email/>
-            <phone/>
-            <fax/>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
-         <contact-instructions/>
+         <contact-type>Organization</contact-type>
+         <contact-name>Northeast Fisheries Science Center</contact-name>
+         <contact-noaa-acronym>NEFSC</contact-noaa-acronym>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543-1026</contact-address-zip>
+         <contact-address-country>USA</contact-address-country>
+         <contact-phone-number>(508)495-2000</contact-phone-number>
+         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
       </support-role>
       <support-role ccid="202455"
                     type=""
                     last-modified=""
                     created=""
-                    org="1061"
-                    person="4028"
+                    org=""
+                    person=""
                     support-role="2660">
          <role>Point of Contact</role>
-         <role-definition>Point of Contact</role-definition>
          <in-effect>Y</in-effect>
-         <from>2017</from>
+         <from>2018</from>
          <to-date/>
-         <person-contact-info>
-            <name>Kostovick, Paul </name>
-            <address-type>PHYSICAL</address-type>
-            <street-address>166 Water Street, Maintenance, Room 204</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543</zip>
-            <country>USA</country>
-            <email>paul.kostovick@noaa.gov</email>
-            <phone>(508)495-2343</phone>
-            <fax>(508)495-2230</fax>
-         </person-contact-info>
-         <org-contact-info>
-            <name>Northeast Fisheries Science Center</name>
-            <street-address>166 Water Street</street-address>
-            <city>Woods Hole</city>
-            <state-prov>MA</state-prov>
-            <zip>02543-1026</zip>
-            <country>USA</country>
-            <url>http://www.nefsc.noaa.gov</url>
-            <business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</business-hours>
-         </org-contact-info>
+         <contact-type>Person</contact-type>
+         <contact-name>Politis, Philip J</contact-name>
+         <contact-email>philip.politis@noaa.gov</contact-email>
+         <contact-address>166 Water Street</contact-address>
+         <contact-address-city>Woods Hole</contact-address-city>
+         <contact-address-state>MA</contact-address-state>
+         <contact-address-zip>02543</contact-address-zip>
+         <contact-phone-number>(508) 495-2171</contact-phone-number>
          <contact-instructions>Email</contact-instructions>
       </support-role>
    </support-roles>
@@ -291,13 +234,42 @@
                     created="2015-11-06T15:07:35">
          <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/22560</download-url>
          <distributor/>
+         <description>Compressed Zipped Folders 
+  22560_MasterTables.zip contains Entities
+  -  22560_MASTER_CRUISE_DETAILS.csv
+  -  22560_MASTER_CRUISE_TABLE.csv
+  -  22560_SVDBS_CRUISES.csv
+  22560_FSCSTables.zip contains Entities
+  -  22560_UNION_FSCS_SVBIO.csv
+  -  22560_UNION_FSCS_SVCAT.csv
+  -  22560_UNION_FSCS_SVLEN.csv
+  -  22560_UNION_FSCS_SVSTA.csv
+
+Data extracted on 8/2/2017	</description>
       </distribution>
       <distribution ccid="579729"
                     type=""
-                    last-modified="2017-08-25T12:45:11"
+                    last-modified="2019-02-19T11:43:04"
                     created="2017-08-25T12:45:11">
-         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/SVDBS/</download-url>
+         <download-url>ftp://ftp.nefsc.noaa.gov/pub/dropoff/PARR/PEMAD/ESB/SVDBS</download-url>
          <distributor/>
+         <description>Compressed Zipped Folder contains Support Table Entities for this data set
+  SVDBS_SupportTables.zip contains Entities
+   - SVDBS_CLOUD.csv.csv
+   - SVDBS_GEAR_CONDITION.csv
+   - SVDBS_HAUL_VALUE.csv
+   - SVDBS_MATURITY_CODES.csv
+   - SVDBS_ SEX_CODES.csv
+   - SVDBS_STATION_VALUE.csv
+   - SVDBS_SVCRUISE_PURPOSE.csv
+   - SVDBS_SVCRUISE_STATUS.csv
+   - SVDBS_SVGEAR.csv
+   - SVDBS_SVMSTRATA.csv
+   - SVDBS_SV_VESSEL.csv
+   - SVDBS_WEATHER.csv
+   - SVDBS_XBT.csv
+	
+Data extracted on 8/8/2017	</description>
       </distribution>
    </distribution-info>
    <urls>
@@ -332,6 +304,17 @@
       <representativeness>representative</representativeness>
       <accuracy>High degree of accuracy.  When there is species identification doubt at sea, the specimen is retained for taxonomy at the NEFSC or other taxonomic laboratory.</accuracy>
    </data-quality>
+   <data-management>
+      <resources-identified>Yes</resources-identified>
+      <resources-budget-percentage>Unknown</resources-budget-percentage>
+      <data-access-directive-compliant>Yes</data-access-directive-compliant>
+      <data-access-directive-waiver>No</data-access-directive-waiver>
+      <delay-collection-dissemination>30 days</delay-collection-dissemination>
+      <archive-location>To Be Determined</archive-location>
+      <archive-location-explanation-none>Archiving solution for Oracle Data Sets is yet to be determined.</archive-location-explanation-none>
+      <delay-collection-archive>To be determined</delay-collection-archive>
+      <data-protection-plan>Archival of source data preserving unaltered collected data, Scheduled backups, Remote storage backups, Password protection.</data-protection-plan>
+   </data-management>
    <lineage>
       <lineage-statement>Vessel sensor data are collected electronically using SCS.  Catch and biological data are collected electronically using FSCS 2.0.  At the completion of each cruise leg, a database copy is inserted into the shoreside database.</lineage-statement>
    </lineage>
@@ -361,179 +344,8 @@ The #36 Yankee Trawl was used from 1963-1996 except in years 1972 and 1973 when 
 Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P. Almeida, and Christine A. Zetlin.</answer>
       </faq>
    </faqs>
-   <related-items>
-      <item cat-id="31173" cat-type="ENT" relation-type="HI">
-         <title>Table: CLOUD</title>
-         <abstract>Support table describing cloud cover.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31174" cat-type="ENT" relation-type="HI">
-         <title>Table: GEAR_CONDITION</title>
-         <abstract>Support table for field GEARCOND in the table SVSTA_BASE.  Identifies condition of the gear and is one component of the SHG value.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31175" cat-type="ENT" relation-type="HI">
-         <title>Table: HAUL_VALUE</title>
-         <abstract>Support table for field HAUL in the table SVSTA_BASE.  A component of the SHG in determining whether a tow is considered valid.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31176" cat-type="ENT" relation-type="HI">
-         <title>Table: MASTER_CRUISE_DETAILS</title>
-         <abstract>Child data table to MASTER_CRUISE_TABLE containing information related to all surveys conducted by or through the NEFSC.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="33597" cat-type="ENT" relation-type="HI">
-         <title>Table: MASTER_CRUISE_TABLE</title>
-         <abstract>Data table containing information related to all surveys conducted by or through the NEFSC.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="31178" cat-type="ENT" relation-type="HI">
-         <title>Table: MATURITY_CODES</title>
-         <abstract>Historical support table containing acceptable maturity codes and their description.  FSCS_MATURITY_CODES replaces this table.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31179" cat-type="ENT" relation-type="HI">
-         <title>Table: SEX_CODES</title>
-         <abstract>Historical support table containing acceptable codes and descriptions for the field sex.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31180" cat-type="ENT" relation-type="HI">
-         <title>Table: STATION_VALUE</title>
-         <abstract>Support table identifying the type of station being performed.  Component of SHG value</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31181" cat-type="ENT" relation-type="HI">
-         <title>Table: SVCRUISE_PURPOSE</title>
-         <abstract>Support table for the PURPOSE_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS tables.  Identifying the purpose of a survey</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31182" cat-type="ENT" relation-type="HI">
-         <title>Table: SVCRUISE_STATUS</title>
-         <abstract>Support table for the STATUS_CODE field of the MASTER_CRUISE_TABLE and MASTER_CRUISE_DETAILS table.  Identifies the availability of master data.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31183" cat-type="ENT" relation-type="HI">
-         <title>Table: SVGEAR</title>
-         <abstract>Support table containing gear codes and descriptions for the field SVGEAR of the table SVSTA_BASE.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="33598" cat-type="ENT" relation-type="HI">
-         <title>Table: SVMSTRATA</title>
-         <abstract>Historical support table containing all acceptable stratum codes.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="33599" cat-type="ENT" relation-type="HI">
-         <title>Table: SV_VESSEL</title>
-         <abstract>Support table identifying all vessel codes and descriptions.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="33600" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVBIO</title>
-         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains individual fish and invertebrate data.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="33601" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVCAT</title>
-         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number and weight of all species caught at a station.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="33602" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVLEN</title>
-         <abstract>Materialized view joining pre-FSCS and FSCS data sets into one structure.  Contains total number of fish caught at each length for all species at a station.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="33603" cat-type="ENT" relation-type="HI">
-         <title>Table: UNION_FSCS_SVSTA</title>
-         <abstract>Materialized view  joining pre-FSCS and FSCS data sets into one structure.  Contains station data for each station.</abstract>
-         <relation-note>Loaded by batch 9070, 07-28-2016 11:11</relation-note>
-      </item>
-      <item cat-id="31189" cat-type="ENT" relation-type="HI">
-         <title>Table: WEATHER</title>
-         <abstract>Support table containing codes and descriptions used in the WEATHER field of the SVSTA_BASE table.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="31190" cat-type="ENT" relation-type="HI">
-         <title>Table: XBT</title>
-         <abstract>Historical support table containing codes and descriptions for the field XBT of the table SVSTA_BASE.</abstract>
-         <relation-note>Loaded by batch 8334, 03-14-2016 13:01</relation-note>
-      </item>
-      <item cat-id="46698" cat-type="ENT" relation-type="HI">
-         <title>View: SVDBS_CRUISES</title>
-         <abstract>Data view conatining unique records for each cruise conducted by or through the NEFSC</abstract>
-      </item>
-   </related-items>
-   <fgdc-contacts>
-      <fgdc-contact role="Distributor">
-         <contact-type>cntorg</contact-type>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <street-address>166 Water Street</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <voice>(508)495-2000</voice>
-         <org-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</org-business-hours>
-      </fgdc-contact>
-      <fgdc-contact role="Metadata contact">
-         <contact-type>cntper</contact-type>
-         <contact-person-name>McHugh, Nancy </contact-person-name>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room L114</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <email>nancy.mchugh@noaa.gov</email>
-         <voice>508-495-2282</voice>
-         <fax>508-495-2258</fax>
-         <instructions>Email</instructions>
-      </fgdc-contact>
-      <fgdc-contact role="Point of Contact">
-         <contact-type>cntper</contact-type>
-         <contact-person-name>Kostovick, Paul </contact-person-name>
-         <contact-org-name>Northeast Fisheries Science Center</contact-org-name>
-         <address-type>PHYSICAL</address-type>
-         <street-address>166 Water Street, Maintenance, Room 204</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543</zip>
-         <country>USA</country>
-         <email>paul.kostovick@noaa.gov</email>
-         <voice>(508)495-2343</voice>
-         <fax>(508)495-2230</fax>
-         <org-business-hours>8am-4:30pm</org-business-hours>
-         <instructions>email or phone</instructions>
-      </fgdc-contact>
-   </fgdc-contacts>
-   <fgdc-time-period>
-      <timeperd>
-         <timeinfo>
-            <rngdates>
-               <begdate>1963-11-14</begdate>
-               <begtime/>
-               <enddate>Present</enddate>
-               <endtime/>
-            </rngdates>
-         </timeinfo>
-         <current>Ground Condition</current>
-      </timeperd>
-   </fgdc-time-period>
-   <publisher>
-      <person-contact-info>
-         <name>Jones, Patricia L</name>
-         <address-type>MAILING</address-type>
-         <street-address>166 Water Street, Room M203</street-address>
-         <city>Woods Hole</city>
-         <state-prov>MA</state-prov>
-         <zip>02543-1026</zip>
-         <country>USA</country>
-         <email>patti.jones@noaa.gov</email>
-         <phone>508-495-2116</phone>
-         <fax>508-295-2258</fax>
-      </person-contact-info>
-   </publisher>
-   <child-entities>
+   <related-items/>
+   <child-entities partial-listing="No" total-count="20">
       <child-entity>
          <common-information>
             <cat-id>31173</cat-id>
@@ -548,8 +360,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -583,7 +395,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>CLOUD</name>
@@ -762,8 +574,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -797,7 +609,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>GEARCOND</name>
@@ -976,8 +788,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1011,7 +823,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>HAUL</name>
@@ -1190,8 +1002,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1225,7 +1037,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVVESSEL</name>
@@ -1593,8 +1405,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1628,7 +1440,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>MATURITY</name>
@@ -1699,8 +1511,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1734,7 +1546,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>SEX</name>
@@ -1805,8 +1617,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -1840,7 +1652,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>STATYPE</name>
@@ -2019,8 +1831,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2054,7 +1866,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>PURPOSE_CODE</name>
@@ -2233,8 +2045,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2268,7 +2080,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="2">
             <attribute>
                <seq-order>1</seq-order>
                <name>STATUS_CODE</name>
@@ -2339,8 +2151,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2374,7 +2186,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVGEAR</name>
@@ -2553,8 +2365,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2588,7 +2400,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>WEATHER</name>
@@ -2767,8 +2579,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -2802,7 +2614,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="6">
             <attribute>
                <seq-order>1</seq-order>
                <name>XBT</name>
@@ -2981,8 +2793,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -3016,7 +2828,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="27">
             <attribute>
                <seq-order>1</seq-order>
                <name>SVVESSEL</name>
@@ -3762,8 +3574,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -3797,7 +3609,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="16">
             <attribute>
                <seq-order>1</seq-order>
                <name>STRGRP_DESC</name>
@@ -4246,8 +4058,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -4281,7 +4093,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="8">
             <attribute>
                <seq-order>1</seq-order>
                <name>VESSEL_NAME</name>
@@ -4514,8 +4326,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -4549,7 +4361,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="21">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5133,8 +4945,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -5168,7 +4980,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5536,8 +5348,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -5571,7 +5383,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="13">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -5939,8 +5751,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -5974,7 +5786,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="Yes" total-count="96">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>
@@ -7341,8 +7153,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <other-citation-details/>
             <supplemental-info/>
             <is-display-xml-formats>N</is-display-xml-formats>
-            <data-status>Complete</data-status>
-            <fgdc-data-status>Complete</fgdc-data-status>
+            <data-status>Completed</data-status>
+            <fgdc-data-status>Completed</fgdc-data-status>
             <org-id/>
             <owner-org-name>Northeast Fisheries Science Center</owner-org-name>
             <owner-org-acro>NEFSC</owner-org-acro>
@@ -7376,7 +7188,7 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
             <is-active-vers>Y</is-active-vers>
             <change-summary/>
          </entity>
-         <data-attributes>
+         <data-attributes partial-listing="No" total-count="7">
             <attribute>
                <seq-order>1</seq-order>
                <name>CRUISE6</name>

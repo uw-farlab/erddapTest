@@ -1,0 +1,6 @@
+aString,aFloat,aFloat_with_NaN,aFloat_with_nd,aDouble,aLong,anInt,aShort,aByte
+test,0.16527,48.5656,48.5656,1e200,123456789012,1000000000,32000,120
+test2,0.16527,NaN,nd,.,.,.,.,.
+NA,0.16527,0.16527,0.16527,NA,NA,NA,NA,NA
+?,0.16527,0.16527,0.16527,?,?,?,?,?
+nd,0.16527,NaN,nd,nd,nd,nd,nd,nd

@@ -5,11 +5,11 @@
 *GLOBAL*,creator_type,person
 *GLOBAL*,creator_url,https://www.pfeg.noaa.gov
 *GLOBAL*,featureType,trajectory
-*GLOBAL*,infoUrl,https://coastwatch.pfeg.noaa.gov/erddap/downloads/NCCSV.html
+*GLOBAL*,infoUrl,https://coastwatch.pfeg.noaa.gov/erddap/download/NCCSV.html
 *GLOBAL*,institution,"NOAA NMFS SWFSC ERD, NOAA PMEL"
 *GLOBAL*,license,"""NCCSV Demonstration"" by Bob Simons and Steve Hankin is licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ ."
 *GLOBAL*,keywords,"NOAA, sea, ship, sst, surface, temperature, trajectory"
-*GLOBAL*,standard_name_vocabulary,CF Standard Name Table v29
+*GLOBAL*,standard_name_vocabulary,CF Standard Name Table v55
 *GLOBAL*,subsetVariables,"ship"
 *GLOBAL*,summary,"This is a paragraph or two describing the dataset."
 *GLOBAL*,title,NCCSV Demonstration
@@ -34,7 +34,7 @@ sst,missing_value,99f
 sst,testBytes,-128b,0b,127b
 sst,testShorts,-32768s,0s,32767s
 sst,testInts,-2147483648i,0i,2147483647i
-sst,testLongs,-9223372036854775808L,9223372036854775806L,9223372036854775807L
+sst,testLongs,-9223372036854775808L,-9007199254740992L,9007199254740992L,9223372036854775806L,9223372036854775807L
 sst,testFloats,-3.40282347e38f,0f,3.40282347E+38f
 sst,testDoubles,-1.79769313486231570e308d,0d,1.79769313486231570E+308d
 sst,testChars,"','","'""'","'\u20AC'"
@@ -43,9 +43,10 @@ sst,testStrings," a\t~\u00fc,\n'z""\u20AC"
 *END_METADATA*
 time,lat,lon,status,testLong,sst
 2017-03-23T00:45:00Z,28.0002,-130.2576,A,-9223372036854775808L,10.9
-2017-03-23T01:45:00Z,28.0003,-130.3472,\u20AC,-1234567890123456L,
-"2017-03-23T02:45:00Z",28.0001,-130.4305,"'\t'",0L,10.7
-2017-03-23T12:45:00Z,27.9998,-131.5578,"'""'",1234567890123456L,99
-2017-03-23T21:45:00Z,28.0003,-132.0014,\u00fc,9223372036854775806L,10.0
+2017-03-23T01:45:00Z,28.0003,-130.3472,\u20AC,-9007199254740992L,
+"2017-03-23T02:45:00Z",28.0001,-130.4305,"'\t'",9007199254740992L,10.7
+2017-03-23T12:45:00Z,27.9998,-131.5578,"'""'",9223372036854775806L,99
+BAD ROW: TOO FEW ITEMS
+2017-03-23T21:45:00Z,28.0003,-132.0014,\u00fc,9223372036854775807L,10.0
 2017-03-23T23:45:00Z,28.0002,-132.1591,,,NaN
 *END_DATA*
