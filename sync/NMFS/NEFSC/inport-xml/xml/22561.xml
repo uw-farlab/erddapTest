@@ -2830,16 +2830,16 @@ Data extracted on 8/8/2017	</description>
    </distribution-information>
    <urls>
       <url cc-id="180996">
-         <url>http://nefsc.noaa.gov/esb/mainpage/sbts_cr.html</url>
+         <url>https://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/cruise_results.html</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>HTML</file-resource-format>
-         <description>Cruise Results describe the purpose, methods used, personnel who participated, and a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's seasonal bottom trawl resource cruises.</description>
+         <description>Cruise Results describe the purpose, methods used, personnel who participated, and a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's bottom trawl and shellfish resource cruises.</description>
       </url>
       <url cc-id="180980">
-         <url>http://nefsc.noaa.gov/esb/mainpage/sbts_cr.html</url>
+         <url>https://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/resource_survey_reports.html</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>HTML</file-resource-format>
-         <description>The Spring Bottom Trawl Survey Resource Reports consist of field notes, station and catch summaries, and a series of geographical plots of commercial and recreationally important species caught during the Ecosystems Surveys Branch's bottom trawl cruises. Specific details about the nets, doors, liners, and dredges used during these trips can be found within each report.  All stations are randonly selected and catches can be light compared with commercial tows.  Also, vessel operations are on a 24-hour basis and catches have not been adjusted for day/night differeces.  Nevertheless, these data can provide fishermen with useful ingformation about the distribution and relative abundance of species inhabiting the survey area (Cape Hatteras to the Gulf of Maine, including Georges bank).</description>
+         <description>Link to the Resource Survey Reports.  Each report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreational important species caught during the Ecosystem Surveys Branch's bottom trawl and shellfish resource cruises.  </description>
       </url>
    </urls>
    <technical-environment>
@@ -2945,8 +2945,8 @@ Fishery-Independent Surveys,Data Sources, and Methods. Robert N. Reid, Frank P. 
    <catalog-details>
       <metadata-record-created-by pers-id="13166">Nancy McHugh</metadata-record-created-by>
       <metadata-record-created>2014-11-14T11:11:30</metadata-record-created>
-      <metadata-record-last-modified-by pers-id="0">SysAdmin InPortAdmin</metadata-record-last-modified-by>
-      <metadata-record-last-modified>2019-06-04T13:14:25</metadata-record-last-modified>
+      <metadata-record-last-modified-by pers-id="4028">Paul Kostovick</metadata-record-last-modified-by>
+      <metadata-record-last-modified>2019-07-09T10:20:34</metadata-record-last-modified>
       <record-published>2019-05-31</record-published>
       <owner-organization>Northeast Fisheries Science Center</owner-organization>
       <owner-organization-acronym>NEFSC</owner-organization-acronym>

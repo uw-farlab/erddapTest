@@ -2819,15 +2819,13 @@ Data extracted on 8/8/2017	</description>
          <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/cruise_results/wbts/2001_wbts.pdf</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>PDF</file-resource-format>
-         <description>Link to Ecosystem Survey The purpose of cruise results are to describe the purpose, methods used, personnel who participated, and a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's seasonal bottom trawl, shrimp, surf clam and scallop resource cruises.
-
-The cruise results describe the purpose, methods used, personnel who participated, and a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's 2001 winter bottom trawl survey.</description>
+         <description>Link to Ecosystem Survey Cruise Results. The purpose of cruise results are to describe the purpose, methods used, personnel who participated, and a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's bottom trawl and shellfish resource cruises.</description>
       </url>
       <url cc-id="202534">
-         <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/rsr/wbts/wbts_1999/large_file.pdf</url>
+         <url>https://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/resource_survey_reports.html</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>PDF</file-resource-format>
-         <description>The 1999 Winter Resource Survey Report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreationally important species caught during the Ecosystem Surveys Branch's winter bottom trawl resource cruise. Specific details about the nets, doors, liners, and dredges used during these trips can be found within each report. Tow duration and areas of operation will also vary depending on the type of survey. All stations are randomly selected and catches can be light compared with commercial tows. Also, vessel operations are on a 24-hour basis and catches have not been adjusted for day/night differences. Nevertheless, this data can provide fishermen with useful information about the distribution and relative abundance of species inhabiting the survey area (Cape Hatteras to Georges Bank).</description>
+         <description>Link to the Resource Survey Reports.  Each report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreational important species caught during the Ecosystem Surveys Branch's bottom trawl and shellfish resource cruises.  </description>
       </url>
    </urls>
    <technical-environment>
@@ -2936,8 +2934,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
    <catalog-details>
       <metadata-record-created-by pers-id="13166">Nancy McHugh</metadata-record-created-by>
       <metadata-record-created>2014-11-14T11:12:45</metadata-record-created>
-      <metadata-record-last-modified-by pers-id="0">SysAdmin InPortAdmin</metadata-record-last-modified-by>
-      <metadata-record-last-modified>2019-06-04T13:14:25</metadata-record-last-modified>
+      <metadata-record-last-modified-by pers-id="4028">Paul Kostovick</metadata-record-last-modified-by>
+      <metadata-record-last-modified>2019-07-09T10:26:58</metadata-record-last-modified>
       <record-published>2019-05-31</record-published>
       <owner-organization>Northeast Fisheries Science Center</owner-organization>
       <owner-organization-acronym>NEFSC</owner-organization-acronym>

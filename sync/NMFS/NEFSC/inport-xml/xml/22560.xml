@@ -2568,16 +2568,16 @@ Data extracted on 8/8/2017	</description>
    </distribution-information>
    <urls>
       <url cc-id="180997">
-         <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/fbts_cr.html</url>
+         <url>https://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/cruise_results.html</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>PDF</file-resource-format>
-         <description>Link to the Fall Bottom Trawl Survey Cruise Results (choose year of interest). Cruise results describe the purpose, methods used, personnel who participated, and provides a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's annual fall bottom trawl survey,</description>
+         <description>Link to Survey Cruise Results. Cruise results describe the purpose, methods used, personnel who participated, and provides a summary of the total number of samples collected for various government and university investigators during the Ecosystem Surveys Branch's  bottom trawl and shellfish surveys.</description>
       </url>
       <url cc-id="180981">
-         <url>http://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/fbts_rsr.html</url>
+         <url>https://www.nefsc.noaa.gov/femad/ecosurvey/mainpage/resource_survey_reports.html</url>
          <url-type>Online Resource</url-type>
          <file-resource-format>PDF</file-resource-format>
-         <description>Link to the Autumn Resource Survey Reports (choose year of interest).  Each report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreationally important species caught during the Ecosystem Surveys Branch's autumn bottom trawl resource cruise.  </description>
+         <description>Link to the Resource Survey Reports.  Each report consists of field notes, station and catch summaries, and a series of geographical plots of commercial and recreational important species caught during the Ecosystem Surveys Branch's bottom trawl and shellfish resource cruises.  </description>
       </url>
    </urls>
    <technical-environment>
@@ -2685,8 +2685,8 @@ Fishery-Independent Surveys, Data Sources, and Methods. Robert N. Reid, Frank P.
    <catalog-details>
       <metadata-record-created-by pers-id="13166">Nancy McHugh</metadata-record-created-by>
       <metadata-record-created>2014-11-14T11:08:53</metadata-record-created>
-      <metadata-record-last-modified-by pers-id="0">SysAdmin InPortAdmin</metadata-record-last-modified-by>
-      <metadata-record-last-modified>2019-06-04T13:14:25</metadata-record-last-modified>
+      <metadata-record-last-modified-by pers-id="4028">Paul Kostovick</metadata-record-last-modified-by>
+      <metadata-record-last-modified>2019-07-09T10:17:22</metadata-record-last-modified>
       <record-published>2019-05-31</record-published>
       <owner-organization>Northeast Fisheries Science Center</owner-organization>
       <owner-organization-acronym>NEFSC</owner-organization-acronym>
