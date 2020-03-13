@@ -185,8 +185,8 @@
                <name>CLOUD</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -198,8 +198,8 @@
                <name>PCTCLEAR</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -211,8 +211,8 @@
                <name>DOE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
                <general-data-type>DATE</general-data-type>
@@ -222,8 +222,8 @@
                <name>DOC</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
                <general-data-type>DATE</general-data-type>
@@ -233,8 +233,8 @@
                <name>UOE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who entered the new record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -244,8 +244,8 @@
                <name>UOC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who changed the current record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -272,8 +272,8 @@
                <name>MATURITY</name>
                <data-storage-type>CHAR</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
                <general-data-type>CHAR</general-data-type>
@@ -283,8 +283,8 @@
                <name>MATURITY_DESCRIPTION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>65</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Description of maturity codes.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -311,8 +311,8 @@
                <name>SEX</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>1</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -324,8 +324,8 @@
                <name>SEX_DESCRIPTION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>255</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Description of the sex code field.  Only 0, 1, 2 are valid entries for fscs tables. 0=Unsexed, unknown, or sex not observed; Since the summer 1995 Gulf of Maine Trawl Survey forgot to look for American Lobster; 1=Male; 2=Female; Female Stage I for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female (no eggs, no notch) for American Lobster; 3=Female Stage II for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with eggs, no notch for American Lobster; 4=Transitional for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch, no eggs for American Lobster; 5=Ovigerous for Northern Shrimp; Since the summer 1995 Gulf of Maine Trawl Survey Female, with notch and eggs for American Lobster;6=Non-spawning Female for Northern Shrimp; 7=Female for Northern Shrimp not staged (stage I or II not determined)</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -352,8 +352,8 @@
                <name>SVGEAR</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>Yes</is-required>
-               <is-pkey>Yes</is-pkey>
+               <required>Yes</required>
+               <primary-key>Yes</primary-key>
                <status>Active</status>
                <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -363,8 +363,8 @@
                <name>GEAR_DEFINITION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>300</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Type and description of gear.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -374,8 +374,8 @@
                <name>DOE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
                <general-data-type>DATE</general-data-type>
@@ -385,8 +385,8 @@
                <name>DOC</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
                <general-data-type>DATE</general-data-type>
@@ -396,8 +396,8 @@
                <name>UOE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who entered the new record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -407,8 +407,8 @@
                <name>UOC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who changed the current record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -435,8 +435,8 @@
                <name>WEATHER</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>Yes</is-required>
-               <is-pkey>Yes</is-pkey>
+               <required>Yes</required>
+               <primary-key>Yes</primary-key>
                <status>Active</status>
                <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -446,8 +446,8 @@
                <name>WEATHER_DEF</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>65</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Description of weather code.  See SVDBS.WEATHER table</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -457,8 +457,8 @@
                <name>DOE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
                <general-data-type>DATE</general-data-type>
@@ -468,8 +468,8 @@
                <name>DOC</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
                <general-data-type>DATE</general-data-type>
@@ -479,8 +479,8 @@
                <name>UOE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who entered the new record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -490,8 +490,8 @@
                <name>UOC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who changed the current record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -518,8 +518,8 @@
                <name>XBT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>Yes</is-required>
-               <is-pkey>Yes</is-pkey>
+               <required>Yes</required>
+               <primary-key>Yes</primary-key>
                <status>Active</status>
                <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -529,8 +529,8 @@
                <name>XBT_DEF</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>65</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Definition of XBT codes.  See SVDBS.XBT</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -540,8 +540,8 @@
                <name>DOE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
                <general-data-type>DATE</general-data-type>
@@ -551,8 +551,8 @@
                <name>DOC</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
                <general-data-type>DATE</general-data-type>
@@ -562,8 +562,8 @@
                <name>UOE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who entered the new record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -573,8 +573,8 @@
                <name>UOC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who changed the current record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -601,8 +601,8 @@
                <name>STRGRP_DESC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Description of stratum group.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -612,8 +612,8 @@
                <name>STRATUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>5</max-length>
-               <is-required>Yes</is-required>
-               <is-pkey>Yes</is-pkey>
+               <required>Yes</required>
+               <primary-key>Yes</primary-key>
                <status>Active</status>
                <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -623,8 +623,8 @@
                <name>STRATUM_NAME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of stratum area.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -634,8 +634,8 @@
                <name>STRATUM_AREA</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -647,8 +647,8 @@
                <name>MIDLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -660,8 +660,8 @@
                <name>MIDLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -673,8 +673,8 @@
                <name>MINLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -686,8 +686,8 @@
                <name>MAXLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -699,8 +699,8 @@
                <name>MINLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -712,8 +712,8 @@
                <name>MAXLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -725,8 +725,8 @@
                <name>BLOCKS</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -738,8 +738,8 @@
                <name>NOTOWS</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -751,8 +751,8 @@
                <name>DOE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when record was inserted into Oracle.  Date format (MM/DD/YY HH:MI:SS).</description>
                <general-data-type>DATE</general-data-type>
@@ -762,8 +762,8 @@
                <name>DOC</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date when the current record was updated or changed.  Date format (MM/DD/YY HH:MI:SS)</description>
                <general-data-type>DATE</general-data-type>
@@ -773,8 +773,8 @@
                <name>UOE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who entered the new record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -784,8 +784,8 @@
                <name>UOC</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The Oracle username of the individual who changed the current record.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -812,8 +812,8 @@
                <name>VESSEL_NAME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>20</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of vessel.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -823,8 +823,8 @@
                <name>VESSEL_ABBREV</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>Yes</is-required>
-               <is-pkey>Yes</is-pkey>
+               <required>Yes</required>
+               <primary-key>Yes</primary-key>
                <status>Active</status>
                <description>Vessel abbreviation. See SVDBS.SV_VESSEL</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -834,8 +834,8 @@
                <name>COUNTRY_OF_ORIGIN</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>20</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Country of origin of vessel.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -845,8 +845,8 @@
                <name>HOME_PORT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>20</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>City where vessel maintains its home port.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -856,8 +856,8 @@
                <name>AGENCY_NAME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>20</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of state or federal agency that utilizes the vessel.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -867,8 +867,8 @@
                <name>LENGTH_OVERALL_FT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>38</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -880,8 +880,8 @@
                <name>CONSTRUCTION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>20</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Construction material of vessel.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -891,8 +891,8 @@
                <name>YEAR_BUILT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Year vessel was built.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -919,8 +919,8 @@
                <name>CRUISE6</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -930,8 +930,8 @@
                <name>CRUISE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique numerical code for a cruise.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -941,8 +941,8 @@
                <name>STRATUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>5</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -952,8 +952,8 @@
                <name>TOW</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Sequential number representing order in which station was selected within a stratum.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -963,8 +963,8 @@
                <name>STATION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -974,8 +974,8 @@
                <name>STATUS_CODE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -985,8 +985,8 @@
                <name>ID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>18</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -996,8 +996,8 @@
                <name>SVSPP</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1007,8 +1007,8 @@
                <name>CATCHSEX</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1018,8 +1018,8 @@
                <name>INDID</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1031,8 +1031,8 @@
                <name>LENGTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -1044,8 +1044,8 @@
                <name>INDWT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>7</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -1057,8 +1057,8 @@
                <name>SEX</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code indicating sex of fish or invertebrate species.  See SVDBS.FSCS_SEX_CODES if using fscs data and SVDBS.SEX_CODES if using non FSCS data.  Codes 0, 1, 2 and 4 are the only valid codes in fscs tables.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1068,8 +1068,8 @@
                <name>MATURITY</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Stage of maturation of the fish being sampled.  See SVDBS.FSCS_MATURITY_CODES</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1079,8 +1079,8 @@
                <name>AGE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1092,8 +1092,8 @@
                <name>AGE_DATA_FLAG</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code to indicate whether or not an age sample was taken.  Valuess: Y = Yes, sample taken; NULL = no age sample taken.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1103,8 +1103,8 @@
                <name>STOM_VOLUME</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -1116,8 +1116,8 @@
                <name>STOM_WGT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -1129,8 +1129,8 @@
                <name>CUTTER</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of the individual who was measuring and cutting fish at a FSCS workstation.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1140,8 +1140,8 @@
                <name>RECORDER</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>The name of the individual who recorded data.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1151,8 +1151,8 @@
                <name>IND_FISH_COMMENTS</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>500</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment field for an indiviual fish or invertebrate sampled.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1179,8 +1179,8 @@
                <name>CRUISE6</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1190,8 +1190,8 @@
                <name>CRUISE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique numerical code for a cruise.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1201,8 +1201,8 @@
                <name>STRATUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>5</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1212,8 +1212,8 @@
                <name>TOW</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Sequential number representing order in which station was selected within a stratum.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1223,8 +1223,8 @@
                <name>STATION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1234,8 +1234,8 @@
                <name>STATUS_CODE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1245,8 +1245,8 @@
                <name>ID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>18</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1256,8 +1256,8 @@
                <name>SVSPP</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1267,8 +1267,8 @@
                <name>CATCHSEX</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1278,8 +1278,8 @@
                <name>EXPCATCHNUM</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1291,8 +1291,8 @@
                <name>EXPCATCHWT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>9</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -1304,8 +1304,8 @@
                <name>LOGGED_SPECIES_NAME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>45</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of the species, either common, scientific or both.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1315,8 +1315,8 @@
                <name>CATCH_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>500</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comments concerning a species at the catch level.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1343,8 +1343,8 @@
                <name>CRUISE6</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1354,8 +1354,8 @@
                <name>CRUISE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique numerical code for a cruise.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1365,8 +1365,8 @@
                <name>STRATUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>5</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1376,8 +1376,8 @@
                <name>TOW</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Sequential number representing order in which station was selected within a stratum.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1387,8 +1387,8 @@
                <name>STATION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1398,8 +1398,8 @@
                <name>STATUS_CODE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1409,8 +1409,8 @@
                <name>ID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>18</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1420,8 +1420,8 @@
                <name>SVSPP</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A standard code which represents a species caught in a trawl or dredge.  Refer to the SVDBS.SVSPECIES_LIST</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1431,8 +1431,8 @@
                <name>CATCHSEX</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code used to identify species that are sexed at the catch level.  See SVDBS.SEX_CODES</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1442,8 +1442,8 @@
                <name>LENGTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -1455,8 +1455,8 @@
                <name>EXPNUMLEN</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1468,8 +1468,8 @@
                <name>LOGGED_SPECIES_NAME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>45</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Name of the species, either common, scientific or both.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1479,8 +1479,8 @@
                <name>LENGTH_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>100</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment related to length of individual fish.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1507,8 +1507,8 @@
                <name>CRUISE6</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code uniquely identifying cruise.  The first four digits indicate the year and the last two digit uniquely identify the cruise within the year. The 5th byte signifies cruises other than groundfish: Shrimp survey = 7 (i.e. 201470), State of Massachusetts survey = 9 (i.e. 201491), Food habits = 5 (i.e.199554)</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1518,8 +1518,8 @@
                <name>CRUISE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>6</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique numerical code for a cruise.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1529,8 +1529,8 @@
                <name>STRATUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>5</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>A predefined area where a net dredge, or other piece of gear was deployed.  Code consists of 2 parts:  Stratum group code number (2 bytes) and stratum number (3 bytes).  Stratum group refers to if area fished is inshore or offshore North or South of Cape Hatteras or the type of cruise (shellfish, State of MA, offshore deepwater).  The stratum number (third and fourth digits of code) refers to area defined by depth zone.  See SVDBS.SVMSTRATA.  The fifth digit of the code increases the length of the stratum number for revised strata after the Hague Line was established.  Stratum group code: 01 = Trawl, offshore north of Hatteras; 02 = BIOM; 03 = Trawl, inshore north of Hatteras; 04 = Shrimp; 05 = Scotian shelf; 06 = Shellfish; 07 = Trawl, inshore south of Hatteras; 08 = Trawl, Offshore south of Hatteras; 09 = MA DMF; 99 = Offshore deepwater (outside the stratified area). A change in Bottom Trawl Stratum for the Gulf of Maine-Bay of Fundy has been in effect since Spring 1987, and may be summarized as follows:  Previous strata:  01350; Present strata:  01351, 01352.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1540,8 +1540,8 @@
                <name>TOW</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Sequential number representing order in which station was selected within a stratum.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1551,8 +1551,8 @@
                <name>STATION</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Unique sequential order in which stations have been completed.  Hangups and short tows each receive a non-repeated consecutive number.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1562,8 +1562,8 @@
                <name>STATUS_CODE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code referencing whether or not a cruise is available in the SVDBS system. See SVDBS.SVCRUISE_STATUS.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1573,8 +1573,8 @@
                <name>ID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>72</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Concatenation of Cruise, Stratum, Tow and Station values.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1584,8 +1584,8 @@
                <name>STATYPE</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code designating type of tow being performed (e.g. random vs. nonrandom tows).  See SVDBS.STATION_VALUE table for all statype codes and their descriptions.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1595,8 +1595,8 @@
                <name>HAUL</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code for relative success of haul.  See SVDBS.HAUL_VALUE table</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1606,8 +1606,8 @@
                <name>GEARCOND</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Refer to SVDBS.GEAR_CONDITION table for gear condition codes and descriptions.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1617,8 +1617,8 @@
                <name>SHG</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>12</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Concatenation of Station, Haul and Gear values. See SVDBS.STATION_VALUE, SVDBS.HAUL_VALUE, SVDBS.GEAR_CONDITION</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1628,8 +1628,8 @@
                <name>TYPE_CODE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1641,8 +1641,8 @@
                <name>TYPE_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1000</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment concerning the Type_Code of the given operation.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1652,8 +1652,8 @@
                <name>OPERATION_CODE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1665,8 +1665,8 @@
                <name>OPERATION_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1000</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment concerning Operation Code of given operation (tow duration, vessel speed, scope ration, depth, trawl performance,winch performance, and stratum boundaries.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1676,8 +1676,8 @@
                <name>GEAR_CODE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1689,8 +1689,8 @@
                <name>GEAR_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1000</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment concerning gear condition, damage or malfunction of a given operation.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1700,8 +1700,8 @@
                <name>ACQUISITION_CODE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1713,8 +1713,8 @@
                <name>ACQUISITION_COMMENT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1000</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment concerning data acquisition (i.e. SCS data, trawl mensuration, SCS event button press).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1724,8 +1724,8 @@
                <name>TOGA</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1737,8 +1737,8 @@
                <name>AREA</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Standard area code used for commercial data (New England Statistical Area Code) for the position of the beginning of the tow.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1748,8 +1748,8 @@
                <name>SVVESSEL</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Standard two character code for a survey vessel.  Refer to SVDBS.SV_VESSEL</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1759,8 +1759,8 @@
                <name>CRUNUM</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>National Ocean Services (NOS) consecutive cruise number on a particular vessel.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1770,8 +1770,8 @@
                <name>SVGEAR</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code referencing predominant gear type used on a cruise.  See SVDBS.SVGEAR table.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1781,8 +1781,8 @@
                <name>BEGIN_EST_TOWDATE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date and time represented by Eastern Standard Time (EST) for the start of a tow or deployment.</description>
                <general-data-type>DATE</general-data-type>
@@ -1792,8 +1792,8 @@
                <name>END_EST_TOWDATE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date and time represented by Eastern Standard Time (EST) at the end of a tow or deployment.</description>
                <general-data-type>DATE</general-data-type>
@@ -1803,8 +1803,8 @@
                <name>BEGIN_GMT_TOWDATE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date and time represented by Greenwich Mean Time (GMT) for the start of a tow or deployment.</description>
                <general-data-type>DATE</general-data-type>
@@ -1814,8 +1814,8 @@
                <name>END_GMT_TOWDATE</name>
                <data-storage-type>DATE</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Date and time represented by Greenwich Mean Time (GMT) at the end of a tow or deployment.</description>
                <general-data-type>DATE</general-data-type>
@@ -1825,8 +1825,8 @@
                <name>EST_YEAR</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Year, represented by Eastern Standard Time (EST).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1836,8 +1836,8 @@
                <name>EST_MONTH</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Month, represented by Eastern Standard Time (EST).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1847,8 +1847,8 @@
                <name>EST_DAY</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Day of the month represented by Eastern Standard Time (EST).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1858,8 +1858,8 @@
                <name>EST_JULIAN_DAY</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Julian day of towdate represented as Eastern Standard Time (EST).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1869,8 +1869,8 @@
                <name>EST_TIME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Time, represented by Eastern Standard Time (EST).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1880,8 +1880,8 @@
                <name>GMT_YEAR</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Year, represented as Greenwich Mean Time (GMT).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1891,8 +1891,8 @@
                <name>GMT_MONTH</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Month, represented as Greenwich Mean Time (GMT).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1902,8 +1902,8 @@
                <name>GMT_DAY</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Day of the month, represented as Greenwich Mean Time (GMT).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1913,8 +1913,8 @@
                <name>GMT_JULIAN_DAY</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>7</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Julian day of towdate represented as Greenwich Mean Time (GMT).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1924,8 +1924,8 @@
                <name>GMT_TIME</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>8</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Time, represented as Greenwich Mean Time (GMT).</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -1935,8 +1935,8 @@
                <name>TOWDUR</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -1948,8 +1948,8 @@
                <name>SETDEPTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1961,8 +1961,8 @@
                <name>ENDDEPTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1974,8 +1974,8 @@
                <name>MINDEPTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -1987,8 +1987,8 @@
                <name>MAXDEPTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2000,8 +2000,8 @@
                <name>AVGDEPTH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2013,8 +2013,8 @@
                <name>BEGEKVLOG</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2026,8 +2026,8 @@
                <name>ENDEKVLOG</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>8</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2039,8 +2039,8 @@
                <name>BEGLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>9</precision>
                <scale>4</scale>
                <status>Active</status>
@@ -2052,8 +2052,8 @@
                <name>BEGLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>9</precision>
                <scale>4</scale>
                <status>Active</status>
@@ -2065,8 +2065,8 @@
                <name>ENDLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>9</precision>
                <scale>4</scale>
                <status>Active</status>
@@ -2078,8 +2078,8 @@
                <name>ENDLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>9</precision>
                <scale>4</scale>
                <status>Active</status>
@@ -2091,8 +2091,8 @@
                <name>DECDEG_BEGLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>10</precision>
                <scale>6</scale>
                <status>Active</status>
@@ -2104,8 +2104,8 @@
                <name>DECDEG_BEGLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>10</precision>
                <scale>6</scale>
                <status>Active</status>
@@ -2117,8 +2117,8 @@
                <name>DECDEG_ENDLAT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>10</precision>
                <scale>6</scale>
                <status>Active</status>
@@ -2130,8 +2130,8 @@
                <name>DECDEG_ENDLON</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>10</precision>
                <scale>6</scale>
                <status>Active</status>
@@ -2143,8 +2143,8 @@
                <name>LORS1</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>9</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Starting Loran C time delay.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2154,8 +2154,8 @@
                <name>LORE1</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>9</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Ending Loran C time delay.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2165,8 +2165,8 @@
                <name>LORS2</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>9</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Starting Loran C time delay.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2176,8 +2176,8 @@
                <name>LORE2</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>9</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Ending Loran C time delay.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2187,8 +2187,8 @@
                <name>CABLE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2200,8 +2200,8 @@
                <name>PITCH</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2213,8 +2213,8 @@
                <name>HEADING</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2226,8 +2226,8 @@
                <name>COURSE</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2239,8 +2239,8 @@
                <name>RPM</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2252,8 +2252,8 @@
                <name>DOPDISTB</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2265,8 +2265,8 @@
                <name>DOPDISTW</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2278,8 +2278,8 @@
                <name>DESSPEED</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>2</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2291,8 +2291,8 @@
                <name>GEARID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Net identification number located on wing of net.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2302,8 +2302,8 @@
                <name>DOORID</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>2</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Identification number of doors.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2313,8 +2313,8 @@
                <name>OTHGEAR</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>4</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code for gear deployed other than primary gear (i.e. net, dredge) such as bongo, Neuston, etc.  See SVDBS.OTHGEAR</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2324,8 +2324,8 @@
                <name>AIRTEMP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -2337,8 +2337,8 @@
                <name>CLOUD</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code to represent percentage of cloud cover.  See SVDBS.CLOUD</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2348,8 +2348,8 @@
                <name>BAROPRESS</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>5</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2361,8 +2361,8 @@
                <name>WINDDIR</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2374,8 +2374,8 @@
                <name>WINDSP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2387,8 +2387,8 @@
                <name>WEATHER</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>3</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code reflecting weather condition.  See SVDBS.WEATHER table</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2398,8 +2398,8 @@
                <name>WAVEHGT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -2411,8 +2411,8 @@
                <name>SWELLDIR</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2424,8 +2424,8 @@
                <name>SWELLHGT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>2</scale>
                <status>Active</status>
@@ -2437,8 +2437,8 @@
                <name>BKTTEMP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2450,8 +2450,8 @@
                <name>TRASHAMT</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2463,8 +2463,8 @@
                <name>TRASHSHL</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2476,8 +2476,8 @@
                <name>TRASHBIO</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2489,8 +2489,8 @@
                <name>TRASHSUB</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2502,8 +2502,8 @@
                <name>XBT</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>1</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Code associated with expendable bathythermograph (temperature/depth profile instrument). See SVDBS.XBT</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2513,8 +2513,8 @@
                <name>SURFTEMP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2526,8 +2526,8 @@
                <name>SURFSALIN</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2539,8 +2539,8 @@
                <name>BOTTEMP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2552,8 +2552,8 @@
                <name>BOTSALIN</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>6</precision>
                <scale>3</scale>
                <status>Active</status>
@@ -2565,8 +2565,8 @@
                <name>FULD</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2578,8 +2578,8 @@
                <name>NO_DETAIL_SVSPP</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>4</precision>
                <scale>0</scale>
                <status>Active</status>
@@ -2591,8 +2591,8 @@
                <name>BOTSPEED</name>
                <data-storage-type>NUMBER</data-storage-type>
                <max-length>22</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <precision>3</precision>
                <scale>1</scale>
                <status>Active</status>
@@ -2604,8 +2604,8 @@
                <name>WATCH_CHIEF</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Person responsible for smooth conduct of each watch and the collection of data.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2615,8 +2615,8 @@
                <name>CHIEF_SCIENTIST</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>30</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Person responsible for scientific operations (how and where sampling occurs) and the scientific party.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2626,8 +2626,8 @@
                <name>WATCH_CHIEF_COMMENTS</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>500</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Watch Chief comment regarding current tow.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2637,8 +2637,8 @@
                <name>STATION_COMMENTS</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>500</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comment from the bridge officers.</description>
                <general-data-type>VARCHAR2</general-data-type>
@@ -2648,8 +2648,8 @@
                <name>HABITAT_COMMENTS</name>
                <data-storage-type>VARCHAR2</data-storage-type>
                <max-length>500</max-length>
-               <is-required>No</is-required>
-               <is-pkey>No</is-pkey>
+               <required>No</required>
+               <primary-key>No</primary-key>
                <status>Active</status>
                <description>Comments on non-coded species found in catch.</description>
                <general-data-type>VARCHAR2</general-data-type>
