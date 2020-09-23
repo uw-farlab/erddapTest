@@ -2625,7 +2625,9 @@
          <contact-address-zip>02543-1026</contact-address-zip>
          <contact-address-country>USA</contact-address-country>
          <contact-phone-number>(508)495-2000</contact-phone-number>
-         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-url>https://www.fisheries.noaa.gov/about/northeast-fisheries-science-center</contact-url>
+         <contact-url-description>NEFSC Home Page</contact-url-description>
+         <contact-url-function>Online Resource</contact-url-function>
          <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
          <contact-instructions>Contact via email.</contact-instructions>
       </support-role>
@@ -2656,7 +2658,9 @@
          <contact-address-zip>02543-1026</contact-address-zip>
          <contact-address-country>USA</contact-address-country>
          <contact-phone-number>(508)495-2000</contact-phone-number>
-         <contact-url>http://www.nefsc.noaa.gov</contact-url>
+         <contact-url>https://www.fisheries.noaa.gov/about/northeast-fisheries-science-center</contact-url>
+         <contact-url-description>NEFSC Home Page</contact-url-description>
+         <contact-url-function>Online Resource</contact-url-function>
          <contact-business-hours>8:00 a.m. to 4:30 p.m. Monday - Friday</contact-business-hours>
          <contact-instructions>Email</contact-instructions>
       </support-role>
@@ -2902,7 +2906,7 @@ Starting with year 2002, FSCS 1.0 was implemented to electronically capture stat
       <metadata-record-created-by pers-id="13166">Nancy McHugh</metadata-record-created-by>
       <metadata-record-created>2014-11-14T11:21:47</metadata-record-created>
       <metadata-record-last-modified-by pers-id="0">SysAdmin InPortAdmin</metadata-record-last-modified-by>
-      <metadata-record-last-modified>2019-06-04T13:14:25</metadata-record-last-modified>
+      <metadata-record-last-modified>2020-05-14T05:28:23</metadata-record-last-modified>
       <record-published>2019-05-31</record-published>
       <owner-organization>Northeast Fisheries Science Center</owner-organization>
       <owner-organization-acronym>NEFSC</owner-organization-acronym>

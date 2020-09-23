@@ -1,0 +1,7 @@
+datasetID,variableSourceName,attribute
+"nceiPH53sstd1day","wind_speed","<att name=\"_FillValue\" type=\"byte\">99</att>"
+"nceiPH53sstd1day","quality_level","<att name=\"_FillValue\" type=\"byte\">127</att>"
+"noSuchDataset","notAVariable",[should fail because no such dataset]
+"dataset1","noSuchVariable",[should fail because no such variable]
+"dataset1","var1",[should fail because no addAttributes]
+"dataset3","flag","<att name=\"_FillValue\" type=\"byte\">110</att>"
