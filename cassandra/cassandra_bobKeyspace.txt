@@ -1,0 +1,64 @@
+CREATE KEYSPACE bobkeyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '2'}  AND durable_writes = true;
+
+CREATE TABLE bobkeyspace.statictest (
+    deviceid int,
+    date timestamp,
+    sampletime timestamp,
+    depth list<float>,
+    lat float static,
+    lon float static,
+    u list<float>,
+    v list<float>,
+    PRIMARY KEY ((deviceid, date), sampletime)
+) WITH CLUSTERING ORDER BY (sampletime ASC)
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'
+}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99PERCENTILE';
+
+CREATE TABLE bobkeyspace.bobtable (
+    deviceid int,
+    date timestamp,
+    sampletime timestamp,
+    cascii ascii,
+    cboolean boolean,
+    cbyte int,
+    cdecimal double,
+    cdouble double,
+    cfloat float,
+    cint int,
+    clong bigint,
+    cmap map<text, double>,
+    cset set<text>,
+    cshort int,
+    ctext text,
+    cvarchar text,
+    depth list<float>,
+    u list<float>,
+    v list<float>,
+    w list<float>,
+    PRIMARY KEY ((deviceid, date), sampletime)
+) WITH CLUSTERING ORDER BY (sampletime ASC)
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'
+}
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99PERCENTILE';
+CREATE INDEX ctext_index ON bobkeyspace.bobtable (ctext);
