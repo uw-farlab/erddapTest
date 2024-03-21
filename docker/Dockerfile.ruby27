@@ -1,0 +1,7 @@
+FROM ubuntu:focal
+
+RUN apt-get update && \
+    apt install -y git less netcdf-bin ruby ruby-dev ruby-netcdf vim-tiny
+
+COPY entrypoint.sh /
+ENTRYPOINT ["/entrypoint.sh"]
